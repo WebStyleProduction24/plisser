@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Шаблон страниы шторы asdas
+Template Name: Шаблон страниы шторы
 */
 ?>
 
