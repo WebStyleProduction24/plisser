@@ -1,0 +1,185 @@
+#main-block {
+  justify-content: space-between;
+
+  .product {
+    background-color: $bcg-product-main-block;
+    width: calc(100%/3 - ($p-13 * 2));
+    max-width: 420px;
+
+    .img-product {
+
+      img {
+        width: 100%;
+      }
+    }
+
+    h3, .description-product {
+      margin: 24px;
+    } 
+  }
+}
+
+#form-order-calculation {
+
+  > div {
+    @extend %padding;
+    display: flex;
+    flex-direction: column;
+    
+    h2 {
+      color: $white;
+    }
+
+    form {
+
+      input {
+        font-size: $font-input;
+        height: 72px;
+        border-radius: 36px;
+      }
+
+      [type^='text'], [type^='submit'] {
+        width: 210px;
+      }
+
+      [type^='tel'] {
+        width: 329px;
+      }
+
+      [type^='submit'] {
+        background-color: $orange-1;
+        color: $white;
+        font-family: 'Inter-SemiBold';
+      }
+    }
+  }
+}
+
+#about {
+  position: relative;
+
+  > div:first-child {
+    @extend %padding;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 50% 1fr;
+    grid-template-areas:  "h h h"
+                          "logo content .";
+    background-color: $grey-3;
+    
+    h2 {
+      grid-area: h;
+    }
+
+    .logo {
+      grid-area: logo;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .content {
+      grid-area: content;
+
+      p {
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  .girl {
+    position: absolute;
+    right: 0;
+    top: -155px;
+  }
+}
+
+#projects {
+  [class^='slider-line-'] {
+    margin: 20px 0;
+    div {
+      margin: 0 10px;
+    }
+  }
+}
+
+#dilers {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr 1fr;
+
+  > div {
+    min-height: 420px;
+  }
+
+  h2 {
+    color: $text-white;
+  }
+
+  .welcome {
+    background: url('img/bcg-img.jpg');
+    background-size: cover;
+
+    > div {
+      @extend %flex-space-between;
+      flex-direction: column;
+      @extend %padding;
+      background: linear-gradient(to top right, rgb(0,0,0), rgba(0,0,0,0));
+      opacity: .9;
+      height: 100%;
+
+      li {
+        list-style-type: disc;
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .for-dilers {
+    @extend %flex-space-between;
+    flex-direction: column;
+    @extend %padding;
+  }
+}
+
+#contacts {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr 3fr;
+  font-size: 26px;
+
+  > div {
+    min-height: 360px;
+  }
+
+  .contacts {
+    @extend %flex-space-between;
+    flex-direction: column;
+    @extend %padding;
+    background-color: $bcg-block-contacts;
+
+    h2 {
+      color: $text-white;
+    }
+
+    .adress {
+      display: flex;
+      margin-top: 10px;
+      font-size: 22px;
+
+      &::before {
+        display: block;
+        content: '';
+        background: url('img/bx_map.svg');
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+      }
+    }
+
+    #map iframe {
+      border-radius: 24px;
+    }
+  }
+}

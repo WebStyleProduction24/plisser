@@ -1,0 +1,69 @@
+//Шрифты
+
+// $font-family: 'Rubik', sans-serif;
+
+// $weight-light: 300;
+// $weight-regular: 400;
+// $weight-semibold: 600;
+// $weight-bold: 700;
+
+// $font-light: $weight-light .875rem/1.2 $font-family;
+// $font-main: $weight-regular 1rem/1.5 $font-family;
+// $font-additional: $weight-regular .875rem/1.5 $font-family;//!!!!
+// $font-sale: $weight-regular .75rem/1.5 $font-family;//!!!!
+
+// $font-header: $font-light;
+// $font-link: $font-light;
+// $font-placeholder: $font-light;
+// $font-menu: $font-main;
+// $font-copyright: $font-light;
+// $font-sku: $font-additional;
+// $font-btn: $font-main;
+
+// $font-size-info-footer: 1.125rem;
+
+// $font-semibold: $weight-semibold 1.125rem/1.5 $font-family;
+
+// $font-h1: $weight-bold 2rem/1.5 $font-family;//!!!!
+$font-h2: 45px;
+$font-h3: 38px;
+$font-h4: 36px;
+$font-input: 20px;
+
+//Цвета
+$white: #fdfdfd;
+
+$grey-1: #273437;
+$grey-2: #7d8587;
+$grey-3: #f7f7f7;
+$grey-4: #f7f7f7;
+$grey-5: #5c5d5f;
+
+$orange-1: #ef7f1a;
+$orange-2: #f9cca3;
+$orange-3: #f5b276;
+
+//Цвета ширфтов
+$text-white: $white; 
+$text-grey: $grey-5; 
+$text-link-for-dilers: $orange-1;
+$text-link-for-dilers-sign-in: $orange-2;
+$text-footer: $orange-2;
+
+//Цвета фонов
+$bcg-product-main-block: $grey-3;
+$bcg-form: $grey-1; //????
+$bcg-dark-block: $grey-1;
+$bcg-block-contacts: $orange-1;
+$bcg-icon-footer: $orange-2;
+
+//Цвета иконок
+$color-cart-icon: $grey-1;
+
+//Границы
+$border-radius: 24px;
+
+//
+$p-13: 13px;
+$content-width: 1345px;
+

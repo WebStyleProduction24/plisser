@@ -1,0 +1,32 @@
+footer {
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  padding: 32px;
+
+  > div {
+    @extend %flex-space-between;
+    font-size: 17px;
+    color: $text-footer;
+
+    .logo img{
+      width: 110px;
+    }
+
+    .title-footer-nav {
+      text-transform: uppercase;
+      color: $text-white;
+      margin-bottom: 34px;
+    }
+
+    li {
+      padding-bottom: 20px;
+    }
+
+    .icon {
+      background-color: $bcg-icon-footer;
+      width: min-content;
+      border-radius: 50%;
+    }
+  }
+}
+

@@ -1,0 +1,14 @@
+header {
+  @extend %flex-space-between;
+  align-items: center;
+
+  li {
+    padding: 10px;
+  }
+
+  .contacts {
+    display: flex;
+    align-items: center;
+  }
+}
+

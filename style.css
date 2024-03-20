@@ -1,0 +1,416 @@
+@charset "UTF-8";
+/**
+ * Theme Name:  Plisser
+ * Description: Индвидуальный шаблон корпоративного сайта для продажи штор и москитных систем
+ * 
+ * Theme URI:   https://github.com/WebStyleProduction24/plisser
+ * Author:      Web Style Production 24 (ООО "Ай Ти Гамма")
+ * Author URI:  https://wsp24.ru
+ *
+ * Tags:        Корпоративный сайт, Лэндинг, WSP24
+ *
+ * License:     Лицензия. Пр: GNU General Public License v3 or later
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ *
+ * Version:     1.0
+ */
+@font-face {
+  font-family: "Inter-Regular";
+  src: url(assets/fonts/Inter-Regular.eot);
+  src: url(assets/fonts/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(assets/fonts/Inter-Regular.woff2) format("woff2"), url(assets/fonts/Inter-Regular.ttf) format("truetype"), url(assets/fonts/Inter-Regular.woff) format("woff"), url(assets/fonts/Inter-Regular.svg#Inter-Regular) format("svg"), url(assets/fonts/Inter-Regular.otf) format("otf");
+}
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url(assets/fonts/Inter-SemiBold.eot);
+  src: url(assets/fonts/Inter-SemiBold.eot?#iefix) format("embedded-opentype"), url(assets/fonts/Inter-SemiBold.otf) format("otf"), url(assets/fonts/Inter-SemiBold.svg#Inter-SemiBold) format("svg"), url(assets/fonts/Inter-SemiBold.ttf) format("truetype"), url(assets/fonts/Inter-SemiBold.woff) format("woff"), url(assets/fonts/Inter-SemiBold.woff2) format("woff2");
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  font-size: 20px;
+  -ms-text-size-adjust: auto;
+  -moz-text-size-adjust: auto;
+  -webkit-text-size-adjust: auto;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+#contacts .contacts, #dilers .for-dilers, #dilers .welcome > div, #about > div:first-child, #form-order-calculation > div {
+  padding: 32px;
+}
+
+footer > div, #contacts .contacts, #dilers .for-dilers, #dilers .welcome > div, header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  width: 100%;
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 38px;
+  color: #f7f7f7;
+}
+
+h4 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+h2, h4 {
+  color: #273437;
+}
+
+header a:hover, footer a:hover {
+  text-decoration: underline;
+}
+
+.flex {
+  display: flex;
+}
+
+.block {
+  max-width: 1345px;
+  margin: 30px auto;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.p-t {
+  padding-top: 30px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.p-b-30 {
+  padding-bottom: 30px;
+}
+
+.m-b-60 {
+  margin-bottom: 60px;
+}
+
+.bcg-dark {
+  background-color: #273437;
+}
+
+.txt-white {
+  color: #fdfdfd;
+}
+
+.txt-grey {
+  color: #5c5d5f;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.curve {
+  border-radius: 24px;
+}
+
+.shadow {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.lh-1-5 {
+  line-height: 1.5;
+}
+
+.font-size-16 {
+  font-size: 16px !important;
+}
+
+.link-orange-1 {
+  color: #ef7f1a !important;
+}
+
+.link-orange-2 {
+  color: #f9cca3 !important;
+}
+
+.underline {
+  text-decoration-line: underline !important;
+}
+
+.tg-icon, .wa-icon, .youtube-icon {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  background-color: #273437;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.tg-icon {
+  -webkit-mask-image: url("img/tg-icon.svg");
+  mask-image: url("img/tg-icon.svg");
+}
+
+.wa-icon {
+  -webkit-mask-image: url("img/wa-icon.svg");
+  mask-image: url("img/wa-icon.svg");
+}
+
+.youtube-icon {
+  -webkit-mask-image: url("img/youtube.svg");
+  mask-image: url("img/youtube.svg");
+}
+
+header {
+  align-items: center;
+}
+header li {
+  padding: 10px;
+}
+header .contacts {
+  display: flex;
+  align-items: center;
+}
+
+#main-block {
+  justify-content: space-between;
+}
+#main-block .product {
+  background-color: #f7f7f7;
+  width: calc(33.3333333333% - 26px);
+  max-width: 420px;
+}
+#main-block .product .img-product img {
+  width: 100%;
+}
+#main-block .product h3, #main-block .product .description-product {
+  margin: 24px;
+}
+
+#form-order-calculation > div {
+  display: flex;
+  flex-direction: column;
+}
+#form-order-calculation > div h2 {
+  color: #fdfdfd;
+}
+#form-order-calculation > div form input {
+  font-size: 20px;
+  height: 72px;
+  border-radius: 36px;
+}
+#form-order-calculation > div form [type^=text], #form-order-calculation > div form [type^=submit] {
+  width: 210px;
+}
+#form-order-calculation > div form [type^=tel] {
+  width: 329px;
+}
+#form-order-calculation > div form [type^=submit] {
+  background-color: #ef7f1a;
+  color: #fdfdfd;
+  font-family: "Inter-SemiBold";
+}
+
+#about {
+  position: relative;
+}
+#about > div:first-child {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 50% 1fr;
+  grid-template-areas: "h h h" "logo content .";
+  background-color: #f7f7f7;
+}
+#about > div:first-child h2 {
+  grid-area: h;
+}
+#about > div:first-child .logo {
+  grid-area: logo;
+}
+#about > div:first-child .logo img {
+  width: 100%;
+}
+#about > div:first-child .content {
+  grid-area: content;
+}
+#about > div:first-child .content p {
+  padding-bottom: 20px;
+}
+#about .girl {
+  position: absolute;
+  right: 0;
+  top: -155px;
+}
+
+#projects [class^=slider-line-] {
+  margin: 20px 0;
+}
+#projects [class^=slider-line-] div {
+  margin: 0 10px;
+}
+
+#dilers {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr 1fr;
+}
+#dilers > div {
+  min-height: 420px;
+}
+#dilers h2 {
+  color: #fdfdfd;
+}
+#dilers .welcome {
+  background: url("img/bcg-img.jpg");
+  background-size: cover;
+}
+#dilers .welcome > div {
+  flex-direction: column;
+  background: linear-gradient(to top right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  opacity: 0.9;
+  height: 100%;
+}
+#dilers .welcome > div li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+#dilers .for-dilers {
+  flex-direction: column;
+}
+
+#contacts {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr 3fr;
+  font-size: 26px;
+}
+#contacts > div {
+  min-height: 360px;
+}
+#contacts .contacts {
+  flex-direction: column;
+  background-color: #ef7f1a;
+}
+#contacts .contacts h2 {
+  color: #fdfdfd;
+}
+#contacts .contacts .adress {
+  display: flex;
+  margin-top: 10px;
+  font-size: 22px;
+}
+#contacts .contacts .adress::before {
+  display: block;
+  content: "";
+  background: url("img/bx_map.svg");
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+#contacts .contacts #map iframe {
+  border-radius: 24px;
+}
+
+footer {
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  padding: 32px;
+}
+footer > div {
+  font-size: 17px;
+  color: #f9cca3;
+}
+footer > div .logo img {
+  width: 110px;
+}
+footer > div .title-footer-nav {
+  text-transform: uppercase;
+  color: #fdfdfd;
+  margin-bottom: 34px;
+}
+footer > div li {
+  padding-bottom: 20px;
+}
+footer > div .icon {
+  background-color: #f9cca3;
+  width: min-content;
+  border-radius: 50%;
+}
+
+body {
+  font-family: Inter-Regular;
+}
+
+/*# sourceMappingURL=style.css.map */

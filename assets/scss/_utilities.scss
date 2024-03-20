@@ -1,0 +1,117 @@
+h2 {
+  width: 100%;
+  font-size: $font-h2;
+}
+
+h3 {
+  font-size: $font-h3;
+  color: $grey-3;
+}
+
+h4 {
+  font-size: $font-h4;
+  margin-bottom: 8px;
+}
+
+h2, h4 {
+  color: $grey-1;  
+}
+
+header a:hover, footer a:hover {
+  text-decoration: underline;
+}
+
+.flex {
+  display: flex;
+}
+
+.block {
+  max-width: $content-width;
+  margin: 30px auto;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.p-t {
+  padding-top: 30px;
+}
+
+.p-30 {
+  padding: 30px
+}
+
+.p-b-30 {
+  padding-bottom: 30px;
+}
+
+.m-b-60 {
+  margin-bottom: 60px;
+}
+
+.bcg-dark {
+  background-color: $bcg-dark-block;
+}
+
+.txt-white {
+  color: $text-white;
+}
+
+.txt-grey {
+  color: $text-grey;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.curve {
+  border-radius: $border-radius;
+}
+
+.shadow {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+}
+
+.lh-1-5 {
+  line-height: 1.5;
+}
+
+.font-size-16 {
+  font-size: 16px !important;
+}
+
+.link-orange-1 {
+  color: $text-link-for-dilers !important;
+}
+
+.link-orange-2 {
+  color: $text-link-for-dilers-sign-in !important;
+}
+
+.underline {
+  text-decoration-line: underline !important;
+}
+
+
+
+.tg-icon, .wa-icon, .youtube-icon {
+  display: grid;    
+  width: 42px;
+  height: 42px;
+  background-color: $color-cart-icon;
+  @include mask-repeat(no-repeat);
+}
+
+.tg-icon {
+  @include mask-image (url('img/tg-icon.svg'));
+}
+
+.wa-icon {
+  @include mask-image (url('img/wa-icon.svg'));
+}
+
+.youtube-icon {
+  @include mask-image (url('img/youtube.svg'));
+}

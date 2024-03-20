@@ -1,0 +1,40 @@
+//FONTS
+
+@import '_fonts';
+
+// SYSTEM
+@import '_nulling';
+@import '_variables';
+
+//UTILITIES
+@import '_extends';
+@import '_mixins';
+@import '_utilities';
+
+
+// COMPONENTS
+@import '_header';
+@import '_home';
+@import '_footer';
+
+// PAGE 
+// @import "_home-team";
+// @import "_home-contact"; 
+// @import "_home-practices";
+// @import "_home-news";
+// @import "_home-publication";
+// @import "_home-case";
+// @import "_home-practice";
+// @import "_home-search";
+// @import "_home-employee";
+// @import "_home-partner";
+// @import "_home-form";
+
+// @import '_fonts';
+
+// MEDIA 
+// @import '_media';
+
+body {
+  font-family: Inter-Regular;
+}

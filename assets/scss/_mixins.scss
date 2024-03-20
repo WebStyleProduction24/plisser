@@ -1,0 +1,10 @@
+
+@mixin mask-repeat($property) {
+  -webkit-mask-repeat: $property;
+  mask-repeat: $property;
+}
+
+@mixin mask-image($property) {
+  -webkit-mask-image: $property;
+  mask-image: $property;
+}

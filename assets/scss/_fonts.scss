@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url(assets/fonts/Inter-Regular.eot);
+  src: url(assets/fonts/Inter-Regular.eot?#iefix) format('embedded-opentype'),
+       url(assets/fonts/Inter-Regular.woff2) format('woff2'),
+       url(assets/fonts/Inter-Regular.ttf) format('truetype'),
+       url(assets/fonts/Inter-Regular.woff) format('woff'),
+       url(assets/fonts/Inter-Regular.svg#Inter-Regular) format('svg'),
+       url(assets/fonts/Inter-Regular.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: url(assets/fonts/Inter-SemiBold.eot);
+  src: url(assets/fonts/Inter-SemiBold.eot?#iefix) format('embedded-opentype'),
+       url(assets/fonts/Inter-SemiBold.otf) format('otf'),
+       url(assets/fonts/Inter-SemiBold.svg#Inter-SemiBold) format('svg'),
+       url(assets/fonts/Inter-SemiBold.ttf) format('truetype'),
+       url(assets/fonts/Inter-SemiBold.woff) format('woff'),
+       url(assets/fonts/Inter-SemiBold.woff2) format('woff2');
+}
