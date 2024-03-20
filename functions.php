@@ -1,9 +1,15 @@
 <?php
+
 // Подключение CSS и JS
 add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
 
 function theme_name_scripts() {
   wp_enqueue_style( 'style-wsp24', get_stylesheet_uri() );
+
+  wp_deregister_script('jquery');
+  wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.6.3.js', array(), '3.6.3', true);
+  wp_script_add_data('jquery', 'integrity', 'sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=');
+  wp_script_add_data('jquery', 'crossorigin', 'anonymous');
 
 
   wp_enqueue_style( 'style-cdn-jsdelivr', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css' );
