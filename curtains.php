@@ -67,11 +67,44 @@ Template Name: Шаблон страниы шторы
                             </div>
                         </div>
                 </div>
-                <div class="profile"></div>
+                <div class="textile profile">
+                  <h6 class="p-b-16">Профиль</h6>
+                  <div class="color-ul">
+                    <div class="color-li">
+                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-pr.png";>
+                        <h6>Черный</h6>
+                    </div>
+                    <div class="color-li">
+                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/white-pr.png";>
+                        <h6>Белый</h6>
+                    </div>
+                    <div class="color-li">
+                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/beige-pr.png";>
+                        <h6>Бежевый</h6>
+                    </div>
+                    <div class="color-li">
+                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/grey-pr.png";>
+                        <h6>Серый</h6>
+                    </div>
+                    <div class="color-li">
+                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-pr.png";>
+                        <h6>Антрацитовый</h6>
+                    </div>
+                    <div class="color-li">
+                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/brown-pr.png";>
+                        <h6>Коричневый</h6>
+                    </div>
+                    <div class="color-li">
+                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/alumin-pr.png";>
+                        <h6>Алюминиевый</h6>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>
         <div class="curtains-photo">
-
+          <img class="main-photo" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/main-photo.png";>
+          <img class="log" src="<?php echo get_bloginfo('template_url'); ?>/img/logo.png" alt="Plisser">
         </div>
     </div>
 
@@ -83,6 +116,37 @@ Template Name: Шаблон страниы шторы
         <input type="tel" placeholder="+7 (999) 999-99-99"id="phone" name="phone" pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$" required>
         <input type="submit" value="Отправить">
       </form>
+    </div>
+  </div>
+
+  <div id="curtains-direction" class="block flex">
+    <div class="curtains-direction-photo">
+      <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-youtube.png";>
+    </div>
+    <div class="curtains-direction-text border-c p-24">
+      <h1 class="txt-center p-b-16">Замер</h1>
+      <div>
+        <div class="txt-grey">
+          <p>Для точности измерений, пользуйтесь стальной металлической рулеткой;</p>
+          <p>будьте внимательны и всегда перепроверяйте себя!</p>
+          <p>для заказа штор плиссе необходимо, чтобы точки замера в точности соответствовали представленной выше схеме.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="curtains-direction" class="block flex">
+  <div class="curtains-direction-text border-c p-24">
+    <h1 class="txt-center p-b-16">Замер</h1>
+      <div>
+        <div class="txt-grey">
+          <p>Для точности измерений, пользуйтесь стальной металлической рулеткой;</p>
+          <p>будьте внимательны и всегда перепроверяйте себя!</p>
+          <p>для заказа штор плиссе необходимо, чтобы точки замера в точности соответствовали представленной выше схеме.</p>
+        </div>
+      </div>
+    </div>
+    <div class="curtains-direction-photo">
+      <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-youtube.png";>
     </div>
   </div>
 

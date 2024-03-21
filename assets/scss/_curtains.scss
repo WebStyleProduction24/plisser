@@ -1,5 +1,5 @@
 .curtains-home {
-    width: 60%;
+    width: 64%;
     background-color: $bcg-product-main-block;
     flex-direction: column;
     row-gap: 2rem;
@@ -18,12 +18,12 @@
         }
 
         .color-ul {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
+            grid-template-rows: repeat(4,1fr);
+
             gap: 1rem;
-            width: 100%;
-            height: 250px;
+
 
             h6 {
                 font-weight: 400;
@@ -32,7 +32,8 @@
             .color-li {
                 display: flex;
                 flex-direction: row;
-                column-gap: 0.5rem;
+                align-items: center;
+                column-gap: 0.4rem;
                 width: 250px;
                 height: 50px;
                 
@@ -44,9 +45,72 @@
             }
         }
     }
+    
+    .profile {
+        margin-top: 2rem;
+        .color-ul{
+            grid-template-columns: repeat(auto-fill, minmax(172px,1fr));
+            grid-template-rows: repeat(2,1fr);
+
+            .color-li {
+                width: 172px;
+            }
+        }
+    }
 }
 
 .curtains-photo {
-    width: 40%;
+    width: 34%;
+    position: relative;
+    height: 100%;
+
+    .log{
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        top: 50%;
+        bottom: 50%;
+        width:146px;
+        height:177px;
+        opacity:60%;
+    }
+
+    .main-photo{
+        max-width: 100%;
+        max-height: 100%;
+        border: 56px;
+
+    }
+}
+
+#curtains-direction {
+    justify-content: space-between;
+    column-gap: 1rem;
+}
+
+.curtains-direction-photo {
     
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+.curtains-direction-text {
+    width: 39%;
+    background-color: $bcg-product-main-block;
+
+    p {
+        font-size: 17px;
+        margin-bottom: 0.5rem;
+
+        &::before {
+            width: 12px;
+            height: 12px;
+            border-radius: 360px;
+            background-color: black;
+
+        }
+    }
 }

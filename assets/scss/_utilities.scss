@@ -63,6 +63,10 @@ header a:hover, footer a:hover {
   padding: 30px
 }
 
+.p-24 {
+  padding: 24px;
+}
+
 .p-b-30 {
   padding-bottom: 30px;
 }
@@ -89,6 +93,10 @@ header a:hover, footer a:hover {
 
 .curve {
   border-radius: $border-radius;
+}
+
+.border-c {
+  border-radius: $border-radius-curtains;
 }
 
 .shadow {
