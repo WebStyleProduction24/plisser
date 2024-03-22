@@ -13,10 +13,6 @@
     .color-curtains {
         flex-direction: column;
 
-        h6 {
-            font-weight: 500;
-        }
-
         .color-ul {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
@@ -108,12 +104,6 @@
             font-size: 17px;
             margin-bottom: 0.4rem;
             line-height: 170%;
-
-            &::before {
-                content: '•';
-                margin-left: -0.6rem;
-                margin-right: 0.6rem;
-            }
         }
     }
 }
@@ -144,15 +134,6 @@
         border-radius: 12px;
         background-color: $grey-4;
         line-height: 170%;
-
-        .cont p {
-            font-size: $font-input;
-            &::before {
-                content: '•';
-                margin-left: -0.6rem;
-                margin-right: 0.6rem;
-            }
-        }
     }
 }
 

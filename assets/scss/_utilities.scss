@@ -55,6 +55,10 @@ header a:hover, footer a:hover {
   padding: 0.5rem;
 }
 
+.p-cont{
+  padding: 0 1rem;
+}
+
 .p-t-8 {
   padding-top: 0.5rem;
 }
@@ -69,6 +73,10 @@ header a:hover, footer a:hover {
 
 .p-t-16 {
   padding-top: 16px;
+}
+
+.p-t-b-23 {
+  padding: 23px 0;
 }
 
 .p-b-16 {
@@ -131,6 +139,10 @@ header a:hover, footer a:hover {
   line-height: 1.5;
 }
 
+.lh-130 {
+  line-height: 130%;
+}
+
 .font-size-16 {
   font-size: 16px !important;
 }
@@ -167,4 +179,13 @@ header a:hover, footer a:hover {
 
 .youtube-icon {
   @include mask-image (url('img/youtube.svg'));
+}
+
+.cont p {
+  font-size: $font-input;
+  &::before {
+      content: '•';
+      margin-left: -0.6rem;
+      margin-right: 0.6rem;
+  }
 }
