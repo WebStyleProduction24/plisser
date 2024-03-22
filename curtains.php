@@ -123,10 +123,10 @@ Template Name: Шаблон страниы шторы
     <div class="curtains-direction-photo">
       <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-youtube.png";>
     </div>
-    <div class="curtains-direction-text border-c p-24">
+    <div class="curtains-direction-text shadow border-c p-24">
       <h1 class="txt-center p-b-16">Замер</h1>
       <div>
-        <div class="txt-grey">
+        <div class="txt-grey txt">
           <p>Для точности измерений, пользуйтесь стальной металлической рулеткой;</p>
           <p>будьте внимательны и всегда перепроверяйте себя!</p>
           <p>для заказа штор плиссе необходимо, чтобы точки замера в точности соответствовали представленной выше схеме.</p>
@@ -135,18 +135,18 @@ Template Name: Шаблон страниы шторы
     </div>
   </div>
   <div id="curtains-direction" class="block flex">
-  <div class="curtains-direction-text border-c p-24">
-    <h1 class="txt-center p-b-16">Замер</h1>
+  <div class="curtains-direction-text shadow border-c p-24">
+    <h1 class="txt-center p-b-16">Монтаж</h1>
       <div>
-        <div class="txt-grey">
-          <p>Для точности измерений, пользуйтесь стальной металлической рулеткой;</p>
-          <p>будьте внимательны и всегда перепроверяйте себя!</p>
-          <p>для заказа штор плиссе необходимо, чтобы точки замера в точности соответствовали представленной выше схеме.</p>
+        <div class="txt-grey txt">
+          <p>Шторы плиссе могут быть установлены внахлёст на створку окна;</p>
+          <p>шторы плиссе можно установить в световой проём окна. При этом, штапик должен быть прямым или слегка скошенным и быть глубиной не менее 18 мм;</p>
+          <p>шторы плиссе можно установить на мансардное окно.</p>
         </div>
       </div>
     </div>
     <div class="curtains-direction-photo">
-      <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-youtube.png";>
+      <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-curtains-m.png";>
     </div>
   </div>
 
@@ -177,6 +177,20 @@ Template Name: Шаблон страниы шторы
             </div>
         </div>
     </div>
+  <div id="curtain-care" class="block text-grey-1">
+    <h1 class="p-b-16">Уход за шторами плиссе</h1>
+    <div class="curtain-care-info">
+      <div class="photo-curtains-sm">
+        <img class="p-b-16" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-curtains-sm.png";>
+        <div class="photo-curtains-sm-txt">
+          <p>Не рекомендуется сушить шторы плиссе на отопительных приборах у источника высокой температуры и гладить утюгом.</p>
+        </div>
+      </div>
+      <div class="curtain-care-info-txt">
+
+      </div>
+    </div>
+  </div>
 
   <div id="contacts" class="block">
     <div class="contacts curve shadow txt-white">
