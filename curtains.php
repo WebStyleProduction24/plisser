@@ -106,7 +106,7 @@ Template Name: Шаблон страниы шторы
           <img class="main-photo" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/main-photo.png";>
           <img class="log" src="<?php echo get_bloginfo('template_url'); ?>/img/logo.png" alt="Plisser">
         </div>
-    </div>
+  </div>
 
   <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center">
     <div>
@@ -138,7 +138,7 @@ Template Name: Шаблон страниы шторы
   <div class="curtains-direction-text shadow border-c p-24">
     <h1 class="txt-center p-b-16">Монтаж</h1>
       <div>
-        <div class="txt-grey txt">
+        <div class="txt-grey txt cont">
           <p>Шторы плиссе могут быть установлены внахлёст на створку окна;</p>
           <p>шторы плиссе можно установить в световой проём окна. При этом, штапик должен быть прямым или слегка скошенным и быть глубиной не менее 18 мм;</p>
           <p>шторы плиссе можно установить на мансардное окно.</p>
