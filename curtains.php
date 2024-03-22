@@ -23,7 +23,7 @@ Template Name: Шаблон страниы шторы
             <div class="color-curtains flex">
                 <h5 class="p-b-16">Подбери свой цвет штор</h5>
                 <div class="textile">
-                    <h6 class="p-b-16">Полотно шторы</h6>
+                    <h6 class="p-b-16 weight">Полотно шторы</h6>
                         <div class="color-ul">
                             <div class="color-li">
                                 <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/white-color.svg";>
@@ -68,7 +68,7 @@ Template Name: Шаблон страниы шторы
                         </div>
                 </div>
                 <div class="textile profile">
-                  <h6 class="p-b-16">Профиль</h6>
+                  <h6 class="p-b-16 weight">Профиль</h6>
                   <div class="color-ul">
                     <div class="color-li">
                         <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-pr.png";>
@@ -177,17 +177,82 @@ Template Name: Шаблон страниы шторы
             </div>
         </div>
     </div>
+
   <div id="curtain-care" class="block text-grey-1">
     <h1 class="p-b-16">Уход за шторами плиссе</h1>
-    <div class="curtain-care-info">
+    <div class="curtain-care-info flex">
       <div class="photo-curtains-sm">
-        <img class="p-b-16" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-curtains-sm.png";>
-        <div class="photo-curtains-sm-txt">
+        <img class="" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-curtains-sm.png";>
+        <div class="photo-curtains-sm-txt m-t-16">
           <p>Не рекомендуется сушить шторы плиссе на отопительных приборах у источника высокой температуры и гладить утюгом.</p>
         </div>
       </div>
-      <div class="curtain-care-info-txt">
+      <div class="curtain-care-info-txt p-8">
+        <p class="weight">Шторы Plisser достаточно чистить мягкой щеткой пылесоса вдоль складок или протирать влажной губкой.</p>
+        <p class="p-t-8">При необходимости можно легко помыть шторы вручную:</p>
+        <div class="p-8 cont">
+          <p>Сдвиньте зажимы нитей с крепления и снимите шторы</p>
+          <p>Добавьте в теплую воду (t не более 30) моющее средство с нейтральным значением Ph</p>
+          <p>Штору в сложенном виду опустите в воду. Аккуратно распрямляйте плиссированную ткань в воде, стараясь не деформировать материал, промывая складки (при необходимости замочите штору на 15 минут)</p>
+          <p>Промойте штору чистой водой (можно использовать душ).</p>
+          <p>Сложите штору, удалив остатки воды из ткани и профиля.</p>
+          <p>Установите зажимы нитей обратно на крепления и оставьте шторы в сложенном виду на 12 часов.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div id="color-solutions" class="block">
+    <div class="slider-line-1">
+      <div>
+        <img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/white-slider.png" alt="">
+        <div class="color-solutions-txt p-t-16">
+          <p>Белый RAL 9016</p>
+        </div>
+      </div>
+      <div>
+        <img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/grey-slider.png" alt="">
+        <div class="color-solutions-txt p-t-16">
+          <p>Серый RAL 9016</p>
+        </div>
+      </div>
+      <div>
+        <img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/mokko-slider.png" alt="">
+        <div class="color-solutions-txt p-t-16">
+          <p>Мокко</p>
+        </div>
+      </div>
+      <div>
+        <img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/beige-slider.png" alt="">
+        <div class="color-solutions-txt p-t-16">
+          <p>Бежевый</p>
+        </div>
+      </div>
+    </div>
+    <div class="slider-line-2">
+      <div>
+        <img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/white.png" alt="">
+        <div class="color-solutions-txt p-t-16">
+          <p>Белый</p>
+        </div>
+      </div>
+      <div>
+        <img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/grey.png" alt="">
+        <div class="color-solutions-txt p-t-16">
+          <p>Серый</p>
+        </div>
+      </div>
+      <div>
+        <img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/brown.png" alt="">
+        <div class="color-solutions-txt p-t-16">
+          <p>Коричневый</p>
+        </div>
+      </div>
+      <div>
+        <img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/beige.png" alt="">
+        <div class="color-solutions-txt p-t-16">
+          <p>Бежевый</p>
+        </div>
       </div>
     </div>
   </div>

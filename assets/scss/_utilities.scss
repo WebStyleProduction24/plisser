@@ -30,6 +30,10 @@ h2, h4, h1 {
   color: $grey-1;  
 }
 
+.weight {
+  font-weight: 600;
+}
+
 header a:hover, footer a:hover {
   text-decoration: underline;
 }
@@ -45,6 +49,18 @@ header a:hover, footer a:hover {
 
 .p-0 {
   padding: 0 !important;
+}
+
+.p-8 {
+  padding: 0.5rem;
+}
+
+.p-t-8 {
+  padding-top: 0.5rem;
+}
+
+.p-b-8 {
+  padding-bottom: 0.5rem;
 }
 
 .p-t {
@@ -73,6 +89,10 @@ header a:hover, footer a:hover {
 
 .m-b-60 {
   margin-bottom: 60px;
+}
+
+.m-t-16 {
+  margin-top: 1rem;
 }
 
 .bcg-dark {
