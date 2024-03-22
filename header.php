@@ -11,7 +11,7 @@
     <div class="logo"><img src="<?php echo get_bloginfo('template_url'); ?>/img/logo-header.png" alt=""></div>
     <nav>
       <ul class="flex">
-        <li><a href="#">Шторы плиссе</a></li>
+        <li><a href="shtory-plisse">Шторы плиссе</a></li>
         <li><a href="#">Шторы в рамке</a></li>
         <li><a href="#">Москитные сетки</a></li>
         <li><a href="#">Информация</a></li>

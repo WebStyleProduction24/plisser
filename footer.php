@@ -12,7 +12,7 @@
         <div class="title-footer-nav">Меню</div>
         <div>
           <ul>
-            <li><a href="#">Главная</a></li>
+            <li><a href="/shtory-plisse">Главная</a></li>
             <li><a href="#">Шторы плиссе</a></li>
             <li><a href="#">Шторы в рамке</a></li>
             <li><a href="#">Москитные сетки</a></li>
