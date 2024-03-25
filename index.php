@@ -53,7 +53,7 @@
 
   <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center">
     <div>
-      <h3>Закажите замер и рассчитайте стоимость</h3>
+      <h3 class="p-b-40">Закажите замер и рассчитайте стоимость</h3>
       <form action="">
         <input type="text" placeholder="Имя" id="name" name="name" required>
         <input type="tel" placeholder="+7 (999) 999-99-99"id="phone" name="phone" pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$" required>
@@ -129,7 +129,7 @@
 
   <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center">
     <div>
-      <h3>Оставьте заявку</h3>
+      <h3 class="p-b-40">Оставьте заявку</h3>
       <form action="">
         <input type="text" placeholder="Имя" id="name" name="name" required>
         <input type="tel" placeholder="+7 (999) 999-99-99"id="phone" name="phone" pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$" required>

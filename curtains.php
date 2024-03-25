@@ -104,20 +104,27 @@ Template Name: Шаблон страниы шторы
         </div>
         <div class="curtains-photo">
           <img class="main-photo" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/main-photo.png";>
-          <img class="log" src="<?php echo get_bloginfo('template_url'); ?>/img/logo.png" alt="Plisser">
         </div>
   </div>
 
-  <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center">
-    <div>
-      <h3>Закажите замер и рассчитайте стоимость</h3>
-      <form action="">
-        <input type="text" placeholder="Имя" id="name" name="name" required>
-        <input type="tel" placeholder="+7 (999) 999-99-99"id="phone" name="phone" pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$" required>
-        <input type="submit" value="Отправить">
-      </form>
+  <div class="block calculate m-b-60">
+    <div class="calc p-16">
+      <h3 class="txt-center">Калькулятор</h3>
+      <img src="<?php echo get_bloginfo('template_url'); ?>/img/calc-icon.svg";>
+      <h5>Нажмите для рассчета</h5>
+    </div>
+    <div id="form-order-calculation" class="block bcg-dark curve txt-center">
+      <div>
+        <h3 class="p-b-40">Закажите замер и рассчитайте стоимость</h3>
+        <form action="">
+          <input type="text" placeholder="Имя" id="name" name="name" required>
+          <input type="tel" placeholder="+7 (999) 999-99-99"id="phone" name="phone" pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$" required>
+          <input type="submit" value="Отправить">
+        </form>
+      </div>
     </div>
   </div>
+  
 
   <div id="curtains-direction" class="block flex">
     <div class="curtains-direction-photo">
@@ -168,7 +175,7 @@ Template Name: Шаблон страниы шторы
     <div id="feedback">
         <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center">
             <div>
-                <h3>Оставьте заявку</h3>
+                <h3 class="p-b-40">Оставьте заявку</h3>
                 <form action="">
                     <input type="text" placeholder="Имя" id="name" name="name" required>
                     <input type="tel" placeholder="+7 (999) 999-99-99"id="phone" name="phone" pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$" required>

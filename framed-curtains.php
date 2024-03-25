@@ -1,85 +1,111 @@
 <?php
 /*
-Template Name: Шаблон страниы москитные сети
+Template Name: Шаблон страниы шторы в рамке
 */
 ?>
 
 <?php get_header(); ?>
 
-<main class="p-t-30 mosquito-nets">
+<main class="p-t-30 framed-curtains">
     <div id="main-block" class="block flex p-b curtains-main">
-        <div class="curtains-home mos-home shadow flex ">
-            <h1 class="txt-center">Москитные сетки плиссе</h1>
+        <div class="curtains-home shadow flex ">
+            <h1 class="txt-center">Шторы плиссе в рамке</h1>
             <div class="txt-grey">
                 <div>
-                Москитные системы плиссе защищают помещение от надоедливых насекомых, уличной пыли и мусора, создавая комфортные условия для жизни и отдыха. При необходимости они легко сдвигаются в сторону или вверх, освобождая проем, что является неоспоримым преимуществом. 
-                Москитные системы плиссе универсальны: они устанавливаются на окна, двери, беседки, террасы, а также любые проемы как снаружи, так и внутри помещения. Москитные системы плиссе эстетичны, надежны и долговечны. Все это делает их оптимальным решением для Вашего комфорта.
+                Шторы плиссе — яркий элемент дизайна вашего интерьера, а также надёжная защита дома от солнечного света. Шторы плиссе открываются как снизу-вверх, так и сверху вниз, при этом могут быть зафиксированы в выбранном положении.Это дает широкий диапазон для регулировки потока солнечных лучей в помещении.
                 </div>
             </div>
             <div class="color-curtains flex">
-                <h5 class="p-b-16">Подбери цвет профиля москитной системы</h5>
+                <h5 class="p-b-16">Подбери свой цвет штор</h5>
                 <div class="textile">
-                    <div class="vibor">
-                        <h6 class="p-b-16 weight">SMART</h6>
-                        <h6 class="p-b-16 weight">SLIM</h6>
-                        <h6 class="p-b-16 weight">SMART PRO</h6>
-                        <h6 class="p-b-16 weight">SLIM PRO</h6>
-                    </div>
-                    <div class="color-ul-mos">
-                        <div class="color-li-mos">
-                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/white-icon.png";>
-                            <h6>Белый глянец Ral 9016</h6>
+                    <h6 class="p-b-16 weight">Полотно шторы</h6>
+                    <div class="color-ul">
+                        <div class="color-li">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/white-color.svg";>
+                            <h6>Белый Ral 9016</h6>
                         </div>
-                        <div class="color-li-mos">
-                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/brown-icon.png";>
-                            <h6>Коричневый матовый Ral 9016</h6>
+                        <div class="color-li">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/beige-color.svg";>
+                            <h6>Бежевый Ral 1013</h6>
                         </div>
-                        <div class="color-li-mos">
-                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/black-grey-icon.png";>
-                            <h6>Антрацит матовый</h6>
+                        <div class="color-li">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/blue-green-color.svg";>
+                            <h6>Сине-зеленый</h6>
                         </div>
-                        <div class="color-li-mos">
-                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/icon.png";>
-                            <h6>Любой цвет на ваш выбор</h6>
+                        <div class="color-li">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
+                            <h6>Антрацитово-кремовый</h6>
+                        </div>
+                        <div class="color-li">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/cream-color.svg";>
+                            <h6>Кремовый Ral 8017</h6>
+                        </div>
+                        <div class="color-li">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/mokko-color.svg";>
+                            <h6>Мокко</h6>
+                        </div>
+                        <div class="color-li">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/olive-color.svg";>
+                            <h6>Оливковый</h6>
+                        </div>
+                        <div class="color-li">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/grey-color.svg";>
+                            <h6>Серый Ral 7040</h6>
+                        </div>
+                        <div class="color-li">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
+                            <h6>Антрацитово-кремовый</h6>
+                        </div>
+                        <div class="color-li">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
+                            <h6>Антрацитово-кремовый</h6>
                         </div>
                     </div>
                 </div>
-                <div class="mos textile profile">
-                    <h6 class="p-b-16 weight">Полотно маскитно сетки</h6>
-                    <div class="color-ul-mos">
-                        <div class="color-li-mos">
-                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/standart.png";>
-                            <h6>Стандарт</h6>
+                <div class="textile profile">
+                    <h6 class="p-b-16 weight">Профиль</h6>
+                    <div class="color-ul">
+                        <div class="color-li">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-pr.png";>
+                            <h6>Черный Ral 9016</h6>
                         </div>
-                        <div class="color-li-mos">
-                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/unstandart.png";>
-                            <h6>Антикошка</h6>
+                        <div class="color-li">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/white-pr.png";>
+                            <h6>Белый Ral 9016</h6>
+                        </div>
+                        <div class="color-li">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/beige-pr.png";>
+                            <h6>Бежевый Ral 9016</h6>
+                        </div>
+                        <div class="color-li">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/icon.png";>
+                            <h6>Любой цвет на ваш выбор</h6>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="curtains-photo">
-          <img class="main-photo" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/photo-mos.png";>
+            <img class="main-photo" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-page-3.png";>
         </div>
     </div>
 
     <div class="block calculate m-b-60">
-      <div class="calc p-16">
+        <div class="calc p-16">
         <h3 class="txt-center">Калькулятор</h3>
         <img src="<?php echo get_bloginfo('template_url'); ?>/img/calc-icon.svg";>
         <h5>Нажмите для рассчета</h5>
-      </div>
-      <div id="form-order-calculation" class="block bcg-dark curve txt-center">
+        </div>
+        <div id="form-order-calculation" class="block bcg-dark curve txt-center">
         <div>
-          <h3 class="p-b-40">Закажите замер и рассчитайте стоимость</h3>
-          <form action="">
+            <h3 class="p-b-40">Закажите замер и рассчитайте стоимость</h3>
+            <form action="">
             <input type="text" placeholder="Имя" id="name" name="name" required>
             <input type="tel" placeholder="+7 (999) 999-99-99"id="phone" name="phone" pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$" required>
             <input type="submit" value="Отправить">
-          </form>
+            </form>
         </div>
-      </div>
+        </div>
     </div>
 
     <div id="curtains-direction" class="block flex">
