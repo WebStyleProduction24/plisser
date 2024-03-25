@@ -19,12 +19,37 @@
   }
 }
 
-#form-order-calculation {
+.calculate {
+align-items: center;
+  display: flex;
+  flex-direction: row;
 
+  .calc {
+    width: 34%;
+    background-color: $orange-1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+
+    border-radius: 24px;
+
+    h5 {
+      font-weight: 700;
+      color: $orange-2;
+    }
+  }
+}
+
+#form-order-calculation {
+  width: 64%;
+  align-items: center;
   > div {
     @extend %padding;
     display: flex;
     flex-direction: column;
+
     
     h2 {
       color: $white;

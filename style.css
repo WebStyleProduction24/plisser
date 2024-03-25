@@ -188,8 +188,8 @@ header a:hover, footer a:hover {
   padding-top: 16px;
 }
 
-.p-t-b-23 {
-  padding: 23px 0;
+.p-t-b-11 {
+  padding: 11px 0;
 }
 
 .p-b-16 {
@@ -200,12 +200,20 @@ header a:hover, footer a:hover {
   padding: 30px;
 }
 
+.p-16 {
+  padding: 16px;
+}
+
 .p-24 {
   padding: 24px;
 }
 
 .p-b-30 {
   padding-bottom: 30px;
+}
+
+.p-b-40 {
+  padding-bottom: 40px;
 }
 
 .m-b-60 {
@@ -331,6 +339,30 @@ header .contacts {
   margin: 24px;
 }
 
+.calculate {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.calculate .calc {
+  width: 34%;
+  background-color: #ef7f1a;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+  border-radius: 24px;
+}
+.calculate .calc h5 {
+  font-weight: 700;
+  color: #f9cca3;
+}
+
+#form-order-calculation {
+  width: 64%;
+  align-items: center;
+}
 #form-order-calculation > div {
   display: flex;
   flex-direction: column;
@@ -511,8 +543,6 @@ footer > div .icon {
   align-items: center;
   -moz-column-gap: 0.4rem;
        column-gap: 0.4rem;
-  width: 250px;
-  height: 50px;
 }
 .curtains-home .color-curtains .color-ul .color-li .icon-color {
   max-width: 50px;
@@ -525,9 +555,6 @@ footer > div .icon {
 .curtains-home .profile .color-ul {
   grid-template-columns: repeat(auto-fill, minmax(172px, 1fr));
   grid-template-rows: repeat(2, 1fr);
-}
-.curtains-home .profile .color-ul .color-li {
-  width: 172px;
 }
 
 .curtains-photo {
@@ -646,6 +673,14 @@ footer > div .icon {
 }
 #main-block .mos-home .vibor h6:hover, #main-block .mos-home .vibor h6:active {
   color: #ef7f1a;
+}
+
+.framed-curtains #main-block .textile .color-ul {
+  grid-template-rows: 1fr 1fr;
+}
+.framed-curtains #main-block .textile .color-ul .color-li {
+  width: -moz-max-content;
+  width: max-content;
 }
 
 body {
