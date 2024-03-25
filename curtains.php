@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Шаблон страниы шторы
+Template Name: Шаблон страницы шторы
 */
 ?>
 
