@@ -1,5 +1,18 @@
 jQuery(document).ready(function($){ 
     
+    $(window).on('load resize', function() {
+      if ($(window).width() < 576) {
+        $('#main-block:not(.slick-initialized)').slick({
+          dots: true,
+          infinite: true,
+          speed: 100,
+          slidesToShow: 1
+        });
+      } else {
+        $("#items.slick-initialized").slick("unslick");
+      }
+    });
+
     $('.slider-line-1').slick({
       dots:false,
       infinite: true,

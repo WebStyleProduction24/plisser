@@ -99,11 +99,9 @@ Template Name: Шаблон страниы шторы в рамке
         <div id="form-order-calculation" class="block bcg-dark curve txt-center">
         <div>
             <h3 class="p-b-40">Закажите замер и рассчитайте стоимость</h3>
-            <form action="">
-            <input type="text" placeholder="Имя" id="name" name="name" required>
-            <input type="tel" placeholder="+7 (999) 999-99-99"id="phone" name="phone" pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$" required>
-            <input type="submit" value="Отправить">
-            </form>
+
+            <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
+
         </div>
         </div>
     </div>
@@ -173,11 +171,9 @@ Template Name: Шаблон страниы шторы в рамке
         <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center">
             <div>
                 <h3 class="p-b-40">Оставьте заявку</h3>
-                <form action="">
-                    <input type="text" placeholder="Имя" id="name" name="name" required>
-                    <input type="tel" placeholder="+7 (999) 999-99-99"id="phone" name="phone" pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$" required>
-                    <input type="submit" value="Отправить">
-                </form>
+
+                    <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
+
             </div>
         </div>
     </div>

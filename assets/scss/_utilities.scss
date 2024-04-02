@@ -197,3 +197,10 @@ header a:hover, footer a:hover {
       margin-right: 0.6rem;
   }
 }
+
+
+@media screen and (max-width: 576px) {
+  .d-md-none {
+    display: none;
+  }
+}
