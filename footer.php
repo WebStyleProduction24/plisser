@@ -1,6 +1,6 @@
   <footer class="bcg-dark hover-text-decoration">
     <div class="block">
-      <div class="footer-main-nav ">
+      <div class="footer-main-nav">
         <div class="logo"><img src="<?php echo get_bloginfo('template_url'); ?>/img/logo.png" alt="Plisser"></div>
         <div class="flex">
           <div class="icon"><div class="tg-icon"><a href="#"></a></div></div>

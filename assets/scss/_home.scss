@@ -1,15 +1,77 @@
+
+
 #main-block {
   justify-content: space-between;
+
+
+
+
+
+  .slick-prev, .slick-next {
+    display: none !important;
+  }
+  #form-order-calculation {
+    .wpcf7-spinner {
+      display: none;
+    }
+    z-index: 999991;
+    .form-order-calculation-cf7 {
+      position: absolute;
+      bottom: 37%;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+      p {
+        width: 100%;
+        max-height: 200px;
+
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0.2rem;
+        row-gap: 0.6rem;
+        flex-wrap: wrap;
+       
+      
+    
+        input {
+          font-size: $font-input;
+          height: 47px;
+          border-radius: 36px;
+          margin-bottom: .5rem;
+        }
+
+        [type^='text'] {
+          width: 80%;
+        }
+
+        [type^='tel'] {
+          width: 80%;
+        }
+
+        [type^='submit'] {
+          background-color: $orange-1;
+          color: $white;
+          font-family: 'Inter-SemiBold';
+          width: 60%;
+          height: 72px;
+        }
+      
+      }
+  }
 
   .product {
     background-color: $bcg-product-main-block;
     width: calc(100%/3 - ($p-13 * 2));
     max-width: 420px;
-
+    position: relative;
     .img-product {
 
       img {
         width: 100%;
+        
       }
     }
 
@@ -64,13 +126,11 @@ align-items: center;
       column-gap: 0.2rem;
       row-gap: 0.8rem;
       flex-wrap: wrap;
-    }   
-    form {
-  
       input {
         font-size: $font-input;
         height: 72px;
         border-radius: 36px;
+        padding: 0.8rem;
       }
 
       [type^='text'], [type^='submit'] {

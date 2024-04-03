@@ -167,6 +167,14 @@ header a:hover, footer a:hover {
   text-decoration-line: underline !important;
 }
 
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
 
 
 .tg-icon, .wa-icon, .youtube-icon {
@@ -199,8 +207,8 @@ header a:hover, footer a:hover {
 }
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
   .d-md-none {
-    display: none;
+    display: none !important;
   }
 }

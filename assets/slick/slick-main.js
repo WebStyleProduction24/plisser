@@ -1,15 +1,16 @@
 jQuery(document).ready(function($){ 
     
     $(window).on('load resize', function() {
-      if ($(window).width() < 576) {
-        $('#main-block:not(.slick-initialized)').slick({
+      if ($(window).width() < 768) {
+        $('.items-slick:not(.slick-initialized)').slick({
           dots: true,
           infinite: true,
           speed: 100,
-          slidesToShow: 1
+          slidesToShow: 1,
+          slide:'.slide'
         });
       } else {
-        $("#items.slick-initialized").slick("unslick");
+        $(".items-slick.slick-initialized").slick("unslick");
       }
     });
 

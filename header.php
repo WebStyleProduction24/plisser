@@ -18,9 +18,10 @@
         <li><a href="#">Контакты</a></li>
       </ul>
     </nav>
-    <div class="d-md-none contacts flex">
+    <div class="contacts flex">
       <div class="tg-icon"><a href="#"></a></div>
       <div class="wa-icon"><a href="#"></a></div>
-      <a href="tel:78002223655" class="phone-number">8 800 222-36-55</a>
+      <a href="tel:78002223655" class="d-md-none phone-number">8 800 222-36-55</a>
     </div>
+    
   </header>
