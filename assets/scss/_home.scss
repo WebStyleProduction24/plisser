@@ -87,11 +87,16 @@ align-items: center;
   flex-direction: row;
   column-gap: 1rem;
 
+  >div {
+    min-height: 236px;
+  }
+
   #form-order-calculation{
     width: 66%;
   }
 
   .calc {
+    padding: 37px;
     width: 32%;
     background-color: $orange-1;
     display: flex;
@@ -238,10 +243,10 @@ align-items: center;
   display: grid;
   gap: 20px;
   grid-template-columns: 2fr 1fr;
-
-
-
-  
+  align-items: center;
+  > div {
+    min-height: 420px;
+  }
 
   h2 {
     color: $text-white;

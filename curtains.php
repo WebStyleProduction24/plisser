@@ -8,121 +8,130 @@ Template Name: Шаблон страниы шторы
 
 <main class="p-t-30 curtains">
 
-    <div id="main-block" class="block flex p-b curtains-main">
-        <div class="curtains-home shadow flex ">
-            <h1 class="txt-center">Шторы плиссе</h1>
-            <div class="txt-grey">
-                <div>
-                Шторы плиссе — яркий элемент дизайна вашего интерьера, а также надёжная защита дома от солнечного света.
-                Шторы плиссе открываются как снизу-вверх, так и сверху вниз, при этом могут быть зафиксированы в выбранном положении.
-                Это дает широкий диапазон для регулировки потока солнечных лучей в помещении.
-                Шторы плиссе являются альтернативой классическим жалюзи.
-                Шторы плиссе также идеально подходят для мансардных окон.
-                </div>
-            </div>
-            <div class="color-curtains flex">
-                <h5 class="p-b-16">Подбери свой цвет штор</h5>
-                <div class="textile">
-                    <h6 class="p-b-16 weight">Полотно шторы</h6>
-                        <div class="color-ul">
-                            <div class="color-li">
-                                <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/white-color.svg";>
-                                <h6>Белый Ral 9016</h6>
-                            </div>
-                            <div class="color-li">
-                                <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/beige-color.svg";>
-                                <h6>Бежевый Ral 1013</h6>
-                            </div>
-                            <div class="color-li">
-                                <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/blue-green-color.svg";>
-                                <h6>Сине-зеленый</h6>
-                            </div>
-                            <div class="color-li">
-                                <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
-                                <h6>Антрацитово-кремовый</h6>
-                            </div>
-                            <div class="color-li">
-                                <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/cream-color.svg";>
-                                <h6>Кремовый Ral 8017</h6>
-                            </div>
-                            <div class="color-li">
-                                <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/mokko-color.svg";>
-                                <h6>Мокко</h6>
-                            </div>
-                            <div class="color-li">
-                                <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/olive-color.svg";>
-                                <h6>Оливковый</h6>
-                            </div>
-                            <div class="color-li">
-                                <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/grey-color.svg";>
-                                <h6>Серый Ral 7040</h6>
-                            </div>
-                            <div class="color-li">
-                                <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
-                                <h6>Антрацитово-кремовый</h6>
-                            </div>
-                            <div class="color-li">
-                                <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
-                                <h6>Антрацитово-кремовый</h6>
-                            </div>
-                        </div>
-                </div>
-                <div class="textile profile">
-                  <h6 class="p-b-16 weight">Профиль</h6>
-                  <div class="color-ul">
-                    <div class="color-li">
-                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-pr.png";>
-                        <h6>Черный</h6>
-                    </div>
-                    <div class="color-li">
-                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/white-pr.png";>
-                        <h6>Белый</h6>
-                    </div>
-                    <div class="color-li">
-                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/beige-pr.png";>
-                        <h6>Бежевый</h6>
-                    </div>
-                    <div class="color-li">
-                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/grey-pr.png";>
-                        <h6>Серый</h6>
-                    </div>
-                    <div class="color-li">
-                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-pr.png";>
-                        <h6>Антрацитовый</h6>
-                    </div>
-                    <div class="color-li">
-                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/brown-pr.png";>
-                        <h6>Коричневый</h6>
-                    </div>
-                    <div class="color-li">
-                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/alumin-pr.png";>
-                        <h6>Алюминиевый</h6>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class="curtains-photo">
-          <img class="main-photo" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/main-photo.png";>
-        </div>
+  <div class="block calculate m-b-60 none">
+      <div class="calc p-16">
+        <h3 class="txt-center">Калькулятор</h3>
+        <img src="<?php echo get_bloginfo('template_url'); ?>/img/calc-icon.svg";>
+        <h5>Нажмите для рассчета</h5>
+      </div>
   </div>
 
-  <div class="block calculate m-b-60">
+  <div id="main-block" class="block p-b curtains-main">
+      <div class="curtains-home shadow flex ">
+          <h1 class="txt-center">Шторы плиссе</h1>
+          <div class="txt-grey">
+              <div>
+              Шторы плиссе — яркий элемент дизайна вашего интерьера, а также надёжная защита дома от солнечного света.
+              Шторы плиссе открываются как снизу-вверх, так и сверху вниз, при этом могут быть зафиксированы в выбранном положении.
+              Это дает широкий диапазон для регулировки потока солнечных лучей в помещении.
+              Шторы плиссе являются альтернативой классическим жалюзи.
+              Шторы плиссе также идеально подходят для мансардных окон.
+              </div>
+        </div>
+          <div class="color-curtains flex">
+            <h5 class="p-b-16">Подбери свой цвет штор</h5>
+            <div class="textile">
+                <h6 class="p-b-16 weight">Полотно шторы</h6>
+                    <div class="color-ul items-slick-page">
+                        <div class="color-li slide-page">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/white-color.svg";>
+                            <h6>Белый Ral 9016</h6>
+                        </div>
+                        <div class="color-li slide-page">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/beige-color.svg";>
+                            <h6>Бежевый Ral 1013</h6>
+                        </div>
+                        <div class="color-li slide-page">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/blue-green-color.svg";>
+                            <h6>Сине-зеленый</h6>
+                        </div>
+                        <div class="color-li slide-page">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
+                            <h6>Антрацитово-кремовый</h6>
+                        </div>
+                        <div class="color-li slide-page">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/cream-color.svg";>
+                            <h6>Кремовый Ral 8017</h6>
+                        </div>
+                        <div class="color-li slide-page">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/mokko-color.svg";>
+                            <h6>Мокко</h6>
+                        </div>
+                        <div class="color-li slide-page">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/olive-color.svg";>
+                            <h6>Оливковый</h6>
+                        </div>
+                        <div class="color-li slide-page">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/grey-color.svg";>
+                            <h6>Серый Ral 7040</h6>
+                        </div>
+                        <div class="color-li slide-page">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
+                            <h6>Антрацитово-кремовый</h6>
+                        </div>
+                        <div class="color-li slide-page">
+                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
+                            <h6>Антрацитово-кремовый</h6>
+                        </div>
+                    </div>
+            </div>
+            <div class="textile profile">
+              <h6 class="p-b-16 weight">Профиль</h6>
+              <div class="color-ul items-slick-page">
+                <div class="color-li slide-page">
+                    <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-pr.png";>
+                    <h6>Черный</h6>
+                </div>
+                <div class="color-li slide-page">
+                    <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/white-pr.png";>
+                    <h6>Белый</h6>
+                </div>
+                <div class="color-li slide-page">
+                    <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/beige-pr.png";>
+                    <h6>Бежевый</h6>
+                </div>
+                <div class="color-li slide-page">
+                    <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/grey-pr.png";>
+                    <h6>Серый</h6>
+                </div>
+                <div class="color-li slide-page">
+                    <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-pr.png";>
+                    <h6>Антрацитовый</h6>
+                </div>
+                <div class="color-li slide-page">
+                    <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/brown-pr.png";>
+                    <h6>Коричневый</h6>
+                </div>
+                <div class="color-li slide-page">
+                    <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/alumin-pr.png";>
+                    <h6>Алюминиевый</h6>
+                </div>
+              </div>
+            </div>
+            <img class="photo-min" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-min.png";>
+        </div>
+      </div>
+      <div class="curtains-photo">
+        <img class="main-photo" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/main-photo.png";>
+      </div>
+  </div>
+
+  <div class="block calculate m-b-60 calculate-none">
     <div class="calc p-16">
       <h3 class="txt-center">Калькулятор</h3>
       <img src="<?php echo get_bloginfo('template_url'); ?>/img/calc-icon.svg";>
       <h5>Нажмите для рассчета</h5>
     </div>
-    <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center">
-    <div>
-      <h3 class="p-b-40">Закажите замер и рассчитайте стоимость</h3>
+    <div id="form-order-calculation" class="bcg-dark curve txt-center">
+      <div>
 
-      <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
+        <h3 class="p-b-40">Закажите замер и рассчитайте стоимость</h3>
 
+        <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
+
+      </div>
     </div>
   </div>
-  </div>
-  
 
   <div id="curtains-direction" class="block flex">
     <div class="curtains-direction-photo">
@@ -139,7 +148,7 @@ Template Name: Шаблон страниы шторы
       </div>
     </div>
   </div>
-  <div id="curtains-direction" class="block flex">
+  <div id="curtains-direction" class="block flex reverse">
   <div class="curtains-direction-text shadow border-c p-24">
     <h1 class="txt-center p-b-16">Монтаж</h1>
       <div>

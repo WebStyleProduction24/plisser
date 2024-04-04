@@ -7,6 +7,15 @@ Template Name: Шаблон страниы москитные сети
 <?php get_header(); ?>
 
 <main class="p-t-30 mosquito-nets">
+
+  <div class="block calculate m-b-60 none">
+      <div class="calc p-16">
+        <h3 class="txt-center">Калькулятор</h3>
+        <img src="<?php echo get_bloginfo('template_url'); ?>/img/calc-icon.svg";>
+        <h5>Нажмите для рассчета</h5>
+      </div>
+  </div>
+
     <div id="main-block" class="block flex p-b curtains-main">
         <div class="curtains-home mos-home shadow flex ">
             <h1 class="txt-center">Москитные сетки плиссе</h1>
@@ -25,20 +34,20 @@ Template Name: Шаблон страниы москитные сети
                         <h6 class="p-b-16 weight">SMART PRO</h6>
                         <h6 class="p-b-16 weight">SLIM PRO</h6>
                     </div>
-                    <div class="color-ul-mos">
-                        <div class="color-li-mos">
+                    <div class="color-ul-mos items-slick-page">
+                        <div class="color-li-mos slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/white-icon.png";>
                             <h6>Белый глянец Ral 9016</h6>
                         </div>
-                        <div class="color-li-mos">
+                        <div class="color-li-mos slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/brown-icon.png";>
                             <h6>Коричневый матовый Ral 9016</h6>
                         </div>
-                        <div class="color-li-mos">
+                        <div class="color-li-mos slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/black-grey-icon.png";>
                             <h6>Антрацит матовый</h6>
                         </div>
-                        <div class="color-li-mos">
+                        <div class="color-li-mos slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/icon.png";>
                             <h6>Любой цвет на ваш выбор</h6>
                         </div>
@@ -46,12 +55,12 @@ Template Name: Шаблон страниы москитные сети
                 </div>
                 <div class="mos textile profile">
                     <h6 class="p-b-16 weight">Полотно маскитно сетки</h6>
-                    <div class="color-ul-mos">
-                        <div class="color-li-mos">
+                    <div class="color-ul-mos items-slick-page">
+                        <div class="color-li-mos slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/standart.png";>
                             <h6>Стандарт</h6>
                         </div>
-                        <div class="color-li-mos">
+                        <div class="color-li-mos slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/unstandart.png";>
                             <h6>Антикошка</h6>
                         </div>
@@ -64,13 +73,13 @@ Template Name: Шаблон страниы москитные сети
         </div>
     </div>
 
-    <div class="block calculate m-b-60">
+    <div class="block calculate m-b-60 calculate-none">
       <div class="calc p-16">
         <h3 class="txt-center">Калькулятор</h3>
         <img src="<?php echo get_bloginfo('template_url'); ?>/img/calc-icon.svg";>
         <h5>Нажмите для рассчета</h5>
       </div>
-      <div id="form-order-calculation" class="block bcg-dark curve txt-center">
+      <div id="form-order-calculation" class="bcg-dark curve txt-center">
         <div>
           <h3 class="p-b-40">Закажите замер и рассчитайте стоимость</h3>
           
@@ -121,7 +130,7 @@ Template Name: Шаблон страниы москитные сети
         </div>
       </div>
     </div>
-    <div class="curtains-direction-photo">
+    <div class="curtains-direction-photo reverse">
       <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-curtains-m.png";>
     </div>
   </div>

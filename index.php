@@ -114,7 +114,7 @@
         <p>Сотрудничество с нами — это возможность расширить горизонты Вашего бизнеса и получить дополнительные источники дохода.</p>
       </div>
     </div>
-    <div id="dilers" class="for-dilers block bcg-dark curve shadow txt-center">
+    <div class="for-dilers block bcg-dark curve shadow txt-center">
       <h2 class="lh-1-5">Дилерам</h2>
       <p>Для вашего удобства разработана система управления заказами и рассчета стоимости <a href="//plisser.pro" class="link-orange-1 underline">plisser.pro</a></p>
       <p>

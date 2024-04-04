@@ -7,7 +7,16 @@ Template Name: Шаблон страниы шторы в рамке
 <?php get_header(); ?>
 
 <main class="p-t-30 framed-curtains">
-    <div id="main-block" class="block flex p-b curtains-main">
+
+    <div class="block calculate m-b-60 none">
+      <div class="calc p-16">
+        <h3 class="txt-center">Калькулятор</h3>
+        <img src="<?php echo get_bloginfo('template_url'); ?>/img/calc-icon.svg";>
+        <h5>Нажмите для рассчета</h5>
+      </div>
+  </div>
+  
+    <div id="main-block" class="block flex p-b curtains-main framed-curtains-b">
         <div class="curtains-home shadow flex ">
             <h1 class="txt-center">Шторы плиссе в рамке</h1>
             <div class="txt-grey">
@@ -19,65 +28,65 @@ Template Name: Шаблон страниы шторы в рамке
                 <h5 class="p-b-16">Подбери свой цвет штор</h5>
                 <div class="textile">
                     <h6 class="p-b-16 weight">Полотно шторы</h6>
-                    <div class="color-ul">
-                        <div class="color-li">
+                    <div class="color-ul items-slick-page">
+                        <div class="color-li slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/white-color.svg";>
                             <h6>Белый Ral 9016</h6>
                         </div>
-                        <div class="color-li">
+                        <div class="color-li slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/beige-color.svg";>
                             <h6>Бежевый Ral 1013</h6>
                         </div>
-                        <div class="color-li">
+                        <div class="color-li slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/blue-green-color.svg";>
                             <h6>Сине-зеленый</h6>
                         </div>
-                        <div class="color-li">
+                        <div class="color-li slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
                             <h6>Антрацитово-кремовый</h6>
                         </div>
-                        <div class="color-li">
+                        <div class="color-li slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/cream-color.svg";>
                             <h6>Кремовый Ral 8017</h6>
                         </div>
-                        <div class="color-li">
+                        <div class="color-li slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/mokko-color.svg";>
                             <h6>Мокко</h6>
                         </div>
-                        <div class="color-li">
+                        <div class="color-li slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/olive-color.svg";>
                             <h6>Оливковый</h6>
                         </div>
-                        <div class="color-li">
+                        <div class="color-li slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/grey-color.svg";>
                             <h6>Серый Ral 7040</h6>
                         </div>
-                        <div class="color-li">
+                        <div class="color-li slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
                             <h6>Антрацитово-кремовый</h6>
                         </div>
-                        <div class="color-li">
+                        <div class="color-li slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
                             <h6>Антрацитово-кремовый</h6>
                         </div>
                     </div>
                 </div>
-                <div class="textile profile">
+                <div class="textile">
                     <h6 class="p-b-16 weight">Профиль</h6>
-                    <div class="color-ul">
-                        <div class="color-li">
+                    <div class="color-ul items-slick-page">
+                        <div class="color-li slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-pr.png";>
                             <h6>Черный Ral 9016</h6>
                         </div>
-                        <div class="color-li">
+                        <div class="color-li slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/white-pr.png";>
                             <h6>Белый Ral 9016</h6>
                         </div>
-                        <div class="color-li">
+                        <div class="color-li slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/beige-pr.png";>
                             <h6>Бежевый Ral 9016</h6>
                         </div>
-                        <div class="color-li">
+                        <div class="color-li slide-page">
                             <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/icon.png";>
                             <h6>Любой цвет на ваш выбор</h6>
                         </div>
@@ -90,13 +99,13 @@ Template Name: Шаблон страниы шторы в рамке
         </div>
     </div>
 
-    <div class="block calculate m-b-60">
+    <div class="block calculate m-b-60 calculate-none">
         <div class="calc p-16">
         <h3 class="txt-center">Калькулятор</h3>
         <img src="<?php echo get_bloginfo('template_url'); ?>/img/calc-icon.svg";>
         <h5>Нажмите для рассчета</h5>
         </div>
-        <div id="form-order-calculation" class="block bcg-dark curve txt-center">
+        <div id="form-order-calculation" class="bcg-dark curve txt-center">
         <div>
             <h3 class="p-b-40">Закажите замер и рассчитайте стоимость</h3>
 
@@ -147,7 +156,7 @@ Template Name: Шаблон страниы шторы в рамке
         </div>
       </div>
     </div>
-    <div class="curtains-direction-photo">
+    <div class="curtains-direction-photo reverse">
       <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-curtains-m.png";>
     </div>
   </div>

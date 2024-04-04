@@ -1,5 +1,12 @@
+.curtains-main {
+    >div {
+        min-height: 875px;
+    }
+    display: flex;
+}
+
 .curtains-home {
-    width: 64%;
+    width: 61%;
     background-color: $bcg-product-main-block;
     flex-direction: column;
     row-gap: 2rem;
@@ -22,7 +29,7 @@
             h6 {
                 font-weight: 400;
             }
-
+ 
             .color-li {
                 display: flex;
                 flex-direction: row;
@@ -38,8 +45,12 @@
         }
     }
     
-    .profile {
+    .textile {
         margin-top: 2rem;
+    }
+
+    .profile {
+        
 
         .color-ul{
             grid-template-columns: repeat(auto-fill, minmax(172px,1fr));
@@ -49,7 +60,7 @@
 }
 
 .curtains-photo {
-    width: 34%;
+    width: 37%;
     position: relative;
     height: 100%;
 
@@ -78,7 +89,8 @@
     font-size: $font-input;
 
     .curtains-direction-photo {
-        max-width: 60%;
+        width: auto;
+        
 
         img {
         max-width: 100%;
@@ -87,7 +99,7 @@
     }
 
     .curtains-direction-text {
-        max-width: 39%;
+        max-width: 45%;
         background-color: $bcg-product-main-block;
 
         .txt {

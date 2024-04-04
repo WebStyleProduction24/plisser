@@ -14,6 +14,21 @@ jQuery(document).ready(function($){
       }
     });
 
+    $(window).on('load resize', function() {
+      if ($(window).width() < 768) {
+        $('.items-slick-page:not(.slick-initialized)').slick({
+          dots: false,
+          infinite: true,
+          speed: 100,
+          slidesToShow: 3,
+          slide:'.slide-page'
+
+        });
+      } else {
+        $(".items-slick-page.slick-initialized").slick("unslick");
+      }
+    });
+
     $('.slider-line-1').slick({
       dots:false,
       infinite: true,
