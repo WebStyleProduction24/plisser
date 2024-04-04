@@ -5,7 +5,7 @@
   <div id="main-block" class="items-slick block flex p-b txt-grey">
     
       <div class="slide product flex curve"> 
-        <a href="#">
+        <a href="/curtains-plisse">
           <div class="img-product">
             <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/shtori-plisser.png" alt="Шторы плиссе">
             <div class="discont"></div>
@@ -23,7 +23,7 @@
       </div>
           
       <div class="slide product flex curve">
-        <a href="#">
+        <a href="/mosquito-nets">
           <div class="description-product">
             <h4>Москитные сетки</h4>
             <p>Устанавливаются на любые проемы</p>
@@ -41,7 +41,7 @@
       </div>
           
       <div class="slide product flex curve">
-          <a href="#">
+          <a href="/curtains-in-frame">
             <div class="img-product">
               <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/shtori-v-ramke.png" alt="Шторы в рамке">
               <div class="discont"></div>
@@ -114,7 +114,7 @@
         <p>Сотрудничество с нами — это возможность расширить горизонты Вашего бизнеса и получить дополнительные источники дохода.</p>
       </div>
     </div>
-    <div class="for-dilers block bcg-dark curve shadow txt-center">
+    <div id="dilers" class="for-dilers block bcg-dark curve shadow txt-center">
       <h2 class="lh-1-5">Дилерам</h2>
       <p>Для вашего удобства разработана система управления заказами и рассчета стоимости <a href="//plisser.pro" class="link-orange-1 underline">plisser.pro</a></p>
       <p>

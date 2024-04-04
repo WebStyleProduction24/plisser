@@ -1,7 +1,7 @@
   <footer class="bcg-dark hover-text-decoration">
     <div class="block">
       <div class="footer-main-nav">
-        <div class="logo"><img src="<?php echo get_bloginfo('template_url'); ?>/img/logo.png" alt="Plisser"></div>
+        <a href="/"><div class="logo"><img src="<?php echo get_bloginfo('template_url'); ?>/img/logo.png" alt="Plisser"></div></a>
         <div class="flex">
           <div class="icon"><div class="tg-icon"><a href="#"></a></div></div>
           <div class="icon"><div class="wa-icon"><a href="#"></a></div></div>
@@ -12,10 +12,10 @@
         <div class="title-footer-nav">Меню</div>
         <div>
           <ul>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Шторы плиссе</a></li>
-            <li><a href="#">Шторы в рамке</a></li>
-            <li><a href="#">Москитные сетки</a></li>
+            <li><a href="/">Главная</a></li>
+            <li><a href="/curtains-plisse">Шторы плиссе</a></li>
+            <li><a href="/curtains-in-frame">Шторы в рамке</a></li>
+            <li><a href="/mosquito-nets">Москитные сетки</a></li>
           </ul>
         </div>
       </div>

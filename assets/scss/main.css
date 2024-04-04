@@ -511,9 +511,6 @@ header .contacts {
   gap: 20px;
   grid-template-columns: 2fr 1fr;
 }
-#dilers > div {
-  min-height: 420px;
-}
 #dilers h2 {
   color: #fdfdfd;
 }

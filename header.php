@@ -8,14 +8,14 @@
 </head>
 <body>
   <header class="block hover-text-decoration">
-    <div class="logo"><img src="<?php echo get_bloginfo('template_url'); ?>/img/logo-header.png" alt=""></div>
+    <a href="/"><div class="logo"><img src="<?php echo get_bloginfo('template_url'); ?>/img/logo-header.png" alt=""></div></a>
     <nav class="d-md-none">
       <ul class="flex">
-        <li><a href="#">Шторы плиссе</a></li>
-        <li><a href="#">Шторы в рамке</a></li>
-        <li><a href="#">Москитные сетки</a></li>
-        <li><a href="#">Информация</a></li>
-        <li><a href="#">Контакты</a></li>
+        <li><a href="/curtains-plisse">Шторы плиссе</a></li>
+        <li><a href="/curtains-in-frame">Шторы в рамке</a></li>
+        <li><a href="/mosquito-nets">Москитные сетки</a></li>
+        <li><a href="#dilers">Информация</a></li>
+        <li><a href="#contacts">Контакты</a></li>
       </ul>
     </nav>
     <div class="contacts flex">
