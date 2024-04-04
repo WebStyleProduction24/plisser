@@ -167,6 +167,14 @@ header a:hover, footer a:hover {
   text-decoration-line: underline !important;
 }
 
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
 
 
 .tg-icon, .wa-icon, .youtube-icon {
@@ -195,5 +203,12 @@ header a:hover, footer a:hover {
       content: '•';
       margin-left: -0.6rem;
       margin-right: 0.6rem;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .d-md-none {
+    display: none !important;
   }
 }

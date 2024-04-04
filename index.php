@@ -2,63 +2,69 @@
 
 <main class="p-t-30">
 
-  <div id="main-block" class="block flex p-b txt-grey">
-  
-    <div class="product flex curve">
-      <a href="#">
-        <div class="img-product">
-          <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/shtori-plisser.png" alt="Шторы плиссе">
-          <div class="discont"></div>
+  <div id="main-block" class="items-slick block flex p-b txt-grey">
+    
+      <div class="slide product flex curve"> 
+        <a href="/curtains-plisse">
+          <div class="img-product">
+            <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/shtori-plisser.png" alt="Шторы плиссе">
+            <div class="discont"></div>
+          </div>
+          <div class="description-product">
+            <h4>Шторы плиссе</h4>
+            <p>Лёгкая установка</p>
+            <p>Регулировка светового потока</p>
+            <p>Эстетичный дизайн</p> 
+          </div>
+        </a>
+        <div id="form-order-calculation" class="curve txt-center">
+          <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
         </div>
-        <div class="description-product">
-          <h4>Шторы плиссе</h4>
-          <p>Лёгкая установка</p>
-          <p>Регулировка светового потока</p>
-          <p>Эстетичный дизайн</p> 
+      </div>
+          
+      <div class="slide product flex curve">
+        <a href="/mosquito-nets">
+          <div class="description-product">
+            <h4>Москитные сетки</h4>
+            <p>Устанавливаются на любые проемы</p>
+            <p>Закрывает проемы до 6 метров</p>
+            <p>Минимум места в собранном виде</p>
+          </div>
+          <div class="img-product">
+            <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/moskits.png" alt="Москитные сетки">
+            <div class="discont"></div>
+          </div>
+        </a>
+        <div id="form-order-calculation" class="curve txt-center">
+          <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
         </div>
-      </a>
-    </div>
-      
-    <div class="product flex curve">
-      <a href="#">
-        <div class="description-product">
-          <h4>Москитные сетки</h4>
-          <p>Устанавливаются на любые проемы</p>
-          <p>Закрывает проемы до 6 метров</p>
-          <p>Минимум места в собранном виде</p>
-        </div>
-        <div class="img-product">
-          <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/moskits.png" alt="Москитные сетки">
-          <div class="discont"></div>
-        </div>
-      </a>
-    </div>
-      
-    <div class="product flex curve">
-      <a href="#">
-        <div class="img-product">
-          <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/shtori-v-ramke.png" alt="Шторы в рамке">
-          <div class="discont"></div>
-        </div>
-        <div class="description-product">
-          <h4>Шторы в рамке</h4>
-          <p>Оптимально для мансардных окон</p>
-          <p>Возможность комбинирования</p>
-          <p>с москитной сеткой</p>
-        </div>
-      </a>
-    </div>
-
+      </div>
+          
+      <div class="slide product flex curve">
+          <a href="/curtains-in-frame">
+            <div class="img-product">
+              <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/shtori-v-ramke.png" alt="Шторы в рамке">
+              <div class="discont"></div>
+            </div>
+            <div class="description-product">
+              <h4>Шторы в рамке</h4>
+              <p>Оптимально для мансардных окон</p>
+              <p>Возможность комбинирования</p>
+              <p>с москитной сеткой</p>
+            </div>
+          </a>
+          <div id="form-order-calculation" class="curve txt-center">
+            <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
+          </div>
+      </div>
   </div>
 
-  <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center">
+  <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center d-sm-none">
     <div>
       <h3 class="p-b-40">Закажите замер и рассчитайте стоимость</h3>
-      <form action="">
-        <input type="text" placeholder="Имя" id="name" name="name" required>
-        <input type="tel" placeholder="+7 (999) 999-99-99"id="phone" name="phone" pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$" required>
-        <input type="submit" value="Отправить">
-      </form>
+
+      <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
+
     </div>
   </div>
 
@@ -74,7 +80,7 @@
         <p>Создайте свой мир комфорта и уюта вместе с PLISSER, совершенствуя внешний вид Вашего дома и улучшая качество жизни.</p>
       </div>
     </div>
-    <div class="girl"><img src="<?php echo get_bloginfo('template_url'); ?>/img/girl.png" alt=""></div>
+    <div class="girl d-md-none"><img src="<?php echo get_bloginfo('template_url'); ?>/img/girl.png" alt=""></div>
   </div>
 
   <div id="projects" class="block">
@@ -92,8 +98,8 @@
     </div>
   </div>
 
-  <div id="dilers" class="txt-white flex block">
-    <div class="welcome block curve lh-1-5">
+  <div id="dilers" class="txt-white block flex block">
+    <div class="welcome curve lh-1-5">
       <div class="curve shadow">
         <h2 class="txt-center">Приглашаем к сотрудничеству</h2>
         <p class="p-0">Партнерам мы предлагаем:
@@ -108,7 +114,7 @@
         <p>Сотрудничество с нами — это возможность расширить горизонты Вашего бизнеса и получить дополнительные источники дохода.</p>
       </div>
     </div>
-    <div class="for-dilers block bcg-dark curve shadow txt-center">
+    <div id="dilers" class="for-dilers block bcg-dark curve shadow txt-center">
       <h2 class="lh-1-5">Дилерам</h2>
       <p>Для вашего удобства разработана система управления заказами и рассчета стоимости <a href="//plisser.pro" class="link-orange-1 underline">plisser.pro</a></p>
       <p>
@@ -127,7 +133,7 @@
 
 
 
-  <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center">
+  <!-- <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center">
     <div>
       <h3 class="p-b-40">Оставьте заявку</h3>
       <form action="">
@@ -135,6 +141,15 @@
         <input type="tel" placeholder="+7 (999) 999-99-99"id="phone" name="phone" pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$" required>
         <input type="submit" value="Отправить">
       </form>
+    </div>
+  </div> -->
+
+  <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center">
+    <div>
+      <h3 class="p-b-40">Оставьте заявку</h3>
+
+      <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
+
     </div>
   </div>
     

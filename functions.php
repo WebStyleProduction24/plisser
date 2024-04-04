@@ -13,7 +13,7 @@ function theme_name_scripts() {
 
 
   wp_enqueue_style( 'style-cdn-jsdelivr', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css' );
-
+  wp_enqueue_script( 'burger-wsp24', get_template_directory_uri() . '/assets/js/burger-menu.js', array(), '1.0.0', true );
   wp_enqueue_script( 'cdn-jsdelivr', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array(), '1.8.1', true );
   wp_enqueue_script( 'slick-wsp24', get_template_directory_uri() . '/assets/slick/slick-main.js', array(), '1.0.0', true );
   wp_enqueue_script( 'main-wsp24', get_template_directory_uri() . '/assets/js/main.js', array(), '1.0.0', true );

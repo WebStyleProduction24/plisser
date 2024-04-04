@@ -117,3 +117,30 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+/* Стили для всех точек */
+.slick-dots {
+    position: absolute;
+    bottom: -25px; /* Расположение под слайдером, может потребоваться настройка */
+    display: flex !important;
+    justify-content: center; /* Центрирование точек */
+    width: 100%;
+    list-style: none;
+    text-align: center;
+  }
+  
+  /* Стиль для каждой точки */
+  .slick-dots li {
+    margin: 0 5px; /* Расстояние между точками, может быть настроено */
+  }
+  
+  /* Стиль для кнопок внутри точек */
+  .slick-dots li button:before {
+    font-size: 12px; /* Размер точек, может быть настроен */
+    color: gray; /* Цвет неактивных точек */
+  }
+  
+  /* Стиль для активной точки */
+  .slick-dots li.slick-active button:before {
+    color: orange !important; /* оранжевый цвет для активной точки */
+  }
