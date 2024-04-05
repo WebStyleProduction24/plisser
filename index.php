@@ -7,7 +7,7 @@
       <div class="slide product flex curve"> 
         <a href="/curtains-plisse">
           <div class="img-product">
-            <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/shtori-plisser.png" alt="Шторы плиссе">
+            <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/Shtora_Plisse-1.jpg" alt="Шторы плиссе">
             <div class="discont"></div>
           </div>
           <div class="description-product">
@@ -31,7 +31,7 @@
             <p>Минимум места в собранном виде</p>
           </div>
           <div class="img-product">
-            <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/moskits.png" alt="Москитные сетки">
+            <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/Moskitnaya_setka-1.jpg" alt="Москитные сетки">
             <div class="discont"></div>
           </div>
         </a>
