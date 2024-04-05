@@ -15,13 +15,15 @@ jQuery(document).ready(function($){
     });
 
     $(window).on('load resize', function() {
-      if ($(window).width() < 768) {
+      if ($(window).width() < 576) {
         $('.items-slick-page:not(.slick-initialized)').slick({
           dots: false,
           infinite: true,
+          variableWidth: true,
           speed: 100,
           slidesToShow: 3,
           slide:'.slide-page'
+          
 
         });
       } else {
