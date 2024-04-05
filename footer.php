@@ -3,8 +3,8 @@
       <div class="footer-main-nav">
         <a href="/"><div class="logo"><img src="<?php echo get_bloginfo('template_url'); ?>/img/logo.png" alt="Plisser"></div></a>
         <div class="flex">
-          <div class="icon"><div class="tg-icon"><a href="#"></a></div></div>
-          <div class="icon"><div class="wa-icon"><a href="#"></a></div></div>
+          <div class="icon"><div class="tg-icon"><a href="https://t.me/+79204155111" target="_blank"></a></div></div>
+          <div class="icon"><div class="wa-icon"><a href="https://wa.me/79204155111" target="_blank"></a></div></div>
           <div class="icon"><div class="youtube-icon"><a href="#"></a></div></div>
         </div>
       </div>
