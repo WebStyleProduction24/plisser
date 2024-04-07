@@ -11,11 +11,17 @@
 @import '_mixins';
 @import '_utilities';
 
-
 // COMPONENTS
 @import '_header';
 @import '_home';
 @import '_footer';
+@import '_curtains.scss';
+@import '_mosquito-nets.scss';
+@import 'framed-curtains.scss';
+@import '_media.scss';
+@import '_media-utilites.scss';
+
+// @import ' .scss';
 
 // PAGE 
 // @import "_home-team";

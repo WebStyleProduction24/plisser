@@ -25,10 +25,23 @@
 // $font-semibold: $weight-semibold 1.125rem/1.5 $font-family;
 
 // $font-h1: $weight-bold 2rem/1.5 $font-family;//!!!!
+$font-h1: 51px;
 $font-h2: 45px;
 $font-h3: 38px;
 $font-h4: 36px;
+$font-h5: 24px;
+$font-h6:16px;
 $font-input: 20px;
+
+$font-m-h1: 32px;
+$font-m-h2: 32px;
+$font-m-h3: 32px;
+$font-m-h4: 30px;
+$font-m-h5: 24px;
+$font-m-h6:16px;
+$font-m-input: 20px;
+$font-m-p: 16px;
+
 
 //Цвета
 $white: #fdfdfd;
@@ -45,7 +58,8 @@ $orange-3: #f5b276;
 
 //Цвета ширфтов
 $text-white: $white; 
-$text-grey: $grey-5; 
+$text-grey: $grey-5;
+$text-grey-1: $grey-1; 
 $text-link-for-dilers: $orange-1;
 $text-link-for-dilers-sign-in: $orange-2;
 $text-footer: $orange-2;
@@ -62,6 +76,7 @@ $color-cart-icon: $grey-1;
 
 //Границы
 $border-radius: 24px;
+$border-radius-curtains: 56px;
 
 //
 $p-13: 13px;
