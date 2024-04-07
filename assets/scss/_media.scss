@@ -219,6 +219,14 @@
         }
     }
 
+    .calculate .calc {
+        justify-content: space-between;
+        flex-direction: row;
+
+    }
+    .calculate > div {
+         min-height: 1px;
+    }
 }
 
 @media screen and (min-width:768px) {
