@@ -1,0 +1,19 @@
+.framed-curtains {
+    .framed-curtains-b{
+        >div {
+            min-height: 814px;
+        }
+    }
+    #main-block {
+
+        .textile {
+            .color-ul {
+                grid-template-rows: 1fr 1fr;
+
+                .color-li {
+                    width: max-content;
+                }
+            }
+        }
+    }
+}

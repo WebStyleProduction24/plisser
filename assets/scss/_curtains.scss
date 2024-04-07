@@ -1,0 +1,160 @@
+.curtains-main {
+    >div {
+        min-height: 875px;
+    }
+    display: flex;
+}
+
+.curtains-home {
+    width: 61%;
+    background-color: $bcg-product-main-block;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 16px 24px;
+    border-radius: 24px;
+
+    div {
+        font-size: 17px;
+    }
+
+    .color-curtains {
+        flex-direction: column;
+
+        .color-ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
+            grid-template-rows: repeat(4,1fr);
+            gap: 1rem;
+
+            h6 {
+                font-weight: 400;
+            }
+ 
+            .color-li {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                column-gap: 0.4rem;
+                
+                .icon-color {
+                    max-width: 50px;
+                    max-height: 50px;
+                    border-radius: 8px;
+                }
+            }
+        }
+    }
+    
+    .textile {
+        margin-top: 2rem;
+    }
+
+    .profile {
+        
+
+        .color-ul{
+            grid-template-columns: repeat(auto-fill, minmax(172px,1fr));
+            grid-template-rows: repeat(2,1fr);
+        }
+    }
+}
+
+.curtains-photo {
+    width: 37%;
+    position: relative;
+    height: 100%;
+
+    .log{
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        top: 50%;
+        bottom: 50%;
+        width:146px;
+        height:177px;
+        opacity:60%;
+    }
+
+    .main-photo{
+        max-width: 100%;
+        max-height: 100%;
+        border: 56px;
+
+    }
+}
+
+#curtains-direction {
+    justify-content: space-between;
+    column-gap: 1rem;
+    font-size: $font-input;
+
+    .curtains-direction-photo {
+        width: auto;
+        
+
+        img {
+        max-width: 100%;
+        max-height: 100%;
+        }
+    }
+
+    .curtains-direction-text {
+        max-width: 45%;
+        background-color: $bcg-product-main-block;
+
+        .txt {
+            padding: 0 1rem 1rem;
+        }
+
+        p {
+            font-size: 17px;
+            margin-bottom: 0.4rem;
+            line-height: 170%;
+        }
+    }
+}
+
+#curtain-care {
+
+    .curtain-care-info {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .photo-curtains-sm {
+        width: 49.5%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .photo-curtains-sm-txt{
+        background-color: $orange-2;
+        border-radius: 12px;
+        padding: 0.8rem;
+    }
+
+
+    .curtain-care-info-txt {
+        width: 49.5%;
+        border-radius: 12px;
+        background-color: $grey-4;
+        line-height: 170%;
+    }
+}
+
+#color-solutions {
+    color:$grey-1;
+    [class^='slider-line-'] {
+        margin: 20px 0;
+        div {
+          margin: 0 10px;
+        }
+    }
+    
+
+    .color-solutions-txt {
+        font-size: $font-input;
+        
+    }
+}
