@@ -206,8 +206,13 @@ header a:hover, footer a:hover {
   }
 }
 
+.none-d {
+  display: none;
+}
+
 @media screen and (max-width: 992px) {
   .d-md-none {
     display: none !important;
   }
 }
+

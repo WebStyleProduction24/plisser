@@ -1,11 +1,11 @@
-const burger = document.querySelector('#burger');
+const burger = document.querySelector('.burger-menu');
 const menu = document.querySelector('#menu');
 
 burger.addEventListener('click', () => {
-    if (menu.classList.contains('d-none')) {
-        menu.classList.remove('d-none');
+    if (menu.classList.contains('none-d')) {
+        menu.classList.remove('none-d');
     } else {
-        menu.classList.add('d-none');
+        menu.classList.add('none-d');
     }
 });
 
