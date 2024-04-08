@@ -5,7 +5,11 @@
         <div class="flex">
           <div class="icon"><div class="tg-icon"><a href="https://t.me/+79204155111" target="_blank"></a></div></div>
           <div class="icon"><div class="wa-icon"><a href="https://wa.me/79204155111" target="_blank"></a></div></div>
-          <div class="icon"><div class="youtube-icon"><a href="#"></a></div></div>
+          <div class="icon">
+            <div class="youtube-icon">
+              <a href="https://www.youtube.com/channel/UC_boJy_EueA2iW9FzTcUYJw "></a>
+            </div>
+          </div>
         </div>
       </div>
       <div class="footer-menu-nav">

@@ -6,8 +6,12 @@ jQuery(document).ready(function($){
           dots: true,
           infinite: true,
           speed: 100,
+          centerMode: true,
+          variableWidth: true,
           slidesToShow: 1,
-          slide:'.slide'
+          slide:'.slide',
+          prevArrow: $('.control-prev'),
+          nextArrow: $('.control-next')
         });
       } else {
         $(".items-slick.slick-initialized").slick("unslick");
@@ -22,9 +26,9 @@ jQuery(document).ready(function($){
           variableWidth: true,
           speed: 100,
           slidesToShow: 3,
-          slide:'.slide-page'
-          
-
+          slide:'.slide-page',
+          prevArrow: $('.control-prev'),
+          nextArrow: $('.control-next')
         });
       } else {
         $(".items-slick-page.slick-initialized").slick("unslick");
@@ -40,7 +44,9 @@ jQuery(document).ready(function($){
       variableWidth: true,
       autoplay: true,
       autoplaySpeed: 2000,
-      arrows: false
+      arrows: false,
+      prevArrow: $('.control-prev'),
+      nextArrow: $('.control-next')
     });
     $('.slider-line-2').slick({
       dots:false,
@@ -52,7 +58,37 @@ jQuery(document).ready(function($){
       autoplay: true,
       autoplaySpeed: 2000,
       reverse: true,
-      arrows: false
+      arrows: false,
+      prevArrow: $('.control-prev'),
+      nextArrow: $('.control-next')
+    });
+
+    $('.slider-line-3').slick({
+      dots:false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      centerMode: true,
+      variableWidth: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      arrows: false,
+      prevArrow: $('.control-prev'),
+      nextArrow: $('.control-next')
+    });
+    $('.slider-line-4').slick({
+      dots:false,
+      infinite: true,
+      speed: 150,
+      slidesToShow: 1,
+      centerMode: true,
+      variableWidth: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      reverse: true,
+      arrows: false,
+      prevArrow: $('.control-prev'),
+      nextArrow: $('.control-next')
     });
 
     $('.slider-line-3').slick({

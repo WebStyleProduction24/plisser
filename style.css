@@ -339,6 +339,21 @@ header .contacts {
   align-items: center;
 }
 
+main {
+  background-image: url("img/group-3.svg");
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position: 50% 0;
+}
+
+.control-prev, .control-next, .control-prev-s, .control-next-s {
+  background: #ddd; /* Пример фона */
+  border: none; /* Убрать рамку */
+  border-radius: 50%; /* Круглые кнопки */
+  color: black; /* Цвет текста/иконки */
+  padding: 10px; /* Поле вокруг текста/иконки */
+}
+
 #main-block {
   justify-content: space-between;
 }
@@ -352,10 +367,7 @@ header .contacts {
   display: none;
 }
 #main-block #form-order-calculation .form-order-calculation-cf7 {
-  position: absolute;
-  bottom: 37%;
-  left: 0;
-  right: 0;
+  position: relative;
   margin: auto;
 }
 #main-block #form-order-calculation p {
@@ -375,7 +387,7 @@ header .contacts {
   border-radius: 36px;
   margin-bottom: 0.5rem;
 }
-#main-block #form-order-calculation p [type^=text] {
+#main-block #form-order-calculation p [type^=".phone"] {
   width: 80%;
 }
 #main-block #form-order-calculation p [type^=tel] {
@@ -387,6 +399,7 @@ header .contacts {
   font-family: "Inter-SemiBold";
   width: 60%;
   height: 72px;
+  cursor: pointer;
 }
 #main-block .product {
   background-color: #f7f7f7;
@@ -436,6 +449,9 @@ header .contacts {
 #form-order-calculation {
   width: 100%;
   align-items: center;
+  background-image: url("img/group-1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #form-order-calculation .form-order-calculation-cf7 p {
   width: 100%;
@@ -455,13 +471,14 @@ header .contacts {
 #form-order-calculation .form-order-calculation-cf7 p [type^=text], #form-order-calculation .form-order-calculation-cf7 p [type^=submit] {
   width: 210px;
 }
-#form-order-calculation .form-order-calculation-cf7 p [type^=tel] {
+#form-order-calculation .form-order-calculation-cf7 p [type^=".phone"] {
   width: 329px;
 }
 #form-order-calculation .form-order-calculation-cf7 p [type^=submit] {
   background-color: #ef7f1a;
   color: #fdfdfd;
   font-family: "Inter-SemiBold";
+  cursor: pointer;
 }
 #form-order-calculation > div {
   display: flex;
@@ -546,6 +563,7 @@ header .contacts {
   background: linear-gradient(to top right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
   opacity: 0.9;
   height: 100%;
+  min-height: 420px;
 }
 #dilers .welcome > div li {
   list-style-type: disc;
@@ -562,11 +580,13 @@ header .contacts {
   font-size: 26px;
 }
 #contacts > div {
-  min-height: 360px;
+  min-height: 200px;
 }
 #contacts .contacts {
   flex-direction: column;
   background-color: #ef7f1a;
+  background-image: url("img/group.svg");
+  background-repeat: no-repeat;
 }
 #contacts .contacts h2 {
   color: #fdfdfd;
@@ -945,8 +965,15 @@ footer > div .icon {
     width: 80px !important;
     height: 80px !important;
   }
-  #main-block .product {
+  .curtains-home .product {
     max-width: 100%;
+  }
+  .calculate .calc {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .calculate > div {
+    min-height: 1px;
   }
 }
 @media screen and (min-width: 768px) {

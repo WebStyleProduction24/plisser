@@ -32,48 +32,52 @@ Template Name: Шаблон страницы Шторы
             <h5 class="p-b-16">Подбери свой цвет штор</h5>
             <div class="textile">
                 <h6 class="p-b-16 weight">Полотно шторы</h6>
-                    <div class="color-ul items-slick-page">
-                        <div class="color-li slide-page">
-                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/white-color.svg";>
-                            <h6>Белый Ral 9016</h6>
-                        </div>
-                        <div class="color-li slide-page">
-                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/beige-color.svg";>
-                            <h6>Бежевый Ral 1013</h6>
-                        </div>
-                        <div class="color-li slide-page">
-                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/blue-green-color.svg";>
-                            <h6>Сине-зеленый</h6>
-                        </div>
-                        <div class="color-li slide-page">
-                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
-                            <h6>Антрацитово-кремовый</h6>
-                        </div>
-                        <div class="color-li slide-page">
-                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/cream-color.svg";>
-                            <h6>Кремовый Ral 8017</h6>
-                        </div>
-                        <div class="color-li slide-page">
-                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/mokko-color.svg";>
-                            <h6>Мокко</h6>
-                        </div>
-                        <div class="color-li slide-page">
-                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/olive-color.svg";>
-                            <h6>Оливковый</h6>
-                        </div>
-                        <div class="color-li slide-page">
-                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/grey-color.svg";>
-                            <h6>Серый Ral 7040</h6>
-                        </div>
-                        <div class="color-li slide-page">
-                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
-                            <h6>Антрацитово-кремовый</h6>
-                        </div>
-                        <div class="color-li slide-page">
-                            <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
-                            <h6>Антрацитово-кремовый</h6>
-                        </div>
+                <div class="color-ul items-slick-page">
+                    <div class="color-li slide-page">
+                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/white-color.svg";>
+                        <h6>Белый</h6>
                     </div>
+                    <div class="color-li slide-page">
+                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/beige-color.svg";>
+                        <h6>Бежевый</h6>
+                    </div>
+                    <div class="color-li slide-page">
+                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/blue-green-color.svg";>
+                        <h6>Сине-зеленый</h6>
+                    </div>
+                    <div class="color-li slide-page">
+                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
+                        <h6>Серый-кремовый</h6>
+                    </div>
+                    <div class="color-li slide-page">
+                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/cream-color.svg";>
+                        <h6>Кремовый</h6>
+                    </div>
+                    <div class="color-li slide-page">
+                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/mokko-color.svg";>
+                        <h6>Мокко</h6>
+                    </div>
+                    <div class="color-li slide-page">
+                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/olive-color.svg";>
+                        <h6>Оливковый</h6>
+                    </div>
+                    <div class="color-li slide-page">
+                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/grey-color.svg";>
+                        <h6>Серый</h6>
+                    </div>
+                    <div class="color-li slide-page">
+                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
+                        <h6>Антрацитово-кремовый</h6>
+                    </div>
+                    <div class="color-li slide-page">
+                        <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
+                        <h6>Антрацит</h6>
+                    </div>
+                    <div class="slick-button">
+                      <button type="button" class="control-prev"></button>
+                      <button type="button" class="control-next"></button>
+                    </div>
+                </div>
             </div>
             <div class="textile profile">
               <h6 class="p-b-16 weight">Профиль</h6>
@@ -105,6 +109,10 @@ Template Name: Шаблон страницы Шторы
                 <div class="color-li slide-page">
                     <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/alumin-pr.png";>
                     <h6>Алюминиевый</h6>
+                </div>
+                <div class="slick-button">
+                  <button type="button" class="control-prev"></button>
+                  <button type="button" class="control-next"></button>
                 </div>
               </div>
             </div>
@@ -274,14 +282,12 @@ Template Name: Шаблон страницы Шторы
       <h2>Контакты</h2>
       <div>
         <!-- <p class="lh-1-5">Главный офис</p> //в городах, где нет представительства будем указывать пункты выдачи -->
-        <p class="adress"><a href="https://yandex.ru/maps/-/CDF1BJY1" target="_blank">ул. Димитрова, д. 112<br>г. Воронеж<br>394028</a></p>
+        <p class="adress"><a href="https://yandex.ru/maps/-/CDF1BJY1" target="_blank">ул. Димитрова, д. 112 Д<br>г. Воронеж<br>394028</a></p>
       </div>
     </div>
     <div id="map-container" class="map shadow">
-      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8ae9a1c4cc9b4fa79d12b3501ec530e120cbaab8475765ff7967f55f97adb624&amp;width=100%25&amp;height=360&amp;lang=ru_RU&amp;scroll=true"></script>
-
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8ae9a1c4cc9b4fa79d12b3501ec530e120cbaab8475765ff7967f55f97adb624&amp;width=100%25&amp;height=200&amp;lang=ru_RU&amp;scroll=true"></script>
     </div>
-    
   </div>
 </main>
 

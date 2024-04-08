@@ -1,70 +1,69 @@
 <?php get_header(); ?>
 
-<main class="p-t-30">
+<main class="p-t-30 bcg-i">
 
   <div id="main-block" class="items-slick block flex p-b txt-grey">
     
-      <div class="slide product flex curve"> 
-        <a href="/curtains-plisse">
-          <div class="img-product">
-            <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/Shtora_Plisse-1.jpg" alt="Шторы плиссе">
-            <div class="discont"></div>
-          </div>
-          <div class="description-product">
-            <h4>Шторы плиссе</h4>
-            <p>Лёгкая установка</p>
-            <p>Регулировка светового потока</p>
-            <p>Эстетичный дизайн</p> 
-          </div>
-        </a>
-        <div id="form-order-calculation" class="curve txt-center">
-          <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
+    <div class="slide product flex curve"> 
+      <a href="/curtains-plisse">
+        <div class="img-product">
+          <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/Shtora_Plisse-1.jpg" alt="Шторы плиссе">
+          <div class="discont"></div>
         </div>
-      </div>
-          
-      <div class="slide product flex curve">
-        <a href="/mosquito-nets">
-          <div class="description-product">
-            <h4>Москитные сетки</h4>
-            <p>Устанавливаются на любые проемы</p>
-            <p>Закрывает проемы до 6 метров</p>
-            <p>Минимум места в собранном виде</p>
-          </div>
-          <div class="img-product">
-            <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/Moskitnaya_setka-1.jpg" alt="Москитные сетки">
-            <div class="discont"></div>
-          </div>
-        </a>
-        <div id="form-order-calculation" class="curve txt-center">
-          <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
+        <div class="description-product">
+          <h4>Шторы плиссе</h4>
+          <p>-лёгкая установка</p>
+          <p>-эстетичный дизайн</p> 
+          <p>-регулировка светового потока</p>
         </div>
+      </a>
+      <div id="form-order-calculation" class="curve txt-center">
+        <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
       </div>
-          
-      <div class="slide product flex curve">
-          <a href="/curtains-in-frame">
-            <div class="img-product">
-              <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/shtori-v-ramke.png" alt="Шторы в рамке">
-              <div class="discont"></div>
-            </div>
-            <div class="description-product">
-              <h4>Шторы в рамке</h4>
-              <p>Оптимально для мансардных окон</p>
-              <p>Возможность комбинирования</p>
-              <p>с москитной сеткой</p>
-            </div>
-          </a>
-          <div id="form-order-calculation" class="curve txt-center">
-            <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
-          </div>
+    </div>
+        
+    <div class="slide product flex curve">
+      <a href="/mosquito-nets">
+        <div class="description-product">
+          <h4>Москитные сетки</h4>
+          <p>- на любые проемы</p>
+          <p>- максимальный размер до 6 м</p>
+          <p>- минимум места в собранном виде</p>
+        </div>
+        <div class="img-product">
+          <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/Moskitnaya_setka-1.jpg" alt="Москитные сетки">
+          <div class="discont"></div>
+        </div>
+      </a>
+      <div id="form-order-calculation" class="curve txt-center">
+        <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
       </div>
+    </div>
+        
+    <div class="slide product flex curve">
+      <a href="/curtains-in-frame">
+        <div class="img-product">
+          <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/shtori-v-ramke.png" alt="Шторы в рамке">
+          <div class="discont"></div>
+        </div>
+        <div class="description-product">
+          <h4>Шторы в рамке</h4>
+          <p>- оптимально для мансардных окон</p>
+          <p>- возможность комбинирования</p>
+          <p> с москитной сеткой</p>
+        </div>
+      </a>
+      <div id="form-order-calculation" class="curve txt-center">
+        <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
+      </div>
+    </div>
   </div>
-
+  <button type="button" class="control-prev"></button>
+  <button type="button" class="control-next"></button>
   <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center d-sm-none">
     <div>
       <h3 class="p-b-40">Закажите замер и рассчитайте стоимость</h3>
-
       <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
-
     </div>
   </div>
 
@@ -125,48 +124,39 @@
       </p>
       <p><a href="#"><img src="<?php echo get_bloginfo('template_url'); ?>/img/googleplay.png" alt=""></a></p>
     </div>
-    
-    
   </div>
 
   <div id="feedback">
+    <!-- <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center">
+      <div>
+        <h3 class="p-b-40">Оставьте заявку</h3>
+        <form action="">
+          <input type="text" placeholder="Имя" id="name" name="name" required>
+          <input type="tel" placeholder="+7 (999) 999-99-99"id="phone" name="phone" pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$" required>
+          <input type="submit" value="Отправить">
+        </form>
+      </div>
+    </div> -->
 
-
-
-  <!-- <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center">
-    <div>
-      <h3 class="p-b-40">Оставьте заявку</h3>
-      <form action="">
-        <input type="text" placeholder="Имя" id="name" name="name" required>
-        <input type="tel" placeholder="+7 (999) 999-99-99"id="phone" name="phone" pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$" required>
-        <input type="submit" value="Отправить">
-      </form>
+    <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center">
+      <div>
+        <h3 class="p-b-40">Оставьте заявку</h3>
+        <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
+      </div>
     </div>
-  </div> -->
-
-  <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center">
-    <div>
-      <h3 class="p-b-40">Оставьте заявку</h3>
-
-      <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
-
-    </div>
-  </div>
     
   </div>
   <div id="contacts" class="block">
-    <div class="contacts curve shadow txt-white">
+    <div class="contacts curve shadow txt-white bck-i">
       <h2>Контакты</h2>
       <div>
         <!-- <p class="lh-1-5">Главный офис</p> //в городах, где нет представительства будем указывать пункты выдачи -->
-        <p class="adress"><a href="https://yandex.ru/maps/-/CDF1BJY1" target="_blank">ул. Димитрова, д. 112<br>г. Воронеж<br>394028</a></p>
+        <p class="adress"><a href="https://yandex.ru/maps/-/CDF1BJY1" target="_blank">ул. Димитрова, д. 112 Д<br>г. Воронеж<br>394028</a></p>
       </div>
     </div>
     <div id="map-container" class="map shadow">
-      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8ae9a1c4cc9b4fa79d12b3501ec530e120cbaab8475765ff7967f55f97adb624&amp;width=100%25&amp;height=360&amp;lang=ru_RU&amp;scroll=true"></script>
-
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8ae9a1c4cc9b4fa79d12b3501ec530e120cbaab8475765ff7967f55f97adb624&amp;width=100%25&amp;height=200&amp;lang=ru_RU&amp;scroll=true"></script>
     </div>
-    
   </div>
 </main>
 
