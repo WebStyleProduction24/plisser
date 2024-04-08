@@ -1,0 +1,14 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    font-size: 15px;
+    margin: 0 1em;
+
+    #main-block {
+      .product {
+        .description-product {
+          margin: 1em;
+        }
+      }
+    }
+  }
+}

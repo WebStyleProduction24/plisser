@@ -12,9 +12,9 @@
         </div>
         <div class="description-product">
           <h4>Шторы плиссе</h4>
-          <p>-лёгкая установка</p>
-          <p>-эстетичный дизайн</p> 
-          <p>-регулировка светового потока</p>
+          <p>лёгкая установка</p>
+          <p>эстетичный дизайн</p> 
+          <p>регулировка светового потока</p>
         </div>
       </a>
       <div id="form-order-calculation" class="curve txt-center">
@@ -26,9 +26,9 @@
       <a href="/mosquito-nets">
         <div class="description-product">
           <h4>Москитные сетки</h4>
-          <p>- на любые проемы</p>
-          <p>- максимальный размер до 6 м</p>
-          <p>- минимум места в собранном виде</p>
+          <p>на любые проемы</p>
+          <p>максимальный размер до 6 м</p>
+          <p>минимум места в собранном виде</p>
         </div>
         <div class="img-product">
           <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/Moskitnaya_setka-1.jpg" alt="Москитные сетки">
@@ -48,9 +48,8 @@
         </div>
         <div class="description-product">
           <h4>Шторы в рамке</h4>
-          <p>- оптимально для мансардных окон</p>
-          <p>- возможность комбинирования</p>
-          <p> с москитной сеткой</p>
+          <p>оптимально для мансардных окон</p>
+          <p>возможность комбинирования с москитной сеткой</p>
         </div>
       </a>
       <div id="form-order-calculation" class="curve txt-center">

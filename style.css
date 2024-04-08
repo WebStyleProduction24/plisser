@@ -812,6 +812,128 @@ footer > div .icon {
   width: max-content;
 }
 
+@media screen and (max-width: 575px) {
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 24px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+  .font-input {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .p-8 {
+    padding: 0.5rem;
+  }
+  .p-cont {
+    padding: 0 1rem;
+  }
+  .p-t-8 {
+    padding-top: 0.5rem;
+  }
+  .p-b-8 {
+    padding-bottom: 0.5rem;
+  }
+  .p-t {
+    padding-top: 30px;
+  }
+  .p-t-16 {
+    padding-top: 16px;
+  }
+  .p-t-b-11 {
+    padding: 11px 0;
+  }
+  .p-b-16 {
+    padding-bottom: 16px;
+  }
+  .p-30 {
+    padding: 30px;
+  }
+  .p-16 {
+    padding: 16px;
+  }
+  .p-24 {
+    padding: 24px;
+  }
+  .p-b-30 {
+    padding-bottom: 30px;
+  }
+  .p-b-40 {
+    padding-bottom: 40px;
+  }
+  .m-b-60 {
+    margin-bottom: 60px;
+  }
+  .m-t-16 {
+    margin-top: 1rem;
+  }
+  #form-order-calculation > div, #about > div:first-child, #dilers .welcome > div, #dilers .for-dilers, #contacts .contacts {
+    padding: 24px;
+  }
+  .block {
+    margin: 16px auto !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    font-size: 15px;
+    margin: 0 1em;
+  }
+  body #main-block .product .description-product {
+    margin: 1em;
+  }
+}
+@media screen and (max-width: 575px) {
+  .d-none {
+    display: none;
+  }
+  .calculate h5 {
+    display: none;
+  }
+  #main-block .curtains-home .color-curtains .color-ul, #main-block .curtains-home .color-curtains .color-ul-mos {
+    display: block;
+    flex-direction: row;
+    column-gap: 0;
+  }
+  #main-block .curtains-home .color-curtains .color-ul .color-li, #main-block .curtains-home .color-curtains .color-ul .color-li-mos, #main-block .curtains-home .color-curtains .color-ul-mos .color-li, #main-block .curtains-home .color-curtains .color-ul-mos .color-li-mos {
+    display: flex !important;
+    flex-direction: column !important;
+    row-gap: 0.5rem !important;
+    max-width: 100px !important;
+    margin: 0 0.2rem;
+  }
+  #main-block .curtains-home .color-curtains .color-ul .color-li .icon-color, #main-block .curtains-home .color-curtains .color-ul .color-li-mos .icon-color, #main-block .curtains-home .color-curtains .color-ul-mos .color-li .icon-color, #main-block .curtains-home .color-curtains .color-ul-mos .color-li-mos .icon-color {
+    max-width: 80px !important;
+    max-height: 80px !important;
+    width: 80px !important;
+    height: 80px !important;
+  }
+  .curtains-home .product {
+    max-width: 100%;
+  }
+  .calculate .calc {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .calculate > div {
+    min-height: 1px;
+  }
+}
 @media screen and (min-width: 991px) {
   .photo-min {
     display: none;
@@ -940,122 +1062,9 @@ footer > div .icon {
     display: none;
   }
 }
-@media screen and (max-width: 575px) {
-  .d-none {
-    display: none;
-  }
-  .calculate h5 {
-    display: none;
-  }
-  #main-block .curtains-home .color-curtains .color-ul, #main-block .curtains-home .color-curtains .color-ul-mos {
-    display: block;
-    flex-direction: row;
-    column-gap: 0;
-  }
-  #main-block .curtains-home .color-curtains .color-ul .color-li, #main-block .curtains-home .color-curtains .color-ul .color-li-mos, #main-block .curtains-home .color-curtains .color-ul-mos .color-li, #main-block .curtains-home .color-curtains .color-ul-mos .color-li-mos {
-    display: flex !important;
-    flex-direction: column !important;
-    row-gap: 0.5rem !important;
-    max-width: 100px !important;
-    margin: 0 0.2rem;
-  }
-  #main-block .curtains-home .color-curtains .color-ul .color-li .icon-color, #main-block .curtains-home .color-curtains .color-ul .color-li-mos .icon-color, #main-block .curtains-home .color-curtains .color-ul-mos .color-li .icon-color, #main-block .curtains-home .color-curtains .color-ul-mos .color-li-mos .icon-color {
-    max-width: 80px !important;
-    max-height: 80px !important;
-    width: 80px !important;
-    height: 80px !important;
-  }
-  .curtains-home .product {
-    max-width: 100%;
-  }
-  .calculate .calc {
-    justify-content: space-between;
-    flex-direction: row;
-  }
-  .calculate > div {
-    min-height: 1px;
-  }
-}
 @media screen and (min-width: 768px) {
   #main-block #form-order-calculation {
     display: none;
-  }
-}
-@media screen and (max-width: 575px) {
-  h1 {
-    font-size: 32px;
-  }
-  h2 {
-    font-size: 32px;
-  }
-  h3 {
-    font-size: 32px;
-  }
-  h4 {
-    font-size: 30px;
-  }
-  h5 {
-    font-size: 24px;
-  }
-  h6 {
-    font-size: 16px;
-  }
-  .font-input {
-    font-size: 20px;
-  }
-  p {
-    font-size: 16px;
-  }
-  .p-8 {
-    padding: 0.5rem;
-  }
-  .p-cont {
-    padding: 0 1rem;
-  }
-  .p-t-8 {
-    padding-top: 0.5rem;
-  }
-  .p-b-8 {
-    padding-bottom: 0.5rem;
-  }
-  .p-t {
-    padding-top: 30px;
-  }
-  .p-t-16 {
-    padding-top: 16px;
-  }
-  .p-t-b-11 {
-    padding: 11px 0;
-  }
-  .p-b-16 {
-    padding-bottom: 16px;
-  }
-  .p-30 {
-    padding: 30px;
-  }
-  .p-16 {
-    padding: 16px;
-  }
-  .p-24 {
-    padding: 24px;
-  }
-  .p-b-30 {
-    padding-bottom: 30px;
-  }
-  .p-b-40 {
-    padding-bottom: 40px;
-  }
-  .m-b-60 {
-    margin-bottom: 60px;
-  }
-  .m-t-16 {
-    margin-top: 1rem;
-  }
-  #form-order-calculation > div, #about > div:first-child, #dilers .welcome > div, #dilers .for-dilers, #contacts .contacts {
-    padding: 24px;
-  }
-  .block {
-    margin: 16px auto !important;
   }
 }
 body {
