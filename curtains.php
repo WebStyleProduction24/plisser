@@ -78,7 +78,6 @@ Template Name: Шаблон страницы Шторы
                       <button type="button" class="control-next"></button>
                     </div>
                 </div>
-
             </div>
             <div class="textile profile">
               <h6 class="p-b-16 weight">Профиль</h6>
@@ -282,7 +281,7 @@ Template Name: Шаблон страницы Шторы
     <div class="contacts curve shadow txt-white">
       <h2>Контакты</h2>
       <div>
-        <p class="lh-1-5">Главный офис</p>
+        <!-- <p class="lh-1-5">Главный офис</p> //в городах, где нет представительства будем указывать пункты выдачи -->
         <p class="adress"><a href="https://yandex.ru/maps/-/CDF1BJY1" target="_blank">ул. Димитрова, д. 112 Д<br>г. Воронеж<br>394028</a></p>
       </div>
     </div>

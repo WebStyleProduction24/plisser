@@ -1,0 +1,50 @@
+@media screen and (max-width: 575px) {
+    .d-none {
+        display: none;
+    }
+
+    .calculate {
+        h5 {
+            display: none;
+        }
+    }
+
+    #main-block {
+        .curtains-home .color-curtains {
+            .color-ul, .color-ul-mos {
+                display: block;
+                flex-direction: row;
+                column-gap: 0;                
+                
+                .color-li, .color-li-mos {
+                    display: flex !important;
+                    flex-direction: column !important;
+                    row-gap: 0.5rem !important;
+                    max-width: 100px !important;
+                    margin: 0 0.2rem;
+
+                    .icon-color {
+                        max-width: 80px !important;
+                        max-height: 80px !important;
+                        width: 80px !important;
+                        height: 80px !important;
+                    }                    
+                }
+            }
+        }
+    }
+
+    .curtains-home {
+        .product {
+            max-width: 100%;
+        }
+    }
+    .calculate .calc {
+        justify-content: space-between;
+        flex-direction: row;
+
+    }
+    .calculate > div {
+         min-height: 1px;
+    }
+}
