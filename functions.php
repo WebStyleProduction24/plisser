@@ -27,3 +27,7 @@ function wp_favicon() {
 }
 add_action( 'wp_head', 'wp_favicon' );
 add_action( 'admin_head', 'wp_favicon' );
+
+function contacts() {
+  get_template_part('contacts', 'part');
+}
