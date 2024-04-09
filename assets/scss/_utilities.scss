@@ -206,6 +206,15 @@ header a:hover, footer a:hover {
   }
 }
 
+.cont-2 p {
+  font-size: $font-input;
+  &::before {
+      content: '-';
+      margin-left: -0.6rem;
+      margin-right: 0.6rem;
+  }
+}
+
 .none-d {
   display: none;
 }

@@ -10,7 +10,7 @@
           <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/Shtora_Plisse-1.jpg" alt="Шторы плиссе">
           <div class="discont"></div>
         </div>
-        <div class="description-product">
+        <div class="description-product cont">
           <h4>Шторы плиссе</h4>
           <p>лёгкая установка</p>
           <p>эстетичный дизайн</p> 
@@ -24,7 +24,7 @@
         
     <div class="slide product flex curve">
       <a href="/mosquito-nets">
-        <div class="description-product">
+        <div class="description-product cont-2">
           <h4>Москитные сетки</h4>
           <p>на любые проемы</p>
           <p>максимальный размер до 6 м</p>
@@ -48,8 +48,10 @@
         </div>
         <div class="description-product">
           <h4>Шторы в рамке</h4>
-          <p>оптимально для мансардных окон</p>
-          <p>возможность комбинирования с москитной сеткой</p>
+          <ol>
+          <li><p>оптимально для мансардных окон</p></li>
+          <li><p>возможность комбинирования с москитной сеткой</p></li>
+          </ol>
         </div>
       </a>
       <div id="form-order-calculation" class="curve txt-center">
@@ -83,16 +85,16 @@
 
   <div id="projects" class="block">
     <div class="slider-line-1">
-      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-1.png" alt=""></div>
-      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-2.png" alt=""></div>
-      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-3.png" alt=""></div>
-      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-4.png" alt=""></div>
-    </div>
-    <div class="slider-line-2">
-      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-5.png" alt=""></div>
-      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-6.png" alt=""></div>
-      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-7.png" alt=""></div>
-      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-8.png" alt=""></div>
+      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-1.jpeg" alt=""></div>
+      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-2.jpeg" alt=""></div>
+      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-3.jpeg" alt=""></div>
+      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-4.jpeg" alt=""></div>
+      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-5.jpeg" alt=""></div>
+      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-6.jpeg" alt=""></div>
+      <div class="slick-button">
+        <button type="button" class="control-prev-s-1"></button>
+        <button type="button" class="control-next-s-1"></button>
+      </div>
     </div>
   </div>
 

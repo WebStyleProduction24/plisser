@@ -143,7 +143,10 @@ Template Name: Шаблон страницы Шторы
 
   <div id="curtains-direction" class="block flex">
     <div class="curtains-direction-photo">
-      <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-youtube.png";>
+      <div class="slider-line-3">
+        <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/slider/Shtora-Z1.png";>
+        <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/slider/Shtora-Z2.png";>
+      </div>
     </div>
     <div class="curtains-direction-text shadow border-c p-24">
       <h1 class="txt-center p-b-16">Замер</h1>
@@ -174,16 +177,16 @@ Template Name: Шаблон страницы Шторы
 
   <div id="projects" class="block">
     <div class="slider-line-1">
-      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-1.png" alt=""></div>
-      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-2.png" alt=""></div>
-      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-3.png" alt=""></div>
-      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-4.png" alt=""></div>
-    </div>
-    <div class="slider-line-2">
-      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-5.png" alt=""></div>
-      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-6.png" alt=""></div>
-      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-7.png" alt=""></div>
-      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-8.png" alt=""></div>
+      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-1.jpeg" alt=""></div>
+      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-2.jpeg" alt=""></div>
+      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-3.jpeg" alt=""></div>
+      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-4.jpeg" alt=""></div>
+      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-5.jpeg" alt=""></div>
+      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-6.jpeg" alt=""></div>
+      <div class="slick-button">
+                  <button type="button" class="control-prev-s-1"></button>
+                  <button type="button" class="control-next-s-1"></button>
+                </div>
     </div>
   </div>
 
@@ -202,7 +205,7 @@ Template Name: Шаблон страницы Шторы
     <h1 class="p-b-16">Уход за шторами плиссе</h1>
     <div class="curtain-care-info flex">
       <div class="photo-curtains-sm">
-        <img class="" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-curtains-sm.png";>
+        <a href="https://www.youtube.com/watch?v=d8xN3fg-76M"><img class="" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-max.png";></a>
         <div class="photo-curtains-sm-txt m-t-16">
           <p>Не рекомендуется сушить шторы плиссе на отопительных приборах у источника высокой температуры и гладить утюгом.</p>
         </div>

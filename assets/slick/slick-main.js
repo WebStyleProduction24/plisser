@@ -26,9 +26,7 @@ jQuery(document).ready(function($){
           variableWidth: true,
           speed: 100,
           slidesToShow: 3,
-          slide:'.slide-page',
-          prevArrow: $('.control-prev'),
-          nextArrow: $('.control-next')
+          slide:'.slide-page'
         });
       } else {
         $(".items-slick-page.slick-initialized").slick("unslick");
@@ -45,8 +43,8 @@ jQuery(document).ready(function($){
       autoplay: true,
       autoplaySpeed: 2000,
       arrows: false,
-      prevArrow: $('.control-prev'),
-      nextArrow: $('.control-next')
+      prevArrow: $('#control-prev-s-1'),
+      nextArrow: $('#control-next-s-1')
     });
     $('.slider-line-2').slick({
       dots:false,
@@ -58,9 +56,7 @@ jQuery(document).ready(function($){
       autoplay: true,
       autoplaySpeed: 2000,
       reverse: true,
-      arrows: false,
-      prevArrow: $('.control-prev'),
-      nextArrow: $('.control-next')
+      arrows: false
     });
 
     $('.slider-line-3').slick({
@@ -68,51 +64,12 @@ jQuery(document).ready(function($){
       infinite: true,
       speed: 300,
       slidesToShow: 1,
-      centerMode: true,
+      slidesToScrloll:1,
+      centerMode: false,
       variableWidth: true,
       autoplay: true,
-      autoplaySpeed: 2000,
-      arrows: false,
-      prevArrow: $('.control-prev'),
-      nextArrow: $('.control-next')
-    });
-    $('.slider-line-4').slick({
-      dots:false,
-      infinite: true,
-      speed: 150,
-      slidesToShow: 1,
-      centerMode: true,
-      variableWidth: true,
-      autoplay: true,
-      autoplaySpeed: 2000,
-      reverse: true,
-      arrows: false,
-      prevArrow: $('.control-prev'),
-      nextArrow: $('.control-next')
-    });
-
-    $('.slider-line-3').slick({
-      dots:false,
-      infinite: true,
-      speed: 300,
-      slidesToShow: 1,
-      centerMode: true,
-      variableWidth: true,
-      autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 3000,
       arrows: false
     });
-    $('.slider-line-4').slick({
-      dots:false,
-      infinite: true,
-      speed: 150,
-      slidesToShow: 1,
-      centerMode: true,
-      variableWidth: true,
-      autoplay: true,
-      autoplaySpeed: 2000,
-      reverse: true,
-      arrows: false
-    });
-
+ 
 });

@@ -1,4 +1,5 @@
 @media screen and (max-width: 575px) {
+
     .d-none {
         display: none;
     }
@@ -46,5 +47,11 @@
     }
     .calculate > div {
          min-height: 1px;
+    }
+
+    .hover-text-decoration {
+        .logo {
+            padding-left: .5em;
+        }
     }
 }
