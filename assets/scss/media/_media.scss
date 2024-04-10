@@ -28,9 +28,9 @@
 
         .curtains-direction-photo {
             width: 100%;
+            max-width: 100%;
             display: flex;
             justify-content: center;
-
         }
     }
 
@@ -82,14 +82,19 @@
     .calculate-none{
         display: none;
     }
-
-
-        .hover-text-decoration {
-            display: grid !important;
-            grid-template-columns: 2fr 1fr 1fr !important;
-        }
     
+        .calculate {
+            flex-direction: column;
+            row-gap: 1rem;
+            background-color: $grey-3;
+            padding: 1rem 0.5rem;
+            border-radius: 12px;
 
+            >div {
+                max-width: 100% !important;
+                width: 100% !important;
+            }
+        }
 
 }
 
@@ -166,7 +171,7 @@
                 width: 95%;
             }
         
-            [type^='tel'] {
+            [type^='phone'] {
                 width: 95%;
             }
         

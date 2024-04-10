@@ -199,21 +199,53 @@ header a:hover, footer a:hover {
 
 .cont p {
   font-size: $font-input;
+
+    position: relative;
+
   &::before {
       content: '•';
-      margin-left: -0.6rem;
-      margin-right: 0.6rem;
+      position: absolute;
+      left: -0.7rem;
   }
 }
 
 .cont-2 p {
   font-size: $font-input;
+  p {
+    position: relative;
+  }
   &::before {
       content: '-';
-      margin-left: -0.6rem;
-      margin-right: 0.6rem;
+      position: absolute;
+      left: .3rem;
   }
 }
+
+.cont-3 p {
+  font-size: $font-input;
+  p {
+    position: relative;
+  }
+  &::before {
+      content: '+';
+      position: absolute;
+      left: .3rem;
+  }
+}
+
+.cont-4 p {
+  p {
+    position: relative;
+  }
+  font-size: $font-input;
+  &::before {
+      content: '✓';
+      position: absolute;
+      left: .2rem;
+      
+  }
+}
+
 
 .none-d {
   display: none;

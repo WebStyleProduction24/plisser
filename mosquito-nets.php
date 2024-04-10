@@ -8,11 +8,18 @@ Template Name: Шаблон страницы Москитные сети
 
 <main class="p-t-30 mosquito-nets">
 
-  <div class="block calculate m-b-60 none">
+<div class="block calculate m-b-60 none shadow">
     <div class="calc p-16">
       <h3 class="txt-center">Калькулятор</h3>
       <img src="<?php echo get_bloginfo('template_url'); ?>/img/calc-icon.svg";>
+      <div></div>
       <h5>Нажмите для рассчета</h5>
+    </div>
+    <div id="form-order-calculation" class="bcg-dark curve txt-center">
+      <div>
+        <h3 class="p-b-40">Закажите замер и рассчитайте стоимость</h3>
+        <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
+      </div>
     </div>
   </div>
 
@@ -75,7 +82,7 @@ Template Name: Шаблон страницы Москитные сети
           </div>
         </div>
       </div>
-      <img class="photo-min" src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/Moskitnaya_setka-1.png";>
+      <img class="photo-min" src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/Moskitnaya_setka-1.jpg";>
     </div>
     <div class="curtains-photo">
       <img class="main-photo" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/photo-mos.png";>
@@ -98,7 +105,7 @@ Template Name: Шаблон страницы Москитные сети
 
   <div id="curtains-direction" class="block flex">
       <div class="curtains-direction-photo">
-        <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-max.png";>
+        <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/zamer.png";>
     </div>
     <div class="curtains-direction-text shadow border-c lh-130 p-24">
       <h1 class="txt-center p-b-16">Замер</h1>
@@ -144,27 +151,30 @@ Template Name: Шаблон страницы Москитные сети
 
   <div id="projects" class="block">
     <div class="slider-line-1">
-      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-1.jpeg" alt=""></div>
-      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-2.jpeg" alt=""></div>
-      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-3.jpeg" alt=""></div>
-      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-4.jpeg" alt=""></div>
-      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-5.jpeg" alt=""></div>
-      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-6.jpeg" alt=""></div>
-      <div class="slick-button">
-        <button type="button" class="control-prev-s-1"></button>
-        <button type="button" class="control-next-s-1"></button>
-      </div>
+      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-1.png" alt=""></div>
+      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-2.png" alt=""></div>
+      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-3.png" alt=""></div>
+      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-4.png" alt=""></div>
     </div>
+    <div class="slider-line-2">
+      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-5.png" alt=""></div>
+      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-6.png" alt=""></div>
+      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-7.png" alt=""></div>
+      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-8.png" alt=""></div>
+    </div>
+  </div>
 
 
   <div id="feedback">
-    <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center">
-      <div>
-        <h3 class="p-b-40">Оставьте заявку</h3>
-        <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
+      <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center">
+        <div>
+          <h3 class="p-b-40">Оставьте заявку</h3>
+
+          <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
+
+        </div>
       </div>
     </div>
-  </div>
 
   <div id="curtain-care" class="block text-grey-1">
     <h1 class="p-b-16">Уход за москитными сетками плиссе</h1>

@@ -8,12 +8,19 @@ Template Name: Шаблон страницы Шторы
 
 <main class="p-t-30 curtains">
 
-  <div class="block calculate m-b-60 none">
-      <div class="calc p-16">
-        <h3 class="txt-center">Калькулятор</h3>
-        <img src="<?php echo get_bloginfo('template_url'); ?>/img/calc-icon.svg";>
-        <h5>Нажмите для рассчета</h5>
+<div class="block calculate m-b-60 none shadow">
+    <div class="calc p-16">
+      <h3 class="txt-center">Калькулятор</h3>
+      <img src="<?php echo get_bloginfo('template_url'); ?>/img/calc-icon.svg";>
+      <div></div>
+      <h5>Нажмите для рассчета</h5>
+    </div>
+    <div id="form-order-calculation" class="bcg-dark curve txt-center">
+      <div>
+        <h3 class="p-b-40">Закажите замер и рассчитайте стоимость</h3>
+        <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
       </div>
+    </div>
   </div>
 
   <div id="main-block" class="block p-b curtains-main">
@@ -32,6 +39,10 @@ Template Name: Шаблон страницы Шторы
             <h5 class="p-b-16">Подбери свой цвет штор</h5>
             <div class="textile">
                 <h6 class="p-b-16 weight">Полотно шторы</h6>
+                <div class="controls">
+                  <button class="control-prev"></button>
+                  <button class="control-next"></button>
+                </div>
                 <div class="color-ul items-slick-page">
                     <div class="color-li slide-page">
                         <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/white-color.svg";>
@@ -73,14 +84,15 @@ Template Name: Шаблон страницы Шторы
                         <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
                         <h6>Антрацит</h6>
                     </div>
-                    <div class="slick-button">
-                      <button type="button" class="control-prev"></button>
-                      <button type="button" class="control-next"></button>
-                    </div>
                 </div>
             </div>
             <div class="textile profile">
               <h6 class="p-b-16 weight">Профиль</h6>
+              <div class="controls"> 
+                <button class="control-next"></button>
+                <button class="control-prev"></button>
+                 
+              </div>
               <div class="color-ul items-slick-page">
                 <div class="color-li slide-page">
                     <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-pr.png";>
@@ -109,10 +121,6 @@ Template Name: Шаблон страницы Шторы
                 <div class="color-li slide-page">
                     <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/alumin-pr.png";>
                     <h6>Алюминиевый</h6>
-                </div>
-                <div class="slick-button">
-                  <button type="button" class="control-prev"></button>
-                  <button type="button" class="control-next"></button>
                 </div>
               </div>
             </div>
@@ -144,8 +152,10 @@ Template Name: Шаблон страницы Шторы
   <div id="curtains-direction" class="block flex">
     <div class="curtains-direction-photo">
       <div class="slider-line-3">
-        <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/slider/Shtora-Z1.png";>
-        <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/slider/Shtora-Z2.png";>
+        <img class="photo-youtube-sx slide" src="<?php echo get_bloginfo('template_url'); ?>/img/slider/Shtora-Z1.png";>
+        <img class="photo-youtube-sx slide" src="<?php echo get_bloginfo('template_url'); ?>/img/slider/Shtora-Z2.png";>
+        <div class="absol"></div>
+
       </div>
     </div>
     <div class="curtains-direction-text shadow border-c p-24">
@@ -176,7 +186,7 @@ Template Name: Шаблон страницы Шторы
   </div>
 
   <div id="projects" class="block">
-    <div class="slider-line-1">
+    <div class="slider-line-4">
       <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-1.jpeg" alt=""></div>
       <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-2.jpeg" alt=""></div>
       <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-3.jpeg" alt=""></div>
@@ -184,9 +194,9 @@ Template Name: Шаблон страницы Шторы
       <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-5.jpeg" alt=""></div>
       <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-6.jpeg" alt=""></div>
       <div class="slick-button">
-                  <button type="button" class="control-prev-s-1"></button>
-                  <button type="button" class="control-next-s-1"></button>
-                </div>
+        <button type="button" class="control-prev-s-1"></button>
+        <button type="button" class="control-next-s-1"></button>
+      </div>
     </div>
   </div>
 
