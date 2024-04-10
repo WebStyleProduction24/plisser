@@ -299,20 +299,48 @@ header a:hover, footer a:hover {
 
 .cont p {
   font-size: 20px;
+  position: relative;
 }
 .cont p::before {
   content: "•";
-  margin-left: -0.6rem;
-  margin-right: 0.6rem;
+  position: absolute;
+  left: -0.7rem;
 }
 
 .cont-2 p {
   font-size: 20px;
 }
+.cont-2 p p {
+  position: relative;
+}
 .cont-2 p::before {
   content: "-";
-  margin-left: -0.6rem;
-  margin-right: 0.6rem;
+  position: absolute;
+  left: 0.3rem;
+}
+
+.cont-3 p {
+  font-size: 20px;
+}
+.cont-3 p p {
+  position: relative;
+}
+.cont-3 p::before {
+  content: "+";
+  position: absolute;
+  left: 0.3rem;
+}
+
+.cont-4 p {
+  font-size: 20px;
+}
+.cont-4 p p {
+  position: relative;
+}
+.cont-4 p::before {
+  content: "✓";
+  position: absolute;
+  left: 0.2rem;
 }
 
 .none-d {
@@ -359,18 +387,43 @@ body {
   background-size: 150%;
   background-position: 50% -6%;
   background-attachment: fixed;
+  margin: 0.5em;
 }
 
 main, header, footer {
   padding: 0 0.5em;
 }
 
+.controls {
+  position: absolute;
+  display: none;
+}
+
+.slick-list {
+  position: relative;
+}
+
 [class^=control-] {
-  background: #ddd; /* Пример фона */
-  border: none; /* Убрать рамку */
-  border-radius: 50%; /* Круглые кнопки */
-  color: black; /* Цвет текста/иконки */
-  padding: 10px; /* Поле вокруг текста/иконки */
+  display: none;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  border-top: 4px solid #f9cca3;
+  border-right: 4px solid #f9cca3;
+  background-color: transparent;
+  transform: rotate(225deg);
+  top: 25px;
+  bottom: 0;
+  z-index: 9999;
+}
+
+[class^=control-prev] {
+  left: 0;
+}
+
+[class^=control-next] {
+  transform: rotate(45deg);
+  right: 0;
 }
 
 #main-block {
@@ -407,7 +460,7 @@ main, header, footer {
   border-radius: 36px;
   margin-bottom: 0.5rem;
 }
-#main-block #form-order-calculation p [type^=".phone"] {
+#main-block #form-order-calculation p [type^=phone] {
   width: 80%;
 }
 #main-block #form-order-calculation p [type^=tel] {
@@ -439,7 +492,7 @@ main, header, footer {
 }
 
 .calculate {
-  align-items: center;
+  align-items: stretch;
   display: flex;
   flex-direction: row;
   -moz-column-gap: 1rem;
@@ -464,6 +517,7 @@ main, header, footer {
   flex-shrink: 0;
   flex-basis: content;
   border-radius: 24px;
+  position: relative;
 }
 .calculate .calc h5 {
   font-weight: 700;
@@ -472,7 +526,7 @@ main, header, footer {
 
 #form-order-calculation {
   width: 100%;
-  align-items: center;
+  align-items: stretch;
   background-image: url("img/group-1.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -496,8 +550,8 @@ main, header, footer {
 #form-order-calculation .form-order-calculation-cf7 p [type^=text], #form-order-calculation .form-order-calculation-cf7 p [type^=submit] {
   width: 210px;
 }
-#form-order-calculation .form-order-calculation-cf7 p [type^=".phone"] {
-  width: 329px;
+#form-order-calculation .form-order-calculation-cf7 p .phone {
+  width: 329px !important;
 }
 #form-order-calculation .form-order-calculation-cf7 p [type^=submit] {
   background-color: #ef7f1a;
@@ -511,22 +565,6 @@ main, header, footer {
 }
 #form-order-calculation > div h2 {
   color: #fdfdfd;
-}
-#form-order-calculation > div form input {
-  font-size: 20px;
-  height: 72px;
-  border-radius: 36px;
-}
-#form-order-calculation > div form [type^=text], #form-order-calculation > div form [type^=submit] {
-  width: 210px;
-}
-#form-order-calculation > div form [type^=tel] {
-  width: 329px;
-}
-#form-order-calculation > div form [type^=submit] {
-  background-color: #ef7f1a;
-  color: #fdfdfd;
-  font-family: "Inter-SemiBold";
 }
 
 #about {
@@ -711,6 +749,11 @@ footer > div .icon {
   align-items: center;
   -moz-column-gap: 0.4rem;
        column-gap: 0.4rem;
+  text-align: center;
+  position: relative;
+}
+.curtains-home .color-curtains .color-ul .color-li h6 {
+  font-size: 12px;
 }
 .curtains-home .color-curtains .color-ul .color-li .icon-color {
   max-width: 50px;
@@ -748,20 +791,35 @@ footer > div .icon {
 
 #curtains-direction {
   justify-content: space-between;
+  align-items: stretch;
   -moz-column-gap: 1rem;
        column-gap: 1rem;
   font-size: 20px;
 }
-#curtains-direction .curtains-direction-photo .slider-line-3 {
+#curtains-direction .curtains-direction-photo {
   max-width: 790px;
 }
-#curtains-direction .curtains-direction-photo .slider-line-3 .photo-youtube {
-  margin: 0 0.5rem;
+#curtains-direction .curtains-direction-photo .slider-line-3 {
+  width: 100%;
+  position: relative;
 }
 #curtains-direction .curtains-direction-photo img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
   border-radius: 56px;
+}
+#curtains-direction .curtains-direction-photo .absol {
+  background-color: black;
+  opacity: 20%;
+  width: 100%;
+  height: 100%;
+  border-radius: 56px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
 }
 #curtains-direction .curtains-direction-text {
   max-width: 45%;
@@ -809,6 +867,11 @@ footer > div .icon {
 }
 #color-solutions .color-solutions-txt {
   font-size: 20px;
+}
+
+.slider-line-4 img {
+  width: 100%;
+  height: 100%;
 }
 
 #main-block .mos-home .textile .color-ul-mos {
@@ -983,6 +1046,24 @@ footer > div .icon {
   .hover-text-decoration .logo {
     padding-left: 0.5em;
   }
+  .curtains-direction-photo img, .curtains-direction-photo .absol {
+    border-radius: 12px !important;
+  }
+  .calculate .calc {
+    padding: 16px 8px !important;
+  }
+  .calculate .calc h3 {
+    font-size: 25px;
+  }
+  .calculate .calc div {
+    background-image: url("img/cursor.svg");
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 3px;
+    right: 24px;
+    z-index: 9999;
+  }
 }
 @media screen and (min-width: 991px) {
   .photo-min {
@@ -1007,6 +1088,7 @@ footer > div .icon {
   }
   #curtains-direction .curtains-direction-photo {
     width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
   }
@@ -1047,9 +1129,16 @@ footer > div .icon {
   .calculate-none {
     display: none;
   }
-  .hover-text-decoration {
-    display: grid !important;
-    grid-template-columns: 2fr 1fr 1fr !important;
+  .calculate {
+    flex-direction: column;
+    row-gap: 1rem;
+    background-color: #f7f7f7;
+    padding: 1rem 0.5rem;
+    border-radius: 12px;
+  }
+  .calculate > div {
+    max-width: 100% !important;
+    width: 100% !important;
   }
 }
 @media screen and (max-width: 992px) {
@@ -1107,7 +1196,7 @@ footer > div .icon {
   #form-order-calculation .form-order-calculation-cf7 p [type^=text] {
     width: 95%;
   }
-  #form-order-calculation .form-order-calculation-cf7 p [type^=tel] {
+  #form-order-calculation .form-order-calculation-cf7 p [type^=phone] {
     width: 95%;
   }
   #form-order-calculation .form-order-calculation-cf7 p [type^=submit] {

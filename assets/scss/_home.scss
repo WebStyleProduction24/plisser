@@ -4,6 +4,7 @@ body {
   background-size: 150%;
   background-position: 50% -6%;
   background-attachment: fixed;
+  margin: .5em;
 
 }
 
@@ -11,12 +12,37 @@ main, header, footer {
   padding: 0 .5em;
 }
 
+.controls {
+  position: absolute;
+  display: none;
+}
+
+.slick-list {
+  position: relative;
+}
+
 [class^='control-']{
-  background: #ddd; /* Пример фона */
-  border: none; /* Убрать рамку */
-  border-radius: 50%; /* Круглые кнопки */
-  color: black; /* Цвет текста/иконки */
-  padding: 10px; /* Поле вокруг текста/иконки */
+  display: none;
+position: absolute;
+height: 24px;
+width: 24px;
+border-top: 4px solid $orange-2;
+border-right: 4px solid $orange-2;
+background-color: transparent;
+transform: rotate(225deg);
+
+top: 25px;
+bottom: 0;
+z-index: 9999;
+}
+
+[class^='control-prev'] {
+  left: 0;
+}
+
+[class^='control-next'] {
+  transform: rotate(45deg);
+  right: 0;
 }
 
 #main-block {
@@ -56,7 +82,7 @@ main, header, footer {
         margin-bottom: .5rem;
       }
 
-      [type^='.phone'] {
+      [type^='phone'] {
         width: 80%;
       }
 
@@ -99,7 +125,7 @@ main, header, footer {
 }
 
 .calculate {
-  align-items: center;
+  align-items: stretch;
   display: flex;
   flex-direction: row;
   column-gap: 1rem;
@@ -126,6 +152,10 @@ main, header, footer {
     flex-basis: content;
     border-radius: 24px;
 
+
+      position: relative;
+    
+
     h5 {
       font-weight: 700;
       color: $orange-2;
@@ -137,7 +167,7 @@ main, header, footer {
 
 #form-order-calculation {
   width: 100%;
-  align-items: center;
+  align-items: stretch;
   background-image: url('img/group-1.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -163,8 +193,8 @@ main, header, footer {
         width: 210px;
       }
 
-      [type^='.phone'] {
-        width: 329px;
+      .phone {
+        width: 329px !important;
       }
 
       [type^='submit'] {
@@ -185,28 +215,28 @@ main, header, footer {
        color: $white;
       }
   
-      form {
+    //   form {
   
-       input {
-          font-size: $font-input;
-          height: 72px;
-          border-radius: 36px;
-       }
+    //    input {
+    //       font-size: $font-input;
+    //       height: 72px;
+    //       border-radius: 36px;
+    //    }
   
-       [type^='text'], [type^='submit'] {
-          width: 210px;
-       }
+    //    [type^='text'], [type^='submit'] {
+    //       width: 210px;
+    //    }
   
-       [type^='tel'] {
-          width: 329px;
-       }
+    //    [type^='phone'] {
+    //       width: 329px;
+    //    }
   
-       [type^='submit'] {
-          background-color: $orange-1;
-          color: $white;
-          font-family: 'Inter-SemiBold';
-       }
-    }
+    //    [type^='submit'] {
+    //       background-color: $orange-1;
+    //       color: $white;
+    //       font-family: 'Inter-SemiBold';
+    //    }
+    // }
   }
 }
 

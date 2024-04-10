@@ -54,4 +54,28 @@
             padding-left: .5em;
         }
     }
+
+    .curtains-direction-photo {
+        img, .absol {
+            border-radius: 12px !important;
+
+        }
+    }
+
+    .calculate .calc{
+        padding: 16px 8px !important;
+        h3 {
+            font-size: 25px;
+        }
+
+         div {
+            background-image: url('img/cursor.svg');
+            width: 24px;
+            height: 24px;
+            position: absolute;
+            bottom: 3px;
+            right: 24px;
+            z-index: 9999;
+         }
+    }
 }

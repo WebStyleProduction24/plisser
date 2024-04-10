@@ -10,7 +10,7 @@
           <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/Shtora_Plisse-1.jpg" alt="Шторы плиссе">
           <div class="discont"></div>
         </div>
-        <div class="description-product cont">
+        <div class="description-product cont-4">
           <h4>Шторы плиссе</h4>
           <p>лёгкая установка</p>
           <p>эстетичный дизайн</p> 
@@ -46,12 +46,10 @@
           <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/shtori-v-ramke.png" alt="Шторы в рамке">
           <div class="discont"></div>
         </div>
-        <div class="description-product">
+        <div class="description-product cont-3">
           <h4>Шторы в рамке</h4>
-          <ol>
-          <li><p>оптимально для мансардных окон</p></li>
-          <li><p>возможность комбинирования с москитной сеткой</p></li>
-          </ol>
+          <p>оптимально для мансардных окон</p>
+          <p>возможность комбинирования с москитной сеткой</p>
         </div>
       </a>
       <div id="form-order-calculation" class="curve txt-center">
@@ -85,16 +83,16 @@
 
   <div id="projects" class="block">
     <div class="slider-line-1">
-      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-1.jpeg" alt=""></div>
-      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-2.jpeg" alt=""></div>
-      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-3.jpeg" alt=""></div>
-      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-4.jpeg" alt=""></div>
-      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-5.jpeg" alt=""></div>
-      <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-6.jpeg" alt=""></div>
-      <div class="slick-button">
-        <button type="button" class="control-prev-s-1"></button>
-        <button type="button" class="control-next-s-1"></button>
-      </div>
+      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-1.png" alt=""></div>
+      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-2.png" alt=""></div>
+      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-3.png" alt=""></div>
+      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-4.png" alt=""></div>
+    </div>
+    <div class="slider-line-2">
+      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-5.png" alt=""></div>
+      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-6.png" alt=""></div>
+      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-7.png" alt=""></div>
+      <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-8.png" alt=""></div>
     </div>
   </div>
 
