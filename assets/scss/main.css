@@ -354,7 +354,6 @@ header a:hover, footer a:hover {
 }
 header {
   align-items: center;
-  background-color: white;
 }
 header li {
   padding: 10px;
@@ -835,7 +834,6 @@ footer > div .icon {
 .curtains-photo {
   width: 37%;
   position: relative;
-  height: 100%;
 }
 .curtains-photo .log {
   position: absolute;
@@ -848,8 +846,8 @@ footer > div .icon {
   opacity: 60%;
 }
 .curtains-photo .main-photo {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
   border: 56px;
 }
 
