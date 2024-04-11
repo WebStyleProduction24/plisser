@@ -3,15 +3,24 @@ jQuery(document).ready(function($){
     $(window).on('load resize', function() {
       if ($(window).width() < 768) {
         $('.items-slick:not(.slick-initialized)').slick({
-          dots: true,
+          dots: false,
           infinite: true,
-          speed: 100,
+          speed: 500,
           centerMode: true,
           variableWidth: true,
           slidesToShow: 1,
           slide:'.slide',
           prevArrow: $('.control-prev'),
-          nextArrow: $('.control-next')
+          nextArrow: $('.control-next'),
+          responsive: [
+            {
+              breakpoint: 465, // размер экрана 465
+              settings: {
+                centerMode: false,
+                variableWidth: false,
+              }
+            }
+          ]
         });
       } else {
         $(".items-slick.slick-initialized").slick("unslick");

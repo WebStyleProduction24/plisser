@@ -1,12 +1,14 @@
 const burger = document.querySelector('.burger-menu');
 const menu = document.querySelector('#menu');
+const cross = document.querySelector('.cross'); // Элемент для закрытия меню
 
-burger.addEventListener('click', () => {
-    if (menu.classList.contains('none-d')) {
-        menu.classList.remove('none-d');
-    } else {
-        menu.classList.add('none-d');
-    }
-});
+// Функция для переключения видимости меню
+function toggleMenu() {
+    menu.classList.toggle('none-d');
+}
 
+// Обработчик клика по иконке меню (burger)
+burger.addEventListener('click', toggleMenu);
 
+// Обработчик клика по элементу для закрытия (cross)
+cross.addEventListener('click', toggleMenu);

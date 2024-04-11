@@ -248,7 +248,7 @@ header a:hover, footer a:hover {
 
 
 .none-d {
-  display: none;
+  display: none !important;
 }
 
 @media screen and (max-width: 992px) {
