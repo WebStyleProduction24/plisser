@@ -1276,10 +1276,10 @@ footer > div .icon {
     border-radius: 36px;
   }
   #form-order-calculation .form-order-calculation-cf7 p [type^=text] {
-    width: 95%;
+    width: 100% !important;
   }
   #form-order-calculation .form-order-calculation-cf7 p [type^=phone] {
-    width: 95%;
+    width: 100% !important;
   }
   #form-order-calculation .form-order-calculation-cf7 p [type^=submit] {
     width: 65%;
