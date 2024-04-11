@@ -1181,6 +1181,9 @@ footer > div .icon {
   }
 }
 @media screen and (max-width: 768px) {
+  #main-block .product {
+    margin: 0 0.2rem;
+  }
   footer {
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
