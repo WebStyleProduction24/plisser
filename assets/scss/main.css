@@ -343,6 +343,15 @@ header a:hover, footer a:hover {
   left: 0.2rem;
 }
 
+.centr {
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.txt-justify {
+  text-align: justify;
+}
+
 .none-d {
   display: none !important;
 }
@@ -491,6 +500,7 @@ main, header, footer {
 
 #main-block {
   justify-content: space-between;
+  text-align: justify;
 }
 #main-block .slick-prev, #main-block .slick-next {
   display: none !important;
@@ -523,10 +533,10 @@ main, header, footer {
   border-radius: 36px;
   margin-bottom: 0.5rem;
 }
-#main-block #form-order-calculation p [type^=phone] {
+#main-block #form-order-calculation p [type^=text] {
   width: 80%;
 }
-#main-block #form-order-calculation p [type^=tel] {
+#main-block #form-order-calculation p [type^=phone] {
   width: 80%;
 }
 #main-block #form-order-calculation p [type^=submit] {
@@ -594,6 +604,9 @@ main, header, footer {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#form-order-calculation h3 {
+  font-size: 35px;
+}
 #form-order-calculation .form-order-calculation-cf7 p {
   width: 100%;
   display: flex;
@@ -614,7 +627,7 @@ main, header, footer {
   width: 210px;
 }
 #form-order-calculation .form-order-calculation-cf7 p .phone {
-  width: 329px !important;
+  width: 288px !important;
 }
 #form-order-calculation .form-order-calculation-cf7 p [type^=submit] {
   background-color: #ef7f1a;
@@ -897,6 +910,7 @@ footer > div .icon {
 }
 
 #curtain-care .curtain-care-info {
+  font-size: 20px;
   width: 100%;
   justify-content: space-between;
 }
@@ -1068,6 +1082,9 @@ footer > div .icon {
   body #main-block .product .description-product {
     margin: 1em;
   }
+  #contacts .contacts .adress {
+    font-size: 17px;
+  }
 }
 @media screen and (max-width: 575px) {
   .d-none {
@@ -1125,6 +1142,9 @@ footer > div .icon {
     bottom: 3px;
     right: 24px;
     z-index: 9999;
+  }
+  #contacts .contacts .adress {
+    font-size: 17px;
   }
 }
 @media screen and (min-width: 991px) {

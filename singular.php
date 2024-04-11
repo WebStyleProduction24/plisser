@@ -21,7 +21,7 @@
     <div class="curtains-home <?php class_mos_home(); ?> shadow flex">
       <h1 class="txt-center"><?php the_title(); ?></h1>
       <div class="txt-grey">
-        <div><?php if (has_excerpt()) {the_excerpt();} ?></div>
+        <div class="lh-1-5 txt-justify"><?php if (has_excerpt()) {the_excerpt();} ?></div>
       </div>
       <div class="color-curtains flex"><?php select_color_and_profile(); ?></div>        
     </div>

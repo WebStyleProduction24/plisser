@@ -12,6 +12,7 @@ main, header, footer {
   padding: 0 .5em;
 }
 
+
 .controls {
   position: absolute;
   display: none;
@@ -47,6 +48,8 @@ z-index: 9999;
 
 #main-block {
   justify-content: space-between;
+  text-align: justify;
+
 
   .slick-prev, .slick-next {
     display: none !important;
@@ -82,11 +85,11 @@ z-index: 9999;
         margin-bottom: .5rem;
       }
 
-      [type^='phone'] {
+      [type^='text'] {
         width: 80%;
       }
 
-      [type^='tel'] { 
+      [type^='phone'] { 
         width: 80%;
       }
 
@@ -171,6 +174,10 @@ z-index: 9999;
   background-image: url('img/group-1.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  
+  h3 {
+    font-size: 35px;
+  }
 
   .form-order-calculation-cf7 {
 
@@ -194,7 +201,7 @@ z-index: 9999;
       }
 
       .phone {
-        width: 329px !important;
+        width: 288px !important;
       }
 
       [type^='submit'] {
