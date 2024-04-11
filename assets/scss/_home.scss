@@ -4,13 +4,16 @@ body {
   background-size: 150%;
   background-position: 50% -6%;
   background-attachment: fixed;
-  margin: .5em;
-
 }
 
-main, header, footer {
-  padding: 0 .5em;
+ main {
+  margin: 0 0.5em;
 }
+
+header {
+  padding: 0.5em;
+}
+
 
 
 .controls {
@@ -46,9 +49,13 @@ z-index: 9999;
   right: 0;
 }
 
+.curtains-direction {
+  text-align: justify;
+
+}
+
 #main-block {
   justify-content: space-between;
-  text-align: justify;
 
 
   .slick-prev, .slick-next {
@@ -376,7 +383,7 @@ z-index: 9999;
     .adress {
       display: flex;
       margin-top: 10px;
-      font-size: 22px;
+      font-size: 18px;
 
       &::before {
         display: block;

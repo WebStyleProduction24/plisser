@@ -1,4 +1,4 @@
-<div id="curtains-direction" class="block flex">
+<div id="curtains-direction" class="block flex centr">
   <div class="curtains-direction-photo">
     <div class="slider-line-3">
       <img class="photo-youtube-sx slide" src="<?php echo get_bloginfo('template_url'); ?>/img/slider/Shtora-Z1.png";>
@@ -9,7 +9,7 @@
   <div class="curtains-direction-text shadow border-c p-24">
     <h1 class="txt-center p-b-16">Замер</h1>
     <div>
-      <div class="txt-grey txt">
+      <div class="txt-grey txt lh-1-5">
         <p>Для точности измерений, пользуйтесь стальной металлической рулеткой;</p>
         <p>будьте внимательны и всегда перепроверяйте себя!</p>
         <p>для заказа штор плиссе необходимо, чтобы точки замера в точности соответствовали представленной выше схеме.</p>

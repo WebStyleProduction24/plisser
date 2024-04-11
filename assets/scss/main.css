@@ -298,7 +298,7 @@ header a:hover, footer a:hover {
 }
 
 .cont p {
-  font-size: 20px;
+  font-size: 19px;
   position: relative;
 }
 .cont p::before {
@@ -459,11 +459,14 @@ body {
   background-size: 150%;
   background-position: 50% -6%;
   background-attachment: fixed;
-  margin: 0.5em;
 }
 
-main, header, footer {
-  padding: 0 0.5em;
+main {
+  margin: 0 0.5em;
+}
+
+header {
+  padding: 0.5em;
 }
 
 .controls {
@@ -498,9 +501,12 @@ main, header, footer {
   right: 0;
 }
 
+.curtains-direction {
+  text-align: justify;
+}
+
 #main-block {
   justify-content: space-between;
-  text-align: justify;
 }
 #main-block .slick-prev, #main-block .slick-next {
   display: none !important;
@@ -742,7 +748,7 @@ main, header, footer {
 #contacts .contacts .adress {
   display: flex;
   margin-top: 10px;
-  font-size: 22px;
+  font-size: 18px;
 }
 #contacts .contacts .adress::before {
   display: block;
