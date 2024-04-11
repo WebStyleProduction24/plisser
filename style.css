@@ -369,6 +369,7 @@ header a:hover, footer a:hover {
 }
 header {
   align-items: center;
+  background-color: white;
 }
 header li {
   padding: 10px;
@@ -398,7 +399,7 @@ header .burger-menu div {
 }
 
 .header-menu {
-  position: absolute;
+  position: fixed;
   width: 190px;
   min-height: 301px;
   display: flex;

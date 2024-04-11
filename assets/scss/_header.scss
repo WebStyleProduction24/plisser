@@ -1,6 +1,7 @@
 header {
   @extend %flex-space-between;
   align-items: center;
+  background-color: white;  
 
   li {
     padding: 10px;
@@ -37,7 +38,7 @@ header {
 }
 
 .header-menu {
-  position: absolute;
+  position: fixed;
   width: 190px;
   min-height: 301px;
   display: flex;
