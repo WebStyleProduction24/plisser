@@ -82,4 +82,26 @@
     #contacts .contacts .adress{
         font-size: 17px;
     }
+
+    #form-order-calculation {
+        >div {
+            padding: 1rem 0.5rem;
+        }
+    }
+
+
+    footer > div {
+        font-size: 12px !important;
+        .title-footer-nav {
+            margin-bottom: 8px !important;
+            margin-top: 16px !important;
+        }
+    }
+
+    .tel-f, .mail-f {
+        &::before {
+            left: -36px;
+        }
+    }
+    
 }

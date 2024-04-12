@@ -34,8 +34,8 @@
       </div>
       <div class="footer-contacts-nav">
         <div class="title-footer-nav">Контакты</div>
-        <div><a href="mailto:mail@plisser.ru">mail@plisser.ru</a></div>
-        <div><a href="tel:78002223655">8 800 222-36-55</a></div>
+        <div class="mail-f"><a href="mailto:mail@plisser.ru">mail@plisser.ru</a></div>
+        <div class="tel-f"><a href="tel:78002223655">8 800 222-36-55</a></div>
       </div>
     </div>
   </footer>

@@ -259,9 +259,29 @@ header a:hover, footer a:hover {
   display: none !important;
 }
 
-@media screen and (max-width: 992px) {
-  .d-md-none {
-    display: none !important;
+.tel-f {
+  display: block;
+  &::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -42px;
+    width: 24px;
+    height: 33px;
+    background: url('img/tel-f.svg');
+  }
+}
+
+.mail-f {
+  display: block;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -42px;
+    width: 30px;
+    height: 25px;
+    background: url('img/mail-f.svg');
   }
 }
 

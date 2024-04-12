@@ -23,6 +23,7 @@ footer {
       text-transform: uppercase;
       color: $text-white;
       margin-bottom: 34px;
+      
     }
 
     li {
@@ -34,6 +35,13 @@ footer {
       width: min-content;
       border-radius: 50%;
       margin-top: 0.4rem;
+    }
+  }
+
+  .footer-contacts-nav {
+    div {
+      margin-bottom: 20px;
+      position: relative;
     }
   }
 }
