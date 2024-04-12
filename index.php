@@ -30,7 +30,7 @@
           <p>максимальный размер до 6 м</p>
           <p>минимум места в собранном виде</p>
         </div>
-        <div class="img-product">
+        <div class="img-product p-img">
           <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/Moskitnaya_setka-1.jpg" alt="Москитные сетки">
           <div class="discont"></div>
         </div>

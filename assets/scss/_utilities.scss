@@ -63,6 +63,10 @@ header a:hover, footer a:hover {
   padding-top: 0.5rem;
 }
 
+.p-img {
+  padding-top: 18px;
+}
+
 .p-b-8 {
   padding-bottom: 0.5rem;
 }
@@ -217,7 +221,7 @@ header a:hover, footer a:hover {
   &::before {
       content: '-';
       position: absolute;
-      left: .3rem;
+      left: .2rem;
   }
 }
 
@@ -229,7 +233,7 @@ header a:hover, footer a:hover {
   &::before {
       content: '+';
       position: absolute;
-      left: .3rem;
+      left: .2rem;
   }
 }
 
@@ -241,7 +245,7 @@ header a:hover, footer a:hover {
   &::before {
       content: '✓';
       position: absolute;
-      left: .2rem;
+      left: .1rem;
       
   }
 }

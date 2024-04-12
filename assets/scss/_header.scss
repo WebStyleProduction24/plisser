@@ -1,7 +1,6 @@
 header {
   @extend %flex-space-between;
   align-items: center;
-
   li {
     padding: 10px;
   }
@@ -34,6 +33,12 @@ header {
 
     }
   }
+}
+
+.header {
+  position: -webkit-sticky; 
+  position: sticky;
+  z-index: 99999999;
 }
 
 .header-menu {
@@ -98,5 +103,18 @@ header {
 
 .cross::after {
   transform: rotate(-45deg);
+}
+
+
+.sticky {
+  padding: 8px;
+  background-color: white;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 

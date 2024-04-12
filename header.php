@@ -7,7 +7,7 @@
   <?php wp_head(); ?>
 </head>
 <body>
-  <header class="block hover-text-decoration">
+  <header class="block hover-text-decoration header" id="myHeader">
     <a href="/"><div class="logo"><img src="<?php echo get_bloginfo('template_url'); ?>/img/logo-header.png" alt=""></div></a>
     <nav class="d-md-none">
       <ul class="flex">
