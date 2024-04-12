@@ -604,7 +604,7 @@ main {
 .calculate #form-order-calculation .form-order-calculation-cf7 p [type^=text], .calculate #form-order-calculation .form-order-calculation-cf7 p [type^=submit] {
   max-width: 210px;
   width: 100%;
-  min-width: 130px;
+  min-width: 140px;
 }
 .calculate #form-order-calculation .form-order-calculation-cf7 p .phone {
   max-width: 288px;
