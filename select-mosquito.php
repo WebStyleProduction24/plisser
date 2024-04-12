@@ -30,7 +30,7 @@
   </div>
 </div>
 <div class="mos textile profile">
-  <h6 class="p-b-16 weight">Полотно маскитно сетки</h6>
+  <h6 class="p-b-16 weight">Полотно москитной сетки</h6>
   <div class="color-ul-mos items-slick-page">
     <div class="color-li-mos slide-page">
       <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/standart.png";>
