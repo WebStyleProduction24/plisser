@@ -1,7 +1,7 @@
 jQuery(document).ready(function($){ 
     
     $(window).on('load resize', function() {
-      if ($(window).width() < 768) {
+      if ($(window).width() < 992) {
         $('.items-slick:not(.slick-initialized)').slick({
           dots: false,
           infinite: true,

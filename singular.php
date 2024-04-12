@@ -11,7 +11,7 @@
     </div>
     <div id="form-order-calculation" class="bcg-dark curve txt-center">
       <div>
-        <h3 class="p-b-40">Закажите замер и рассчитайте стоимость</h3>
+        <h3 class="p-b-40">Оставте заявку</h3>
         <?php echo do_shortcode( '[contact-form-7 id="66f05f1" title="Контактная форма 1"]' ); ?>
       </div>
     </div>
