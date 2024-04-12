@@ -4,7 +4,7 @@
     <div class="curtains-direction-photo">
       <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/zamer.png";>
     </div>
-    <div class="curtains-direction-text shadow border-c lh-130 p-24">
+    <div class="curtains-direction-text shadow border-c p-24">
       <h1 class="txt-center p-b-16">Замер</h1>
       <div>
         <div class="txt-grey">
@@ -43,7 +43,7 @@
       </div>
     </div>
     <div class="curtains-direction-photo reverse">
-      <a href="https://www.youtube.com/watch?v=uksI12elnsQ"><img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-curtains-m.png";></a>
+      <a href="https://www.youtube.com/watch?v=uksI12elnsQ" target="_blank"><img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-curtains-m.png";></a>
     </div>
   </div>
 
@@ -81,7 +81,7 @@
           <p>Не рекомендуется сушить шторы плиссе на отопительных приборах у источника высокой температуры и гладить утюгом.</p>
         </div>
       </div>
-      <div class="curtain-care-info-txt p-8">
+      <div class="curtain-care-info-txt p-8 txt-j">
         <div class="p-8 cont">
           <p class="p-t-b-11">Уберите мусор из нижней направляющей</p>
           <p class="p-t-b-11">Раскройте полотно москитной сетки плиссе</p>

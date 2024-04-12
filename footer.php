@@ -7,7 +7,7 @@
           <div class="icon"><div class="wa-icon"><a href="https://wa.me/79204155111" target="_blank"></a></div></div>
           <div class="icon">
             <div class="youtube-icon">
-              <a href="https://www.youtube.com/channel/UC_boJy_EueA2iW9FzTcUYJw "></a>
+              <a href="https://www.youtube.com/channel/UC_boJy_EueA2iW9FzTcUYJw" target="_blank"></a>
             </div>
           </div>
         </div>

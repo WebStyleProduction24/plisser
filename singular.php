@@ -30,7 +30,7 @@
     </div>
   </div>
 
-  <div class="block calculate m-b-60 calculate-none">
+  <div class="block calculate calculate-none">
     <div class="calc p-16">
       <h3 class="txt-center">Калькулятор</h3>
       <img src="<?php echo get_bloginfo('template_url'); ?>/img/calc-icon.svg";>

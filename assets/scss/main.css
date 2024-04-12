@@ -311,42 +311,6 @@ header a:hover, footer a:hover {
   left: -0.7rem;
 }
 
-.cont-2 p {
-  font-size: 20px;
-}
-.cont-2 p p {
-  position: relative;
-}
-.cont-2 p::before {
-  content: "-";
-  position: absolute;
-  left: 0.2rem;
-}
-
-.cont-3 p {
-  font-size: 20px;
-}
-.cont-3 p p {
-  position: relative;
-}
-.cont-3 p::before {
-  content: "+";
-  position: absolute;
-  left: 0.2rem;
-}
-
-.cont-4 p {
-  font-size: 20px;
-}
-.cont-4 p p {
-  position: relative;
-}
-.cont-4 p::before {
-  content: "✓";
-  position: absolute;
-  left: 0.1rem;
-}
-
 .centr {
   align-items: center !important;
   justify-content: center !important;
@@ -419,6 +383,7 @@ header .burger-menu div {
 .header {
   position: sticky;
   z-index: 99999999;
+  padding: 0 10px;
 }
 
 .header-menu {
@@ -970,6 +935,9 @@ footer .footer-contacts-nav div {
   line-height: 170%;
 }
 
+#curtain-care {
+  color: #5c5d5f;
+}
 #curtain-care .curtain-care-info {
   font-size: 19px;
   width: 100%;
@@ -1058,14 +1026,14 @@ footer .footer-contacts-nav div {
   width: max-content;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .d-md-none {
     display: none !important;
   }
 }
 @media screen and (max-width: 575px) {
   h1 {
-    font-size: 32px;
+    font-size: 29px;
   }
   h2 {
     font-size: 32px;
@@ -1155,10 +1123,10 @@ footer .footer-contacts-nav div {
     font-size: 17px;
   }
   header {
-    font-size: 16px;
+    font-size: 19px;
   }
   header li {
-    padding: 6px;
+    padding: 9px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -1167,6 +1135,12 @@ footer .footer-contacts-nav div {
   }
   .calculate #form-order-calculation h3 {
     font-size: 25px;
+  }
+  header {
+    font-size: 15px;
+  }
+  header li {
+    padding: 9px;
   }
 }
 @media screen and (max-width: 575px) {
@@ -1324,8 +1298,6 @@ footer .footer-contacts-nav div {
   footer > div {
     font-size: 14px;
   }
-}
-@media screen and (max-width: 992px) {
   .d-md-none {
     display: none !important;
   }
