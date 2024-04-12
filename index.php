@@ -10,11 +10,11 @@
           <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/Shtora_Plisse-1.jpg" alt="Шторы плиссе">
           <div class="discont"></div>
         </div>
-        <div class="description-product cont-4">
+        <div class="description-product">
           <h4>Шторы плиссе</h4>
-          <p>лёгкая установка</p>
-          <p>эстетичный дизайн</p> 
-          <p>регулировка светового потока</p>
+          <p>Лёгкая установка</p>
+          <p>Эстетичный дизайн</p> 
+          <p>Регулировка светового потока</p>
         </div>
       </a>
       <div id="form-order-calculation" class="curve txt-center">
@@ -24,11 +24,11 @@
         
     <div class="slide product flex curve">
       <a href="/mosquito-nets">
-        <div class="description-product cont-2">
+        <div class="description-product">
           <h4>Москитные сетки</h4>
-          <p>на любые проемы</p>
-          <p>максимальный размер до 6 м</p>
-          <p>минимум места в собранном виде</p>
+          <p>На любые проемы</p>
+          <p>Максимальный размер до 6 м</p>
+          <p>Минимум места в собранном виде</p>
         </div>
         <div class="img-product p-img">
           <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/Moskitnaya_setka-1.jpg" alt="Москитные сетки">
@@ -46,10 +46,10 @@
           <img src="<?php echo get_bloginfo('template_url'); ?>/img/products-main/shtori-v-ramke.png" alt="Шторы в рамке">
           <div class="discont"></div>
         </div>
-        <div class="description-product cont-3">
+        <div class="description-product">
           <h4>Шторы в рамке</h4>
-          <p>оптимально для мансардных окон</p>
-          <p>возможность комбинирования с москитной сеткой</p>
+          <p>Оптимально для мансардных окон</p>
+          <p>Возможность комбинирования с москитной сеткой</p>
         </div>
       </a>
       <div id="form-order-calculation" class="curve txt-center">
@@ -57,8 +57,6 @@
       </div>
     </div>
   </div>
-  <button type="button" class="control-prev"></button>
-  <button type="button" class="control-next"></button>
   <div id="form-order-calculation" class="block m-b-60 bcg-dark curve txt-center d-sm-none">
     <div>
       <h3 class="p-b-40">Закажите замер и рассчитайте стоимость</h3>
@@ -114,14 +112,14 @@
     </div>
     <div class="for-dilers block bcg-dark curve shadow txt-center">
       <h2 class="lh-1-5">Дилерам</h2>
-      <p>Для вашего удобства разработана система управления заказами и рассчета стоимости <a href="//plisser.pro" class="link-orange-1 underline">plisser.pro</a></p>
+      <p>Для вашего удобства разработана система управления заказами и рассчета стоимости <a href="//plisser.pro" target="_blank" class="link-orange-1 underline">plisser.pro</a></p>
       <p>
-        <a href="#" class="font-size-16 link-orange-2 link-orange-2">
+        <a href="//plisser.pro" class="font-size-16 link-orange-2 link-orange-2" target="_blank">
           <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/plisser-pro.png" alt=""></div>
           <div>Войти в личный кабинет</div>
         </a>
       </p>
-      <p><a href="#"><img src="<?php echo get_bloginfo('template_url'); ?>/img/googleplay.png" alt=""></a></p>
+      <p><a href="#" target="_blank"><img src="<?php echo get_bloginfo('template_url'); ?>/img/googleplay.png" alt=""></a></p>
     </div>
   </div>
 

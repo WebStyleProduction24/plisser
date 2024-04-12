@@ -1,5 +1,5 @@
 @media (min-width: 992px) and (max-width: 1299px) {
-  body {
+  main {
     font-size: 15px;
     margin: 0 1.5em;
 
@@ -14,5 +14,33 @@
 
   #contacts .contacts .adress{
     font-size: 17px;
+  }
+
+  header  {
+    font-size: 19px;
+    li {
+      padding: 9px;
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .calculate   #form-order-calculation{
+
+    > div {
+      padding: 8% 10px; 
+    }
+    
+    h3 {
+      font-size: 25px;
+    
+    }
+  }
+
+  header  {
+    font-size: 15px;
+    li {
+      padding: 9px;
+    }
   }
 }

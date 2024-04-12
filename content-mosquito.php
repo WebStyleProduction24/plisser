@@ -2,7 +2,7 @@
   <div class="curtains-direction-photo">
     <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/zamer.png";>
   </div>
-  <div class="curtains-direction-text shadow border-c lh-130 p-24">
+  <div class="curtains-direction-text shadow border-c p-24">
     <h1 class="txt-center p-b-16">Замер</h1>
     <div>
       <div class="txt-grey">
@@ -20,7 +20,7 @@
           <p>в центре проёма;</p>
           <p>в правой части проёма.</p>
         </div>
-        <p class="weight">Взять наименьший размер из полученных.</p>
+        <p class="weight">Взять наименьший размер из полученных.</p> 
         <p>3. Необходимо добавить к размерам ширины и высоты с каждой стороны по 25 мм (Система Slim).</p>
         <p>4. Если необходимо штору или раму опустить максимально вниз (на пол), то нужно замерить размер от светового проёма до пола и добавить полученный результат к размеру высоты.</p>
       </div>
@@ -33,15 +33,15 @@
     <h1 class="txt-center p-b-16">Монтаж</h1>
     <div>
       <div class="txt-grey txt">
-        <p>Готовую москитную систему совместить с изделием или проёмом, на который планируется установка.</p>
-        <p>При необходимости зафиксировать москитную систему.</p>
-        <p>Выставить москитную систему по уровню.</p>
+        <p>Готовую москитную систему совместить с изделием или проёмом, на который планируется установка</p>
+        <p>При необходимости зафиксировать москитную систему</p>
+        <p>Выставить москитную систему по уровню</p>
         <p>Закрутить саморезы в специальные отверстия по 4-м углам москитной системы.</p>
       </div>
     </div>
   </div>
   <div class="curtains-direction-photo reverse">
-    <a href="https://www.youtube.com/watch?v=uksI12elnsQ"><img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-curtains-m.png";></a>
+    <a href="https://www.youtube.com/watch?v=uksI12elnsQ" target="_blank"><img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-curtains-m.png";></a>
   </div>
 </div>
 
@@ -70,13 +70,13 @@
   </div>
 </div>
 
-<div id="curtain-care" class="block text-grey-1">
+<div id="curtain-care" class="block">
   <h1 class="p-b-16">Уход за москитными сетками плиссе</h1>
   <div class="curtain-care-info flex">
     <div class="photo-curtains-sm">
       <img class="" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-curtains-m.png";>
       <div class="photo-curtains-sm-txt m-t-16">
-        <p>Не рекомендуется сушить шторы плиссе на отопительных приборах у источника высокой температуры и гладить утюгом.</p>
+        <p class="text-grey-1">Не рекомендуется сушить шторы плиссе на отопительных приборах у источника высокой температуры и гладить утюгом.</p>
       </div>
     </div>
     <div class="curtain-care-info-txt p-8">

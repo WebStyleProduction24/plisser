@@ -213,43 +213,6 @@ header a:hover, footer a:hover {
   }
 }
 
-.cont-2 p {
-  font-size: $font-input;
-  p {
-    position: relative;
-  }
-  &::before {
-      content: '-';
-      position: absolute;
-      left: .2rem;
-  }
-}
-
-.cont-3 p {
-  font-size: $font-input;
-  p {
-    position: relative;
-  }
-  &::before {
-      content: '+';
-      position: absolute;
-      left: .2rem;
-  }
-}
-
-.cont-4 p {
-  p {
-    position: relative;
-  }
-  font-size: $font-input;
-  &::before {
-      content: '✓';
-      position: absolute;
-      left: .1rem;
-      
-  }
-}
-
 .centr {
   align-items: center !important;
   justify-content: center !important;
