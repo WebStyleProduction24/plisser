@@ -7,6 +7,6 @@
     </div>
   </div>
   <div id="map-container" class="map shadow">
-    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A8ae9a1c4cc9b4fa79d12b3501ec530e120cbaab8475765ff7967f55f97adb624&amp;source=constructor" width="100%" height="360" frameborder="0"></iframe>
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A8ae9a1c4cc9b4fa79d12b3501ec530e120cbaab8475765ff7967f55f97adb624&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
   </div>
 </div>

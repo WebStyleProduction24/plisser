@@ -11,6 +11,16 @@
 @import '_mixins';
 @import '_utilities';
 
+
+.youtube-video {
+  width: 100%;
+  height: 100%;
+
+  iframe {
+    border-radius: $border-radius;
+  }
+}
+
 // COMPONENTS
 @import '_header';
 @import '_home';
@@ -20,27 +30,3 @@
 @import 'framed-curtains.scss';
 @import '_media-utilites.scss';
 @import 'media/_media.scss';
-
-// @import ' .scss';
-
-// PAGE 
-// @import "_home-team";
-// @import "_home-contact"; 
-// @import "_home-practices";
-// @import "_home-news";
-// @import "_home-publication";
-// @import "_home-case";
-// @import "_home-practice";
-// @import "_home-search";
-// @import "_home-employee";
-// @import "_home-partner";
-// @import "_home-form";
-
-// @import '_fonts';
-
-// MEDIA 
-// @import '_media';
-
-body {
-  font-family: Inter-Regular;
-}

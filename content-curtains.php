@@ -61,8 +61,10 @@
 <div id="curtain-care" class="block text-grey-1">
   <h1 class="p-b-16">Уход за шторами плиссе</h1>
   <div class="curtain-care-info flex">
-    <div class="photo-curtains-sm">
-      <a href="https://www.youtube.com/watch?v=d8xN3fg-76M" target="_blank"><img class="" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-max.png";></a>
+    <div class="photo-curtains-sm flex direction-column">
+      <div class="youtube-video">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/d8xN3fg-76M?si=outgP25D3Ep3OBBK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
       <div class="photo-curtains-sm-txt m-t-16">
         <p>Не рекомендуется сушить шторы плиссе на отопительных приборах у источника высокой температуры и гладить утюгом.</p>
       </div>
