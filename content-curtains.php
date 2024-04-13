@@ -58,7 +58,7 @@
   </div>
 </div>
 
-<div id="curtain-care" class="block text-grey-1">
+<div id="curtain-care" class="block">
   <h1 class="p-b-16">Уход за шторами плиссе</h1>
   <div class="curtain-care-info flex">
     <div class="photo-curtains-sm flex direction-column">
@@ -66,7 +66,7 @@
         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/d8xN3fg-76M?si=outgP25D3Ep3OBBK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
       <div class="photo-curtains-sm-txt m-t-16">
-        <p>Не рекомендуется сушить шторы плиссе на отопительных приборах у источника высокой температуры и гладить утюгом.</p>
+        <p class="text-grey-1">Не рекомендуется сушить шторы плиссе на отопительных приборах у источника высокой температуры и гладить утюгом.</p>
       </div>
     </div>
     <div class="curtain-care-info-txt p-8">

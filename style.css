@@ -330,11 +330,6 @@ header a:hover, footer a:hover {
   font-size: 19px;
   position: relative;
 }
-.cont p::before {
-  content: "•";
-  position: absolute;
-  left: -0.7rem;
-}
 
 .centr {
   align-items: center !important;
@@ -388,6 +383,7 @@ header {
 }
 header li {
   padding: 10px;
+  text-transform: uppercase;
 }
 header .contacts {
   display: flex;
