@@ -148,3 +148,18 @@ function class_page_main_block() {
 function class_mos_home() {  
   if (is_page('mosquito-nets')) echo 'mos-home';
 }
+
+// Функция определения и добавления класса страницы
+function main_img_page() {
+  $page = get_post_field( 'post_name', get_post() );
+
+  switch ($page) {
+  case 'curtains-plisse': echo get_bloginfo('template_url') . '/img/icon-curtains/main-photo.png'; //ссылка на фото на странице штора плиссе
+    break;
+  case 'curtains-in-frame': echo get_bloginfo('template_url') . '/img/products-main/shtori-v-ramke.png'; //ссылка на фото на странице шторы в рамке
+      break;
+  case 'mosquito-nets':  echo get_bloginfo('template_url') . '/img/icon-curtains/'; //ссылка на фото на странице москитные системы
+    break;
+  }
+
+}

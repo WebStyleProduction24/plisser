@@ -26,7 +26,7 @@
       <div class="color-curtains flex"><?php select_color_and_profile(); ?></div>        
     </div>
     <div class="curtains-photo">
-      <img class="main-photo" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/main-photo.png";>
+      <img class="main-photo" src="<?php main_img_page(); ?>">
     </div>
   </div>
 
