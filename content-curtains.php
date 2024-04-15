@@ -37,6 +37,10 @@
 </div>
 
 <div id="projects" class="block">
+  <div class="controls">
+    <button class="control-prev"></button>
+    <button class="control-next"></button>
+  </div>
   <div class="slider-line-4">
     <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-1.jpeg" alt=""></div>
     <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-2.jpeg" alt=""></div>
@@ -44,10 +48,6 @@
     <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-4.jpeg" alt=""></div>
     <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-5.jpeg" alt=""></div>
     <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-6.jpeg" alt=""></div>
-    <div class="slick-button">
-      <button type="button" class="control-prev-s-1"></button>
-      <button type="button" class="control-next-s-1"></button>
-    </div>
   </div>
 </div>
 

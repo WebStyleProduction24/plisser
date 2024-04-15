@@ -3,7 +3,10 @@
 <main class="p-t-30 bcg-i">
 
   <div id="main-block" class="items-slick block flex p-b txt-grey">
-    
+  <div class="controls button-none-h">
+    <button class="control-prev"></button>
+    <button class="control-next"></button>
+  </div>
     <div class="slide product flex curve"> 
       <a href="/curtains-plisse">
         <div class="img-product">
@@ -66,9 +69,9 @@
 
   <div id="about" class="block m-b-60 txt-center">
     <div class="curve shadow">
-      <h2>Почему PLISSER?</h2>
+      <h2 class="txt-grey">Почему PLISSER?</h2>
       <div class="logo"><img src="<?php echo get_bloginfo('template_url'); ?>/img/logo.png" alt="Plisser"></div>
-      <div class="content">
+      <div class="content txt-grey">
         <p>Plisser (гл. французский) — плиссировать, делать складки.</p>
         <p>Полотно у систем PLISSER состоит из материала с волнообразными складками, позволяющими им легко и компактно собираться по принципу гармошки при открытии и закрытии систем, легко освобождая проём.</p>
         <p>Шторы плиссе обеспечивают широкий диапазон регулировки потока солнечных лучей в помещении и фиксируются в выбранном положении, являясь при этом ярким элементом дизайна вашего интерьера.</p>
@@ -80,12 +83,20 @@
   </div>
 
   <div id="projects" class="block">
+  <div class="controls">
+    <button class="control-prev"></button>
+    <button class="control-next"></button>
+  </div>
     <div class="slider-line-1">
       <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-1.png" alt=""></div>
       <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-2.png" alt=""></div>
       <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-3.png" alt=""></div>
       <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-4.png" alt=""></div>
     </div>
+  <div class="controls">
+    <button class="control-prev"></button>
+    <button class="control-next"></button>
+  </div>
     <div class="slider-line-2">
       <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-5.png" alt=""></div>
       <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-6.png" alt=""></div>

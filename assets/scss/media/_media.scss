@@ -255,7 +255,9 @@
         }  
     } 
         
-
+    .politic {
+        display: none;
+    }
  
       
 }
@@ -265,5 +267,15 @@
         #form-order-calculation {
             display: none;
         }
+    }
+
+    .button-none-h {
+        display: none;
+    }
+}
+
+@media screen and (min-width:575px) {
+    .button-none {
+        display: none;
     }
 }

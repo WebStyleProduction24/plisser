@@ -38,6 +38,12 @@
         <div class="tel-f"><a href="tel:78002223655">8 800 222-36-55</a></div>
       </div>
     </div>
+    <div class="politic">
+      <a href="#">
+        <p>2024 | Все права защищены</p>
+        <p>ООО «Решения Комфорта»</p>
+      </a>
+    </div>
   </footer>
 
   <?php wp_footer(); ?>

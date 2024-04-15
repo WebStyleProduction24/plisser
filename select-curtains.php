@@ -1,7 +1,7 @@
 <h5 class="p-b-16">Подбери свой цвет штор</h5>
 <div class="textile">
   <h6 class="p-b-16 weight">Полотно шторы</h6>
-  <div class="controls">
+  <div class="controls button-none">
     <button class="control-prev"></button>
     <button class="control-next"></button>
   </div>
@@ -50,7 +50,7 @@
 </div>
 <div class="textile profile">
   <h6 class="p-b-16 weight">Профиль</h6>
-  <div class="controls"> 
+  <div class="controls button-none"> 
     <button class="control-next"></button>
     <button class="control-prev"></button>
   </div>

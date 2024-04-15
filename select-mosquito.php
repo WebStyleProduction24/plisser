@@ -6,6 +6,10 @@
     <h6 class="p-b-16 weight">SMART PRO</h6>
     <h6 class="p-b-16 weight">SLIM PRO</h6>
   </div>
+  <div class="controls button-none">
+    <button class="control-prev"></button>
+    <button class="control-next"></button>
+  </div>
   <div class="color-ul-mos items-slick-page">
     <div class="color-li-mos slide-page">
       <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/white-icon.png";>
@@ -23,10 +27,6 @@
       <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/icon.png";>
       <h6>Любой цвет на ваш выбор</h6>
     </div>
-    <div class="slick-button">
-      <button type="button" class="control-prev"></button>
-      <button type="button" class="control-next"></button>
-    </div>
   </div>
 </div>
 <div class="mos textile profile">
@@ -39,10 +39,6 @@
     <div class="color-li-mos slide-page">
       <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/unstandart.png";>
       <h6>Антикошка</h6>
-    </div>
-    <div class="slick-button">
-      <button type="button" class="control-prev"></button>
-      <button type="button" class="control-next"></button>
     </div>
   </div>
 </div>

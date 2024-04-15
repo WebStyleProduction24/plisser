@@ -42,11 +42,19 @@
 </div>
 
 <div id="projects" class="block">
+<div class="controls">
+    <button class="control-prev"></button>
+    <button class="control-next"></button>
+  </div>
   <div class="slider-line-1">
     <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-1.png" alt=""></div>
     <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-2.png" alt=""></div>
     <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-3.png" alt=""></div>
     <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-4.png" alt=""></div>
+  </div>
+  <div class="controls">
+    <button class="control-prev"></button>
+    <button class="control-next"></button>
   </div>
   <div class="slider-line-2">
     <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-5.png" alt=""></div>

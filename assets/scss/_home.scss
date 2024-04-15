@@ -14,17 +14,42 @@ body {
 
 
 
-.controls {
-  position: absolute;
-  display: none;
-}
+
 
 .slick-list {
   position: relative;
 }
 
+.controls {
+  position: absolute;
+  width: 88%;
+  margin: auto;
+}
+
+.button-none-h {
+  width: 99% !important;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 262px;
+  bottom: 0;
+}
+
+#projects {
+  .controls {
+    width: 92% !important;
+    margin: auto;
+    right: 0;
+    left: 0;
+  }
+
+  [class^='control-']{
+    top: 96px;
+    bottom: 0;
+  }
+}
+
 [class^='control-']{
-  display: none;
 position: absolute;
 height: 24px;
 width: 24px;

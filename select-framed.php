@@ -1,6 +1,10 @@
 <h5 class="p-b-16">Подбери свой цвет шторы и рамы</h5>
 <div class="textile s">
   <h6 class="p-b-16 weight">Полотно шторы</h6>
+  <div class="controls button-none">
+    <button class="control-prev"></button>
+    <button class="control-next"></button>
+  </div>
   <div class="color-ul items-slick-page">
     <div class="color-li slide-page">
       <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/white-color.svg";>
@@ -42,12 +46,14 @@
       <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-grey-color.svg";>
       <h6>Антрацитово-кремовый</h6>
     </div>
-    <button type="button" class="control-prev"></button>
-    <button type="button" class="control-next"></button>
   </div>
 </div>
 <div class="textile">
   <h6 class="p-b-16 weight">Профиль</h6>
+  <div class="controls button-none">
+    <button class="control-prev"></button>
+    <button class="control-next"></button>
+  </div>
   <div class="color-ul items-slick-page">
     <div class="color-li slide-page">
       <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/black-pr.png";>
@@ -65,7 +71,5 @@
       <img class="icon-color" src="<?php echo get_bloginfo('template_url'); ?>/img/mos-icon/icon.png";>
       <h6>Любой цвет на ваш выбор</h6>
     </div>
-    <button type="button" class="control-prev"></button>
-    <button type="button" class="control-next"></button>
   </div>
 </div>
