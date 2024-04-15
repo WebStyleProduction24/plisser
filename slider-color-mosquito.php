@@ -21,21 +21,21 @@
       </div>
     </div>
     <div>
-      <img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/grey.png" alt="">
-      <div class="color-solutions-txt p-t-16">
-        <p>Серый</p>
-      </div>
-    </div>
-    <div>
       <img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/brown.png" alt="">
       <div class="color-solutions-txt p-t-16">
         <p>Коричневый</p>
       </div>
     </div>
     <div>
-      <img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/beige.png" alt="">
+      <img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/antr.svg" alt="">
       <div class="color-solutions-txt p-t-16">
-        <p>Бежевый</p>
+        <p>Антрацит</p>
+      </div>
+    </div>
+    <div>
+      <img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/luboy.svg" alt="">
+      <div class="color-solutions-txt p-t-16">
+          <p>Любой цвет на ваш выбор</p>
       </div>
     </div>
   </div>
