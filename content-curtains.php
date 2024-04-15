@@ -1,11 +1,13 @@
-<div id="curtains-direction" class="block flex centr">
-  <div class="curtains-direction-photo">
-    <div class="slider-line-3">
-      <img class="photo-youtube-sx slide" src="<?php echo get_bloginfo('template_url'); ?>/img/slider/Shtora-Z1.png";>
-      <img class="photo-youtube-sx slide" src="<?php echo get_bloginfo('template_url'); ?>/img/slider/Shtora-Z2.png";>
-      <div class="absol"></div>
+<div id="curtains-direction" class="block flex">
+   <div class="bcg-curt shadow flex centr border-c">
+    <div class="curtains-direction-photo">
+      <div class="slider-line-3">
+        <img class="photo-youtube-sx slide" src="<?php echo get_bloginfo('template_url'); ?>/img/slider/Shtora-Z1.png";>
+        <img class="photo-youtube-sx slide" src="<?php echo get_bloginfo('template_url'); ?>/img/slider/Shtora-Z2.png";>
+        <div class="absol"></div>
+      </div>
     </div>
-  </div>
+  </div> 
   <div class="curtains-direction-text shadow border-c p-24">
     <h1 class="txt-center p-b-16">Замер</h1>
     <div>
