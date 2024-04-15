@@ -154,11 +154,11 @@ function main_img_page() {
   $page = get_post_field( 'post_name', get_post() );
 
   switch ($page) {
-  case 'curtains-plisse': echo get_bloginfo('template_url') . '/img/icon-curtains/main-photo.png'; //ссылка на фото на странице штора плиссе
+  case 'curtains-plisse': echo get_bloginfo('template_url') . '/img/products-main/main-photo-1.png'; //ссылка на фото на странице штора плиссе
     break;
-  case 'curtains-in-frame': echo get_bloginfo('template_url') . '/img/products-main/shtori-v-ramke.png'; //ссылка на фото на странице шторы в рамке
+  case 'curtains-in-frame': echo get_bloginfo('template_url') . '/img/products-main/main-photo-2.png'; //ссылка на фото на странице шторы в рамке
       break;
-  case 'mosquito-nets':  echo get_bloginfo('template_url') . '/img/icon-curtains/'; //ссылка на фото на странице москитные системы
+  case 'mosquito-nets':  echo get_bloginfo('template_url') . '/img/products-main/main-photo-3.png'; //ссылка на фото на странице москитные системы
     break;
   }
 
