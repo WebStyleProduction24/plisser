@@ -78,51 +78,51 @@ add_action('save_post', 'save_page_excerpt');
 
 // Функция вывода блока с выбором цвета и профиля
 function select_color_and_profile() {
-  $page_title = get_the_title();
+  $page = get_post_field( 'post_name', get_post() );
 
-  switch ($page_title) {
-  case 'Шторы плиссе': get_template_part('select', 'curtains');
+  switch ($page) {
+  case 'curtains-plisse': get_template_part('select', 'curtains');
     break;
-  case 'Шторы в рамке': get_template_part('select', 'framed');
+  case 'curtains-in-frame': get_template_part('select', 'framed');
       break;
-  case 'Москитные сетки': get_template_part('select', 'mosquito');
+  case 'mosquito-nets': get_template_part('select', 'mosquito');
     break;
   }
 }
 
 // Функция вывода слайдера выбора цветов и профилей
 function slider_colors() {
-  if (is_page('Шторы плиссе') || is_page('Шторы в рамке')) {
+  if (is_page('curtains-plisse') || is_page('curtains-in-frame')) {
     get_template_part('slider-color', 'curtains');
-  } else if (is_page('Москитные сетки')) {
+  } else if (is_page('mosquito-nets')) {
     get_template_part('slider-color', 'mosquito');
   }
 }
 
 // функция вывода контента внутренних страниц
 function content() {
-  $page_title = get_the_title();
+  $page = get_post_field( 'post_name', get_post() );
 
-  switch ($page_title) {
-  case 'Шторы плиссе': get_template_part('content', 'curtains');
+  switch ($page) {
+  case 'curtains-plisse': get_template_part('content', 'curtains');
     break;
-  case 'Шторы в рамке': get_template_part('content', 'framed');
+  case 'curtains-in-frame': get_template_part('content', 'framed');
       break;
-  case 'Москитные сетки': get_template_part('content', 'mosquito');
+  case 'mosquito-nets': get_template_part('content', 'mosquito');
     break;
   }
 }
 
 // Функция определения и добавления класса страницы
 function class_page() {
-  $page_title = get_the_title();
+  $page = get_post_field( 'post_name', get_post() );
 
-  switch ($page_title) {
-  case 'Шторы плиссе': echo 'curtains';
+  switch ($page) {
+  case 'curtains-plisse': echo 'curtains';
     break;
-  case 'Шторы в рамке': echo 'framed-curtains';
+  case 'curtains-in-frame': echo 'framed-curtains';
       break;
-  case 'Москитные сетки':  echo 'mosquito-nets';
+  case 'mosquito-nets':  echo 'mosquito-nets';
     break;
   }
 
@@ -130,14 +130,14 @@ function class_page() {
 
 // Функция определения и добавления класса к первому блоку внутренней страницы
 function class_page_main_block() {
-  $page_title = get_the_title();
+  $page = get_post_field( 'post_name', get_post() );
 
   $class = ' flex';
 
-  switch ($page_title) {
-  case 'Шторы в рамке': echo $class .= ' framed-curtains-b';
+  switch ($page) {
+  case 'curtains-in-frame': echo $class .= ' framed-curtains-b';
       break;
-  case 'Москитные сетки': echo $class;
+  case 'mosquito-nets': echo $class;
     break;
   }
 
@@ -146,5 +146,20 @@ function class_page_main_block() {
 // Функция вывода class=mos-home на странице москитных систем
 
 function class_mos_home() {  
-  if (is_page('Москитные сетки')) echo 'mos-home';
+  if (is_page('mosquito-nets')) echo 'mos-home';
+}
+
+// Функция определения и добавления класса страницы
+function main_img_page() {
+  $page = get_post_field( 'post_name', get_post() );
+
+  switch ($page) {
+  case 'curtains-plisse': echo get_bloginfo('template_url') . '/img/icon-curtains/main-photo.png'; //ссылка на фото на странице штора плиссе
+    break;
+  case 'curtains-in-frame': echo get_bloginfo('template_url') . '/img/products-main/shtori-v-ramke.png'; //ссылка на фото на странице шторы в рамке
+      break;
+  case 'mosquito-nets':  echo get_bloginfo('template_url') . '/img/icon-curtains/'; //ссылка на фото на странице москитные системы
+    break;
+  }
+
 }

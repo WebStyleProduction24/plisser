@@ -1,4 +1,4 @@
-<h5 class="p-b-16">Подбери свой цвет штор</h5>
+<h5 class="p-b-16">Подбери свой цвет шторы и рамы</h5>
 <div class="textile s">
   <h6 class="p-b-16 weight">Полотно шторы</h6>
   <div class="color-ul items-slick-page">

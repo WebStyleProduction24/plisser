@@ -42,6 +42,10 @@ header a:hover, footer a:hover {
   display: flex;
 }
 
+.direction-column {
+  flex-direction: column;
+}
+
 .block {
   max-width: $content-width;
   margin: 30px auto;
@@ -203,14 +207,7 @@ header a:hover, footer a:hover {
 
 .cont p {
   font-size: 19px;
-
-    position: relative;
-
-  &::before {
-      content: '•';
-      position: absolute;
-      left: -0.7rem;
-  }
+  position: relative;
 }
 
 .centr {
