@@ -37,9 +37,9 @@
 </div>
 
 <div id="projects" class="block">
-  <div class="controls">
-    <button class="control-prev"></button>
-    <button class="control-next"></button>
+  <div class="controls-1">
+    <button class="control-prev-4"></button>
+    <button class="control-next-4"></button>
   </div>
   <div class="slider-line-4">
     <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-1.jpeg" alt=""></div>

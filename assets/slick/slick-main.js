@@ -64,9 +64,8 @@ jQuery(document).ready(function($){
       variableWidth: true,
       autoplay: true,
       autoplaySpeed: 2000,
-      arrows: false,
-      prevArrow: $('#control-prev-s-1'),
-      nextArrow: $('#control-next-s-1')
+      prevArrow: $('.control-prev-1'),
+      nextArrow: $('.control-next-1')
     });
     $('.slider-line-2').slick({
       dots:false,
@@ -78,7 +77,8 @@ jQuery(document).ready(function($){
       autoplay: true,
       autoplaySpeed: 2000,
       reverse: true,
-      arrows: false
+      prevArrow: $('.control-prev-2'),
+      nextArrow: $('.control-next-2'),
     });
 
     $('.slider-line-3').slick({
@@ -92,8 +92,7 @@ jQuery(document).ready(function($){
       autoplay: true,
       autoplaySpeed: 3000,
       arrows: false,
-      slide:'.slide'
-
+      slide:'.slide',
     });
 
     $('.slider-line-4').slick({
@@ -106,9 +105,8 @@ jQuery(document).ready(function($){
       adaptiveHeihgt: true,
       autoplay: true,
       autoplaySpeed: 2000,
-      arrows: false,
-      prevArrow: $('#control-prev-s-1'),
-      nextArrow: $('#control-next-s-1')
+      prevArrow: $('.control-prev-4'),
+      nextArrow: $('.control-next-4') 
     });
  
 });

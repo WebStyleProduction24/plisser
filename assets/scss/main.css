@@ -221,6 +221,10 @@ header a:hover, footer a:hover {
   margin-top: 1rem;
 }
 
+.m-30 {
+  margin: -30px auto 0;
+}
+
 .bcg-dark {
   background-color: #273437;
 }
@@ -465,7 +469,7 @@ header .burger-menu div {
   background-color: white;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   position: fixed;
-  top: 0;
+  top: -8px;
   width: 100%;
   left: 0;
   right: 0;
@@ -489,7 +493,7 @@ main {
   position: relative;
 }
 
-.controls {
+.controls, .controls-1 {
   position: absolute;
   width: 88%;
   margin: auto;
@@ -504,7 +508,7 @@ main {
   bottom: 0;
 }
 
-#projects .controls {
+#projects .controls, #projects .controls-1 {
   width: 92% !important;
   margin: auto;
   right: 0;
@@ -588,7 +592,7 @@ main {
   color: #fdfdfd;
   font-family: "Inter-SemiBold";
   width: 66% !important;
-  height: 72px;
+  height: 47px;
   cursor: pointer;
 }
 #main-block .product {
@@ -1250,7 +1254,27 @@ footer .footer-contacts-nav div {
   #form-order-calculation > div {
     padding: 1rem 0.5rem;
   }
+  #form-order-calculation .form-order-calculation-cf7 p input {
+    height: 47px !important;
+    border-radius: 36px;
+  }
+  #form-order-calculation .form-order-calculation-cf7 p [type^=text] {
+    width: 80% !important;
+    max-width: 100% !important;
+  }
+  #form-order-calculation .form-order-calculation-cf7 p [type^=phone] {
+    width: 80% !important;
+    max-width: 100% !important;
+  }
+  #form-order-calculation .form-order-calculation-cf7 p [type^=submit] {
+    width: 66% !important;
+    max-width: 66% !important;
+    height: 47px;
+  }
   footer > div {
+    font-size: 12px !important;
+  }
+  footer > div p {
     font-size: 12px !important;
   }
   footer > div .title-footer-nav {
@@ -1262,6 +1286,12 @@ footer .footer-contacts-nav div {
   }
   .sticky {
     top: -16px;
+  }
+  .tel-icon {
+    margin-left: 0.3rem !important;
+  }
+  .sticky {
+    padding: 19px 4px 8px !important;
   }
 }
 @media screen and (min-width: 991px) {
@@ -1310,7 +1340,7 @@ footer .footer-contacts-nav div {
     max-width: 100%;
   }
   .reverse {
-    flex-direction: column-reverse;
+    flex-direction: column-reverse !important;
   }
   .curtains-main {
     display: flex !important;
@@ -1402,6 +1432,21 @@ footer .footer-contacts-nav div {
   .d-sm-none {
     display: none;
   }
+  .tel-icon {
+    width: 25px;
+    height: 28px;
+    background: url("img/tel-h.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 0.7rem;
+  }
+  .block-16 {
+    margin: 16px auto !important;
+  }
+  .sticky {
+    padding: 19px 14px 8px;
+    top: -24px;
+  }
 }
 @media screen and (max-width: 768px) {
   #main-block .product {
@@ -1450,8 +1495,9 @@ footer .footer-contacts-nav div {
     width: 79% !important;
     max-width: 79% !important;
   }
-  .politic {
-    display: none;
+  header .logo img {
+    width: 125px;
+    height: 24px;
   }
 }
 @media screen and (min-width: 991px) {

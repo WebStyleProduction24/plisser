@@ -1,4 +1,8 @@
 <div id="color-solutions" class="block">
+  <div class="controls-1">
+    <button class="control-prev-1"></button>
+    <button class="control-next-1"></button>
+  </div>
   <div class="slider-line-1">
       <div>
         <img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/standart.png" alt="">
@@ -12,6 +16,10 @@
           <p>Антикошка</p>
         </div>
       </div>
+  </div>
+  <div class="controls-1">
+    <button class="control-prev-2"></button>
+    <button class="control-next-2"></button>
   </div>
   <div class="slider-line-2">
     <div>

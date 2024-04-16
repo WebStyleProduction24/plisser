@@ -87,15 +87,47 @@
         >div {
             padding: 1rem 0.5rem;
         }
+        .form-order-calculation-cf7 {
+            p {
+                input {
+                    height: 47px !important;
+                    border-radius: 36px;
+
+                }
+
+                [type^='text']{
+                    width: 80% !important;
+                    max-width: 100% !important;
+
+                }
+            
+                [type^='phone'] {
+                    width: 80% !important;
+                    max-width: 100% !important;
+                }
+            
+                [type^='submit'] {
+                    width: 66% !important;
+                    max-width: 66% !important;
+                    height: 47px;
+
+                }
+            }
+        }
     }
 
 
-    footer > div {
+    footer { 
+     > div {
         font-size: 12px !important;
+        p {
+            font-size: 12px !important;
+        }
         .title-footer-nav {
             margin-bottom: 8px !important;
             margin-top: 16px !important;
         }
+    }
     }
 
     .tel-f, .mail-f {
@@ -106,5 +138,13 @@
 
     .sticky {
         top: -16px;
+    }
+
+    .tel-icon {
+        margin-left: 0.3rem !important;
+    }
+
+    .sticky {
+        padding: 19px 4px 8px !important;
     }
 }
