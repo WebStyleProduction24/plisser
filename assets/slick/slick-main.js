@@ -55,19 +55,34 @@ jQuery(document).ready(function($){
     });
     
 
-    $('.slider-line-1').slick({
-      dots:false,
-      infinite: true,
-      speed: 300,
-      slidesToShow: 1,
-      centerMode: true,
-      variableWidth: true,
-      autoplay: true,
-      autoplaySpeed: 2000,
-      prevArrow: $('.control-prev-1'),
-      nextArrow: $('.control-next-1')
-    });
-    $('.slider-line-2').slick({
+// Итерация по каждому элементу слайдера
+$('.slider-line-1').each(function() {
+  // Для текущего слайдера в цикле находим его собственные элементы управления prev/next
+  var prevArrow = $(this).siblings('.controls-1').find('.control-prev-1');
+  var nextArrow = $(this).siblings('.controls-1').find('.control-next-1');
+
+  // Инициализация slick на текущем слайдере
+  $(this).slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    centerMode: true,
+    variableWidth: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    prevArrow: prevArrow,
+    nextArrow: nextArrow,
+  });
+});
+
+$('.slider-line-2').each(function() {
+  // Для текущего слайдера в цикле находим его собственные элементы управления prev/next
+  var prevArrow = $(this).siblings('.controls-2').find('.control-prev-2');
+  var nextArrow = $(this).siblings('.controls-2').find('.control-next-2');
+
+  // Инициализация slick на текущем слайдере
+  $(this).slick({
       dots:false,
       infinite: true,
       speed: 150,
@@ -77,9 +92,10 @@ jQuery(document).ready(function($){
       autoplay: true,
       autoplaySpeed: 2000,
       reverse: true,
-      prevArrow: $('.control-prev-2'),
-      nextArrow: $('.control-next-2'),
+      prevArrow: prevArrow,
+      nextArrow: nextArrow,
     });
+  });
 
     $('.slider-line-3').slick({
       dots:false,

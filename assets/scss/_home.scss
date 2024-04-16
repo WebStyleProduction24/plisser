@@ -7,22 +7,31 @@ body {
 }
 
  main {
-  text-align: justify;
   margin: 0 0.5em;
+  li { 
+  list-style: unset;
+  }
 }
 
 
 
 
-
+.slider-col {
+  [class^='control-']{
+    top: 67px;
+    bottom: 0;
+  }
+}
 
 .slick-list {
   position: relative;
 }
 
-.controls, .controls-1 {
+.controls, .controls-1, .controls-2 {
   position: absolute;
-  width: 88%;
+  width: 85%;
+  right: 0;
+  left: 0;
   margin: auto;
 }
 
@@ -35,9 +44,17 @@ body {
   bottom: 0;
 }
 
+#color-solutions .controls-1, .controls-2{
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 99%;
+}
+
 #projects {
-  .controls, .controls-1{
-    width: 92% !important;
+  .controls, .controls-1, .controls-2{
+    position: absolute;
+    width: 99% !important;
     margin: auto;
     right: 0;
     left: 0;

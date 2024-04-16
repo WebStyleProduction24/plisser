@@ -1,5 +1,5 @@
 <div id="color-solutions" class="block">
-  <div class="controls-1">
+  <div class="controls-1 slider-col">
     <button class="control-prev-1"></button>
     <button class="control-next-1"></button>
   </div>
@@ -29,7 +29,7 @@
       </div>
     </div>
   </div>
-  <div class="controls-1">
+  <div class="controls-2">
     <button class="control-prev-2"></button>
     <button class="control-next-2"></button>
   </div>

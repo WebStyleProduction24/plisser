@@ -89,6 +89,10 @@
     }
 }
 
+.max-w {
+    max-width: 700px !important;
+}
+
 #curtains-direction {
     justify-content: space-between;
     align-items: stretch;
@@ -99,6 +103,7 @@
         background-color: #f7f7f7;
         max-width: 790px;
     }
+
 
     .curtains-direction-photo {
         max-width: 790px;
@@ -184,6 +189,7 @@
     color:$grey-1;
     [class^='slider-line-'] {
         margin: 20px 0;
+        position: relative;
         div {
           margin: 0 10px;
         }

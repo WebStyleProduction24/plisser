@@ -38,9 +38,17 @@
   }
 
   header  {
-    font-size: 15px;
+    font-size: 12px;
     li {
       padding: 9px;
     }
+  }
+}
+
+
+
+@media (min-width: 1040px) {
+  .calculate #form-order-calculation .form-order-calculation-cf7 p [type^=text], .calculate #form-order-calculation .form-order-calculation-cf7 p [type^=submit] {
+    max-width: 210px !important;
   }
 }
