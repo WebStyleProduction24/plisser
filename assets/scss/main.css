@@ -623,7 +623,7 @@ main {
   row-gap: 1.5rem;
 }
 .calculate #form-order-calculation .form-order-calculation-cf7 p [type^=text], .calculate #form-order-calculation .form-order-calculation-cf7 p [type^=submit] {
-  max-width: 210px;
+  max-width: 419px;
   width: 100%;
   min-width: 140px;
 }
@@ -1426,8 +1426,8 @@ footer .footer-contacts-nav div {
     max-width: 100% !important;
   }
   #form-order-calculation .form-order-calculation-cf7 p [type^=submit] {
-    width: 54% !important;
-    max-width: 54% !important;
+    width: 54%;
+    max-width: 54%;
   }
   .d-sm-none {
     display: none;
@@ -1492,8 +1492,8 @@ footer .footer-contacts-nav div {
     max-width: 100% !important;
   }
   #form-order-calculation .form-order-calculation-cf7 p [type^=submit] {
-    width: 79% !important;
-    max-width: 79% !important;
+    width: 79%;
+    max-width: 79%;
   }
   header .logo img {
     width: 125px;
