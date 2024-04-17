@@ -145,10 +145,19 @@
     }
 
     .sticky {
-        padding: 19px 4px 8px !important;
+        padding: 19px 4px 0px !important;
     }
 
     .youtube-video iframe {
         height: 188px !important;
+    }
+
+    header {
+        padding: 8px 0; 
+    }
+}
+@media screen and (max-width: 328px) {
+    #color-solutions [class^=slider-line-] div {
+        margin: 0px 0px;
     }
 }

@@ -110,7 +110,7 @@ h6 {
   padding: 32px;
 }
 
-footer > div, #contacts .contacts, #dilers .for-dilers, #dilers .welcome > div, header {
+footer > div, #contacts .contacts, #dilers .for-dilers, #dilers .welcome > div, header > div {
   display: flex;
   justify-content: space-between;
 }
@@ -385,29 +385,37 @@ header a:hover, footer a:hover {
 }
 
 header {
+  padding: 20px 0;
+  z-index: 9999999;
+}
+header .block-h {
+  max-width: 1345px;
+  margin: 10px auto;
+}
+header > div {
   align-items: center;
 }
-header li {
+header > div li {
   padding: 10px;
   text-transform: uppercase;
 }
-header .contacts {
+header > div .contacts {
   display: flex;
   align-items: center;
 }
-header button {
+header > div button {
   background-color: transparent;
 }
-header .burger-menu {
+header > div .burger-menu {
   position: relative;
   width: 38px;
   height: 53px;
 }
-header .burger-menu p {
+header > div .burger-menu p {
   font-size: 14px;
   font-weight: 300;
 }
-header .burger-menu div {
+header > div .burger-menu div {
   height: 29px;
   width: 38px;
   background-image: url("img/vector.svg");
@@ -551,7 +559,7 @@ main li {
   right: 0;
   left: 0;
   margin: auto;
-  width: 94% !important;
+  width: 96% !important;
 }
 
 #projects .controls, #projects .controls-1, #projects .controls-2 {
@@ -1356,10 +1364,18 @@ footer .footer-contacts-nav div {
     margin-left: 0.3rem !important;
   }
   .sticky {
-    padding: 19px 4px 8px !important;
+    padding: 19px 4px 0px !important;
   }
   .youtube-video iframe {
     height: 188px !important;
+  }
+  header {
+    padding: 8px 0;
+  }
+}
+@media screen and (max-width: 328px) {
+  #color-solutions [class^=slider-line-] div {
+    margin: 0px 0px;
   }
 }
 @media screen and (min-width: 991px) {

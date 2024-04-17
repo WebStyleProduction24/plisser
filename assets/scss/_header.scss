@@ -1,4 +1,12 @@
 header {
+  padding: 20px 0;
+  .block-h {
+    max-width: 1345px;
+    margin: 10px auto;
+  }
+  z-index: 9999999;
+   >div {
+
   @extend %flex-space-between;
   align-items: center;
   li {
@@ -34,6 +42,7 @@ header {
 
     }
   }
+}
 }
 
 .header {

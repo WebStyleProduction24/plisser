@@ -74,6 +74,8 @@ $('.slider-line-1').each(function() {
     autoplaySpeed: 2000,
     prevArrow: prevArrow,
     nextArrow: nextArrow,
+
+
   });
 });
 
