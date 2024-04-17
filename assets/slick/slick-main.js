@@ -7,6 +7,7 @@ jQuery(document).ready(function($){
           infinite: true,
           speed: 500,
           centerMode: true,
+          autoplay: 5000,
           variableWidth: true,
           slidesToShow: 1,
           slide:'.slide',

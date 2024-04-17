@@ -27,7 +27,6 @@
 
     <button type="button" class="burger-menu none">
       <div></div>
-      <p class="text-grey-1">Меню</p>
     </button>
     <div class="header-menu none-d" id="menu">
     <button class="cross" id="cross"></button>
@@ -38,7 +37,6 @@
         <li><a href="#dilers">Информация</a></li>
         <li><a href="#contacts">Контакты</a></li>
       </ul>
-      <div class="zhirniy"><a href="tel:78002223655">8 800 222-36-55</a></div>
 
     </div>
     

@@ -160,7 +160,7 @@
                 font-size: $font-m-input;
                 height: 72px;
                 border-radius: 36px;
-                padding: 0 1.5rem;
+                padding: 0 1rem;
             }
         
             [type^='text']{
@@ -199,12 +199,16 @@
       }
 
       .block-16 {
-        margin: 16px auto !important;
+        margin: 8px auto !important;
     }
 
     .sticky {
         padding: 19px 14px 8px;
         top: -24px;
+    }
+
+    .youtube-video iframe {
+        height: 465px;
     }
 }
 
@@ -280,6 +284,10 @@
             height: 24px;
         }
     }  
+
+    .youtube-video iframe {
+        height: 306px;
+    }
 }
 
 @media screen and (min-width:991px) {

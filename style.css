@@ -408,7 +408,7 @@ header .burger-menu p {
   font-weight: 300;
 }
 header .burger-menu div {
-  height: 38px;
+  height: 29px;
   width: 38px;
   background-image: url("img/vector.svg");
   background-size: contain;
@@ -424,7 +424,7 @@ header .burger-menu div {
 .header-menu {
   position: fixed;
   width: 190px;
-  min-height: 301px;
+  min-height: 274px;
   display: flex;
   flex-direction: column;
   align-items: end;
@@ -510,6 +510,10 @@ main li {
   list-style: unset;
 }
 
+.items-slick {
+  width: 94%;
+}
+
 .slider-col [class^=control-] {
   top: 67px;
   bottom: 0;
@@ -521,31 +525,38 @@ main li {
 
 .controls, .controls-1, .controls-2 {
   position: absolute;
-  width: 85%;
+  width: 88%;
   right: 0;
   left: 0;
   margin: auto;
+  max-width: 1345px;
 }
 
 .button-none-h {
-  width: 99% !important;
+  width: 100% !important;
   margin: auto;
   right: 0;
   left: 0;
   top: 262px;
   bottom: 0;
 }
+.button-none-h .control-prev {
+  left: -11px;
+}
+.button-none-h .control-next {
+  right: -11px;
+}
 
 #color-solutions .controls-1, .controls-2 {
   right: 0;
   left: 0;
   margin: auto;
-  width: 99%;
+  width: 94% !important;
 }
 
 #projects .controls, #projects .controls-1, #projects .controls-2 {
   position: absolute;
-  width: 99% !important;
+  width: 94% !important;
   margin: auto;
   right: 0;
   left: 0;
@@ -769,7 +780,8 @@ main li {
 }
 
 #projects [class^=slider-line-] {
-  margin: 20px 0;
+  margin: 20px auto;
+  width: 95%;
 }
 #projects [class^=slider-line-] div {
   margin: 0 10px;
@@ -1053,11 +1065,18 @@ footer .footer-contacts-nav div {
   color: #273437;
 }
 #color-solutions [class^=slider-line-] {
-  margin: 20px 0;
+  margin: 20px auto;
+  width: 97%;
   position: relative;
 }
 #color-solutions [class^=slider-line-] div {
   margin: 0 10px;
+}
+#color-solutions h4 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 50px;
+  color: #273437;
 }
 #color-solutions .color-solutions-txt {
   font-size: 20px;
@@ -1339,6 +1358,9 @@ footer .footer-contacts-nav div {
   .sticky {
     padding: 19px 4px 8px !important;
   }
+  .youtube-video iframe {
+    height: 188px !important;
+  }
 }
 @media screen and (min-width: 991px) {
   .photo-min {
@@ -1461,7 +1483,7 @@ footer .footer-contacts-nav div {
     font-size: 20px;
     height: 72px;
     border-radius: 36px;
-    padding: 0 1.5rem;
+    padding: 0 1rem;
   }
   #form-order-calculation .form-order-calculation-cf7 p [type^=text] {
     width: 100% !important;
@@ -1487,11 +1509,14 @@ footer .footer-contacts-nav div {
     margin-left: 0.7rem;
   }
   .block-16 {
-    margin: 16px auto !important;
+    margin: 8px auto !important;
   }
   .sticky {
     padding: 19px 14px 8px;
     top: -24px;
+  }
+  .youtube-video iframe {
+    height: 465px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1544,6 +1569,9 @@ footer .footer-contacts-nav div {
   header .logo img {
     width: 125px;
     height: 24px;
+  }
+  .youtube-video iframe {
+    height: 306px;
   }
 }
 @media screen and (min-width: 991px) {

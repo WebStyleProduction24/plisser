@@ -13,7 +13,9 @@ body {
   }
 }
 
-
+.items-slick {
+  width: 94%;
+}
 
 
 .slider-col {
@@ -29,32 +31,42 @@ body {
 
 .controls, .controls-1, .controls-2 {
   position: absolute;
-  width: 85%;
+  width: 88%;
   right: 0;
   left: 0;
   margin: auto;
+  max-width: 1345px;
 }
 
 .button-none-h {
-  width: 99% !important;
+  width: 100% !important;
   margin: auto;
   right: 0;
   left: 0;
   top: 262px;
   bottom: 0;
+
+  .control-prev {
+    left: -11px;
+  }
+
+  .control-next {
+    right: -11px;
+  }
 }
 
 #color-solutions .controls-1, .controls-2{
   right: 0;
   left: 0;
   margin: auto;
-  width: 99%;
+  width: 94% !important;
+
 }
 
 #projects {
   .controls, .controls-1, .controls-2{
     position: absolute;
-    width: 99% !important;
+    width: 94% !important;
     margin: auto;
     right: 0;
     left: 0;
@@ -356,7 +368,9 @@ z-index: 9999;
 #projects {
 
   [class^='slider-line-'] {
-    margin: 20px 0;
+    margin: 20px auto;
+    width: 95%;
+
 
     div {
       margin: 0 10px;

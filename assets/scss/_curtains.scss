@@ -188,11 +188,19 @@
 #color-solutions {
     color:$grey-1;
     [class^='slider-line-'] {
-        margin: 20px 0;
+        margin: 20px auto;
+        width: 97%;
         position: relative;
         div {
           margin: 0 10px;
         }
+    }
+
+    h4 {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 50px;
+        color: $grey-1;
     }
     
 

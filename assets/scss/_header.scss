@@ -26,7 +26,7 @@ header {
     }
 
     div {
-      height: 38px;
+      height: 29px;
       width: 38px;
       background-image: url('img/vector.svg');
       background-size: contain;
@@ -46,7 +46,7 @@ header {
 .header-menu {
   position: fixed;
   width: 190px;
-  min-height: 301px;
+  min-height: 274px;
   display: flex;
   flex-direction: column;
   align-items: end;
