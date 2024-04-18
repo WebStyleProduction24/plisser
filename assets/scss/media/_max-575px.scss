@@ -80,7 +80,7 @@
     }
 
     #contacts .contacts .adress{
-        font-size: 17px;
+        font-size: 17px !important;
     }
 
     #form-order-calculation {
@@ -130,12 +130,6 @@
     }
     }
 
-    .tel-f, .mail-f {
-        &::before {
-            left: -36px;
-        }
-    }
-
     .sticky {
         top: -16px;
     }
@@ -154,6 +148,42 @@
 
     header {
         padding: 8px 0; 
+    }
+
+    .mail-f::before {
+        content: "";
+        position: absolute;
+        top: -2px;
+        left: -30px;
+        width: 26px;
+        height: 21px;
+        background: url(img/mail-f.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .tel-f::before {
+        content: "";
+        position: absolute;
+        top: -5px;
+        left: -26px;
+        width: 20px;
+        height: 28px;
+        background: url(img/tel-f.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #curtain-care .curtain-care-info-txt {
+        line-height: 130% !important;
+    }
+
+    .textile {
+        margin-top: 0.5rem !important;
+    }
+
+    .curtains-home {
+        row-gap: 1rem !important;
     }
 }
 @media screen and (max-width: 328px) {

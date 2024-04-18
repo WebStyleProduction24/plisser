@@ -236,10 +236,6 @@ header a:hover, footer a:hover {
   margin-top: 1rem;
 }
 
-.m-30 {
-  margin: -30px auto 0;
-}
-
 .p-l {
   padding-left: 8px;
 }
@@ -361,6 +357,8 @@ header a:hover, footer a:hover {
   width: 24px;
   height: 33px;
   background: url("img/tel-f.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .mail-f {
@@ -374,6 +372,8 @@ header a:hover, footer a:hover {
   width: 30px;
   height: 25px;
   background: url("img/mail-f.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .youtube-video {
@@ -520,6 +520,13 @@ main li {
 
 .items-slick {
   width: 94%;
+}
+
+.slick-slide img {
+  max-width: 94% !important;
+  max-height: 94% !important;
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
 }
 
 .slider-col [class^=control-] {
@@ -1223,8 +1230,29 @@ footer .footer-contacts-nav div {
   .block {
     margin: 16px auto !important;
   }
+  .m-30 {
+    margin: -30px auto 0 !important;
+  }
   .p-img {
     padding-top: 0;
+  }
+  .pages-curt > div {
+    line-height: 130% !important;
+  }
+  .pages-curt p {
+    font-size: 12px !important;
+  }
+  .pages-curt h1 {
+    font-size: 24px !important;
+  }
+  .pages-curt h4 {
+    font-size: 22px !important;
+  }
+  .pages-curt h5 {
+    font-size: 20px !important;
+  }
+  .pages-curt li::marker {
+    font-size: 13px;
   }
 }
 @media (min-width: 992px) and (max-width: 1299px) {
@@ -1322,7 +1350,7 @@ footer .footer-contacts-nav div {
     z-index: 9999;
   }
   #contacts .contacts .adress {
-    font-size: 17px;
+    font-size: 17px !important;
   }
   #form-order-calculation > div {
     padding: 1rem 0.5rem;
@@ -1354,9 +1382,6 @@ footer .footer-contacts-nav div {
     margin-bottom: 8px !important;
     margin-top: 16px !important;
   }
-  .tel-f::before, .mail-f::before {
-    left: -36px;
-  }
   .sticky {
     top: -16px;
   }
@@ -1371,6 +1396,37 @@ footer .footer-contacts-nav div {
   }
   header {
     padding: 8px 0;
+  }
+  .mail-f::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -30px;
+    width: 26px;
+    height: 21px;
+    background: url(img/mail-f.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .tel-f::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -26px;
+    width: 20px;
+    height: 28px;
+    background: url(img/tel-f.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  #curtain-care .curtain-care-info-txt {
+    line-height: 130% !important;
+  }
+  .textile {
+    margin-top: 0.5rem !important;
+  }
+  .curtains-home {
+    row-gap: 1rem !important;
   }
 }
 @media screen and (max-width: 328px) {

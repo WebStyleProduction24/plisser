@@ -119,10 +119,6 @@ header a:hover, footer a:hover {
   margin-top: 1rem;
 }
 
-.m-30 {
-  margin: -30px auto 0;
-}
-
 .p-l {
   padding-left: 8px;
 }
@@ -241,6 +237,9 @@ header a:hover, footer a:hover {
     width: 24px;
     height: 33px;
     background: url('img/tel-f.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
   }
 }
 
@@ -254,6 +253,8 @@ header a:hover, footer a:hover {
     width: 30px;
     height: 25px;
     background: url('img/mail-f.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
 

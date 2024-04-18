@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main class="p-t-30 <?php class_page(); ?>">
+<main class="p-t-30 pages-curt <?php class_page(); ?>">
 
   <div class="block calculate m-b-60 none shadow">
     <div class="calc p-16">

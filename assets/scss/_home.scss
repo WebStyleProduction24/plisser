@@ -17,6 +17,12 @@ body {
   width: 94%;
 }
 
+.slick-slide img {
+  max-width: 94% !important;
+  max-height: 94% !important;
+  object-fit: contain !important;
+}
+
 
 .slider-col {
   [class^='control-']{

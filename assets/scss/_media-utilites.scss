@@ -109,10 +109,41 @@
     .block {
         margin: 16px auto !important;
     }
+
+    .m-30 {
+        margin: -30px auto 0 !important;
+      }
     
 
     .p-img {
         padding-top: 0;
+      }
+
+      .pages-curt {
+        >div {
+            line-height: 130% !important;
+        }   
+        p {
+            font-size: 12px !important;
+        }
+
+        h1 {
+            font-size: 24px !important;
+        }
+
+        h4 {
+            font-size: 22px !important;
+        }
+
+        h5 {
+            font-size: 20px !important;
+        }
+
+        li {
+            &::marker {
+                font-size: 13px;
+            }
+        }
       }
 
 }

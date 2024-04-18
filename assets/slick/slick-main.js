@@ -74,7 +74,15 @@ $('.slider-line-1').each(function() {
     autoplaySpeed: 2000,
     prevArrow: prevArrow,
     nextArrow: nextArrow,
-
+    responsive: [
+      {
+        breakpoint: 465, // размер экрана 465
+        settings: {
+          centerMode: false,
+          variableWidth: false,
+        }
+      }
+    ]
 
   });
 });
@@ -97,6 +105,15 @@ $('.slider-line-2').each(function() {
       reverse: true,
       prevArrow: prevArrow,
       nextArrow: nextArrow,
+      responsive: [
+        {
+          breakpoint: 465, // размер экрана 465
+          settings: {
+            centerMode: false,
+            variableWidth: false,
+          }
+        }
+      ]
     });
   });
 
