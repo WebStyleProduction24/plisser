@@ -370,6 +370,7 @@ header a:hover, footer a:hover {
 }
 
 header {
+  font-size: 18px;
   padding: 20px 0;
   z-index: 9999999;
 }
@@ -387,6 +388,8 @@ header > div li {
 header > div .contacts {
   display: flex;
   align-items: center;
+  align-self: end;
+  justify-self: end;
 }
 header > div button {
   background-color: transparent;
@@ -507,15 +510,8 @@ main li {
   width: 94%;
 }
 
-.slick-slide img {
-  max-width: 94% !important;
-  max-height: 94% !important;
-  -o-object-fit: contain !important;
-     object-fit: contain !important;
-}
-
 .slider-col [class^=control-] {
-  top: 67px;
+  top: 67px !important;
   bottom: 0;
 }
 
@@ -1072,6 +1068,9 @@ footer .footer-contacts-nav div {
 #color-solutions [class^=slider-line-] div {
   margin: 0 10px;
 }
+#color-solutions [class^=control-] {
+  top: 37px;
+}
 #color-solutions h4 {
   font-weight: 500;
   font-size: 32px;
@@ -1085,6 +1084,23 @@ footer .footer-contacts-nav div {
 .slider-line-4 img {
   width: 100%;
   height: 100%;
+}
+
+.calculate .calc .before {
+  display: block;
+  position: relative;
+}
+.calculate .calc .before::before {
+  content: " ";
+  background: url(img/clik.png);
+  width: 22px;
+  height: 32px;
+  position: absolute;
+  bottom: -13px;
+  right: 66px;
+  z-index: 9999;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #main-block .mos-home .textile .color-ul-mos {
@@ -1252,7 +1268,7 @@ footer .footer-contacts-nav div {
     font-size: 17px;
   }
   header {
-    font-size: 19px;
+    font-size: 17px;
   }
   header li {
     padding: 9px;
@@ -1324,15 +1340,6 @@ footer .footer-contacts-nav div {
   }
   .calculate .calc h3 {
     font-size: 25px;
-  }
-  .calculate .calc div {
-    background-image: url("img/cursor.svg");
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    bottom: 3px;
-    right: 24px;
-    z-index: 9999;
   }
   #contacts .contacts .adress {
     font-size: 17px !important;
@@ -1414,9 +1421,27 @@ footer .footer-contacts-nav div {
     row-gap: 1rem !important;
   }
 }
-@media screen and (max-width: 328px) {
+@media screen and (max-width: 400px) {
   #color-solutions [class^=slider-line-] div {
-    margin: 0px 0px;
+    margin: 0px auto;
+  }
+  .slick-slide img {
+    max-width: 94% !important;
+    max-height: 94% !important;
+    -o-object-fit: contain !important;
+       object-fit: contain !important;
+  }
+  .slider-col [class^=control-] {
+    top: 40px !important;
+    bottom: 0;
+  }
+  #color-solutions [class^=slider-line-] {
+    margin: 20px auto;
+    width: 88%;
+    position: relative;
+  }
+  #color-solutions [class^=control-] {
+    top: 29px;
   }
 }
 @media screen and (min-width: 991px) {

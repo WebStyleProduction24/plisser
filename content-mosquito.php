@@ -1,6 +1,6 @@
 <div id="curtains-direction" class="block flex">
   <div class="curtains-direction-photo">
-    <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/zamer.png";>
+  <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/zamer.png";>
   </div>
   <div class="curtains-direction-text shadow border-c p-24">
     <h1 class="txt-center p-b-16">Замер</h1>

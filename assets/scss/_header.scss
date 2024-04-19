@@ -1,4 +1,5 @@
 header {
+  font-size: 18px;
   padding: 20px 0;
   .block-h {
     max-width: 1345px;
@@ -17,6 +18,8 @@ header {
   .contacts {
     display: flex;
     align-items: center;
+    align-self: end;
+    justify-self: end;
   } 
 
   button {
