@@ -5,8 +5,7 @@
   <div class="block calculate m-b-60 none shadow">
     <div class="calc p-16">
       <h3 class="txt-center">Калькулятор</h3>
-      <img src="<?php echo get_bloginfo('template_url'); ?>/img/calc-icon.svg";>
-      <div></div>
+      <div class="before"><img src="<?php echo get_bloginfo('template_url'); ?>/img/calc-icon.svg";></div>
       <h5>Нажмите для рассчета</h5>
     </div>
     <div id="form-order-calculation" class="bcg-dark curve txt-center">

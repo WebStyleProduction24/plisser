@@ -196,6 +196,10 @@
         }
     }
 
+    [class^=control-] {
+        top: 37px;
+    }
+
     h4 {
         font-weight: 500;
         font-size: 32px;
@@ -214,5 +218,26 @@
     img {
         width: 100%;
         height: 100%;
+    }
+}
+
+.calculate .calc{
+
+
+        .before {
+        display: block;
+        position: relative;
+        &::before {
+            content: ' ';
+            background: url(img/clik.png);
+            width: 22px;
+            height: 32px;
+            position: absolute;
+            bottom: -13px;
+            right: 66px;
+            z-index: 9999;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
     }
 }

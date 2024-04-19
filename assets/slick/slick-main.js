@@ -76,9 +76,8 @@ $('.slider-line-1').each(function() {
     nextArrow: nextArrow,
     responsive: [
       {
-        breakpoint: 465, // размер экрана 465
+        breakpoint: 400, // размер экрана 465
         settings: {
-          centerMode: false,
           variableWidth: false,
         }
       }
@@ -107,9 +106,8 @@ $('.slider-line-2').each(function() {
       nextArrow: nextArrow,
       responsive: [
         {
-          breakpoint: 465, // размер экрана 465
+          breakpoint: 400, // размер экрана 465
           settings: {
-            centerMode: false,
             variableWidth: false,
           }
         }
@@ -142,7 +140,17 @@ $('.slider-line-2').each(function() {
       autoplay: true,
       autoplaySpeed: 2000,
       prevArrow: $('.control-prev-4'),
-      nextArrow: $('.control-next-4') 
+      nextArrow: $('.control-next-4'),
+
+      responsive: [
+        {
+          breakpoint: 465, // размер экрана 465
+          settings: {
+            centerMode: false,
+            variableWidth: false,
+          }
+        }
+      ]
     });
  
 });
