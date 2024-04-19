@@ -93,7 +93,7 @@
       <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-3.png" alt=""></div>
       <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-4.png" alt=""></div>
     </div>
-  <div class="controls-1">
+  <div class="controls-2">
     <button class="control-prev-2"></button>
     <button class="control-next-2"></button>
   </div>
@@ -110,13 +110,13 @@
       <div class="curve shadow">
         <h2 class="txt-center">Приглашаем к сотрудничеству</h2>
         <p class="p-0">Партнерам мы предлагаем:
-          <ul>
+          <ol>
             <li>Качественную продукцию</li>
             <li>Широкий ассортимент</li>
             <li>Техническую поддержку</li>
             <li>Гибкую ценовую политику</li>
             <li>Индивидуальный подход</li>
-          </ul>
+          </ol>
         </p>
         <p>Сотрудничество с нами — это возможность расширить горизонты Вашего бизнеса и получить дополнительные источники дохода.</p>
       </div>
@@ -130,7 +130,6 @@
           <div>Войти в личный кабинет</div>
         </a>
       </p>
-      <p><a href="#" target="_blank"><img src="<?php echo get_bloginfo('template_url'); ?>/img/googleplay.png" alt=""></a></p>
     </div>
   </div>
 

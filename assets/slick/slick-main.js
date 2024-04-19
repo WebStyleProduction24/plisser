@@ -144,7 +144,7 @@ $('.slider-line-2').each(function() {
 
       responsive: [
         {
-          breakpoint: 465, // размер экрана 465
+          breakpoint: 400, // размер экрана 465
           settings: {
             centerMode: false,
             variableWidth: false,
