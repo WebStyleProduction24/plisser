@@ -31,7 +31,7 @@
 <div id="curtains-direction" class="block flex reverse">
   <div class="curtains-direction-text shadow border-c p-24">
     <h1 class="txt-center p-b-16">Монтаж</h1>
-    <div>
+    <div class="p-l">
       <div class="txt-grey">
         <ol>
           <li><p>Штору в рамке совместить с проёмом, на который планируется установка.</p></li>
@@ -46,6 +46,7 @@
 </div>
 
 <div id="projects" class="block">
+  <div class="rel">
 <div class="controls-1">
     <button class="control-prev-1"></button>
     <button class="control-next-1"></button>
@@ -56,6 +57,8 @@
     <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-3.png" alt=""></div>
     <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-4.png" alt=""></div>
   </div>
+  </div>
+  <div class="rel">
   <div class="controls-2">
     <button class="control-prev-2"></button>
     <button class="control-next-2"></button>
@@ -65,6 +68,7 @@
     <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-6.png" alt=""></div>
     <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-7.png" alt=""></div>
     <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-8.png" alt=""></div>
+  </div>
   </div>
 </div>
 

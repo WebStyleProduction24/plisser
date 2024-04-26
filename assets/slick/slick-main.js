@@ -108,7 +108,7 @@ $('.slider-line-2').each(function() {
         {
           breakpoint: 400, // размер экрана 465
           settings: {
-            variableWidth: false,
+           variableWidth: false,
           }
         }
       ]

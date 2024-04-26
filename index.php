@@ -83,6 +83,7 @@
   </div>
 
   <div id="projects" class="block">
+    <div class="rel">
   <div class="controls-1">
     <button class="control-prev-1"></button>
     <button class="control-next-1"></button>
@@ -93,6 +94,8 @@
       <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-3.png" alt=""></div>
       <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-4.png" alt=""></div>
     </div>
+    </div>
+    <div class="rel">
   <div class="controls-2">
     <button class="control-prev-2"></button>
     <button class="control-next-2"></button>
@@ -102,6 +105,7 @@
       <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-6.png" alt=""></div>
       <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-7.png" alt=""></div>
       <div><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/slide-8.png" alt=""></div>
+    </div>
     </div>
   </div>
 

@@ -21,6 +21,12 @@
     .color-curtains {
         flex-direction: column;
 
+        [class^=control-] {
+
+            top: 27px !important;
+        
+        }
+
         .color-ul {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
@@ -189,15 +195,19 @@
     color:$grey-1;
     [class^='slider-line-'] {
         margin: 20px auto;
-        width: 97%;
+        width: 99%;
         position: relative;
         div {
           margin: 0 10px;
         }
     }
 
-    [class^=control-] {
-        top: 37px;
+    .control-prev-1, .control-next-1 {
+        top: -32px !important;
+    }
+
+    .control-prev-2, .control-next-2 {
+        top: -36px !important;
     }
 
     h4 {

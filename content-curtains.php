@@ -27,7 +27,7 @@
 <div id="curtains-direction" class="block flex reverse">
   <div class="curtains-direction-text shadow border-c p-24">
     <h1 class="txt-center p-b-16">Монтаж</h1>
-    <div> 
+    <div class="p-l"> 
       <div class="txt-grey cont">
         <ol>
           <li><p>Шторы плиссе могут быть установлены внахлёст на створку окна.</p></li>
@@ -43,6 +43,7 @@
 </div>
 
 <div id="projects" class="block">
+  <div class="rel">
   <div class="controls-1">
     <button class="control-prev-4"></button>
     <button class="control-next-4"></button>
@@ -54,6 +55,7 @@
     <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-4.jpeg" alt=""></div>
     <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-5.jpeg" alt=""></div>
     <div class="slide"><img src="<?php echo get_bloginfo('template_url'); ?>/img/slider/curtains-plisse-6.jpeg" alt=""></div>
+  </div>
   </div>
 </div>
 

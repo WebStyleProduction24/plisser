@@ -1,5 +1,6 @@
 <div id="color-solutions" class="block">
 <h4>Полотно штор</h4>
+  <div class="rel">
   <div class="controls-1 slider-col">
     <button class="control-prev-1"></button>
     <button class="control-next-1"></button>
@@ -18,7 +19,9 @@
         </div>
       </div>
   </div>
+  </div>
   <h4>Профиль</h4>
+  <div class="rel">
   <div class="controls-2">
     <button class="control-prev-2"></button>
     <button class="control-next-2"></button>
@@ -48,5 +51,6 @@
           <p>Любой цвет на ваш выбор</p>
       </div>
     </div>
+  </div>
   </div>
 </div>
