@@ -403,10 +403,9 @@ header > div li {
   text-transform: uppercase;
 }
 header > div .contacts {
+  margin: 0px 2% 0 auto;
   display: flex;
   align-items: center;
-  align-self: end;
-  justify-self: end;
 }
 header > div button {
   background-color: transparent;
@@ -414,7 +413,7 @@ header > div button {
 header > div .burger-menu {
   position: relative;
   width: 38px;
-  height: 53px;
+  height: 28px;
 }
 header > div .burger-menu p {
   font-size: 14px;
@@ -659,8 +658,12 @@ main li {
   max-width: 420px;
   position: relative;
 }
+#main-block .product h4 {
+  font-size: 30px;
+}
 #main-block .product .img-product img {
-  width: 100%;
+  width: 100% !important;
+  max-width: 100% !important;
   border-radius: 24px;
 }
 #main-block .product h3, #main-block .product .description-product {
@@ -730,7 +733,7 @@ main li {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  column-gap: 0.2rem;
+  column-gap: 1.5%;
   row-gap: 0.8rem;
   flex-wrap: nowrap !important;
 }
@@ -748,6 +751,7 @@ main li {
 }
 #form-order-calculation .form-order-calculation-cf7 p .phone {
   width: 288px;
+  padding: 0.8rem 0rem 0.8rem 1.4rem;
 }
 #form-order-calculation .form-order-calculation-cf7 p [type^=submit] {
   background-color: #ef7f1a;
@@ -835,7 +839,6 @@ main li {
   min-height: 420px;
 }
 #dilers .welcome > div li {
-  list-style-type: disc;
   margin-left: 20px;
 }
 #dilers .for-dilers {
@@ -1101,6 +1104,9 @@ footer .footer-contacts-nav div {
   height: 100%;
 }
 
+.calculate .calc:hover {
+  cursor: pointer;
+}
 .calculate .calc .before {
   display: block;
   position: relative;
@@ -1248,22 +1254,28 @@ footer .footer-contacts-nav div {
   .p-img {
     padding-top: 0;
   }
-  .pages-curt > div {
+  main > div {
     line-height: 130% !important;
   }
-  .pages-curt p {
+  main p {
     font-size: 12px !important;
   }
-  .pages-curt h1 {
+  main h1 {
     font-size: 24px !important;
   }
-  .pages-curt h4 {
+  main h4 {
     font-size: 22px !important;
   }
-  .pages-curt h5 {
+  main h5 {
     font-size: 20px !important;
   }
-  .pages-curt li::marker {
+  main h2 {
+    font-size: 30px;
+  }
+  main li {
+    font-size: 12px !important;
+  }
+  main li::marker {
     font-size: 13px;
   }
 }
@@ -1271,6 +1283,9 @@ footer .footer-contacts-nav div {
   main {
     font-size: 15px;
     margin: 0 1.5em;
+  }
+  main h2 {
+    font-size: 36px !important;
   }
   main #main-block .product .description-product {
     margin: 1em;
@@ -1457,6 +1472,10 @@ footer .footer-contacts-nav div {
   #color-solutions [class^=control-] {
     top: 29px;
   }
+  #projects [class^=control-] {
+    top: 38px;
+    bottom: 0;
+  }
 }
 @media screen and (min-width: 991px) {
   .photo-min {
@@ -1467,6 +1486,9 @@ footer .footer-contacts-nav div {
   }
 }
 @media screen and (max-width: 991px) {
+  main h2 {
+    font-size: 26px !important;
+  }
   #curtains-direction {
     display: flex;
     flex-direction: column;
@@ -1529,7 +1551,7 @@ footer .footer-contacts-nav div {
     padding: 1rem 0.5rem;
     border-radius: 12px;
   }
-  .calculate > div {
+  .calculate .calc {
     max-width: 100% !important;
     width: 100% !important;
   }
