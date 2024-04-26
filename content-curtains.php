@@ -11,7 +11,7 @@
   <div class="curtains-direction-text shadow border-c p-24">
     <h1 class="txt-center p-b-16">Замер</h1>
     <div>
-      <div class="txt-grey txt">
+      <div class="txt-grey">
         <ol>
           <li><p>Для точности измерений, пользуйтесь стальной металлической рулеткой.</p></li>
           <li><p>Будьте внимательны и всегда перепроверяйте себя!</p></li>
@@ -26,7 +26,7 @@
   <div class="curtains-direction-text shadow border-c p-24">
     <h1 class="txt-center p-b-16">Монтаж</h1>
     <div> 
-      <div class="txt-grey txt cont">
+      <div class="txt-grey cont">
         <ol>
           <li><p>Шторы плиссе могут быть установлены внахлёст на створку окна.</p></li>
           <li><p>Шторы плиссе можно установить в световой проём окна. При этом, штапик должен быть прямым или слегка скошенным и быть глубиной не менее 18 мм.</p></li>

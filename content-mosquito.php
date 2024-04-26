@@ -33,7 +33,7 @@
   <div class="curtains-direction-text shadow border-c p-24">
     <h1 class="txt-center p-b-16">Монтаж</h1>
     <div>
-      <div class="txt-grey txt">
+      <div class="txt-grey">
         <ol>
           <li><p>Готовую москитную систему совместить с изделием или проёмом, на который планируется установка.</p></li>
           <li><p>Выставить москитную систему по уровню.</p></li>

@@ -389,7 +389,7 @@ header a:hover, footer a:hover {
 header {
   font-size: 18px;
   padding: 20px 0;
-  z-index: 9999999;
+  z-index: 9999;
 }
 header .block-h {
   max-width: 1345px;
@@ -431,7 +431,7 @@ header > div .burger-menu div {
 .header {
   position: -webkit-sticky;
   position: sticky;
-  z-index: 99999999;
+  z-index: 9999;
   padding: 0 10px;
 }
 
@@ -526,6 +526,7 @@ main li {
 .items-slick {
   width: 94%;
 }
+
 .slider-col [class^=control-] {
   top: 67px !important;
   bottom: 0;
@@ -706,6 +707,12 @@ main li {
 .calculate .calc h5 {
   font-weight: 700;
   color: #f9cca3;
+}
+
+.btn-calc {
+  font-weight: 700;
+  color: #f9cca3;
+  font-size: 24px;
 }
 
 #form-order-calculation {
@@ -1298,6 +1305,11 @@ footer .footer-contacts-nav div {
   }
 }
 @media screen and (max-width: 575px) {
+  .btn-calc {
+    font-weight: 400;
+    color: #f7f7f7;
+    font-size: 25px;
+  }
   .d-none {
     display: none;
   }
@@ -1431,8 +1443,7 @@ footer .footer-contacts-nav div {
   .slick-slide img {
     max-width: 94% !important;
     max-height: 94% !important;
-    -o-object-fit: contain !important;
-       object-fit: contain !important;
+    object-fit: contain !important;
   }
   .slider-col [class^=control-] {
     top: 40px !important;

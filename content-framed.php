@@ -32,7 +32,7 @@
   <div class="curtains-direction-text shadow border-c p-24">
     <h1 class="txt-center p-b-16">Монтаж</h1>
     <div>
-      <div class="txt-grey txt">
+      <div class="txt-grey">
         <ol>
           <li><p>Штору в рамке совместить с проёмом, на который планируется установка.</p></li>
           <li><p>Выставить по уровню и зафиксировать, закрутив саморезы в отверстия по 4-м углам рамы.</p></li>
