@@ -12,6 +12,12 @@
 
 @media screen and (max-width: 991px) {
 
+    main {
+        h2 {
+            font-size: 26px !important;
+        }
+    }
+
     #curtains-direction {
         display: flex;
         flex-direction: column;
@@ -90,9 +96,10 @@
         padding: 1rem 0.5rem;
         border-radius: 12px;
 
-        >div {
+        .calc {
             max-width: 100% !important;
             width: 100% !important;
+        
         }
     }
     

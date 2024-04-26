@@ -223,6 +223,10 @@
 
 .calculate .calc{
 
+    &:hover {
+        cursor: pointer;
+    }
+
 
         .before {
         display: block;

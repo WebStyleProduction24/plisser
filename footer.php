@@ -20,15 +20,7 @@
             <li><a href="/curtains-plisse">Шторы плиссе</a></li>
             <li><a href="/curtains-in-frame">Шторы в рамке</a></li>
             <li><a href="/mosquito-nets">Москитные сетки</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-info-nav">
-        <div class="title-footer-nav">Информация</div>
-        <div>
-          <ul>
-            <li><a href="#">Доставка</a></li>
-            <li><a href="#">Техническая документация</a></li>
+            <li><a href="#">Информация</a></li>
           </ul>
         </div>
       </div>
