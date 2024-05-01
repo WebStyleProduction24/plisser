@@ -1,21 +1,31 @@
 @media screen and (max-width: 575px) {
 
-
-.btn-calc {
-  font-weight: 400;
-  color: $grey-3;
-  font-size: 25px;
+.d-none {
+    display: none;
 }
 
-    .d-none {
-        display: none;
-    }
+.calculate {
 
-    .calculate {
-        h5 {
+    [id^='calculator-widget-'] + a {
+        padding: 16px 8px;
+        align-items: flex-start;
+        justify-content: center;
+        flex-basis: auto;
+        height: 100px;
+        background: url(img/calc-icon.svg) no-repeat 95%, #ef7f1a url(img/clik.png) no-repeat 75% 90%;
+
+        &::before {
+            font-size: 25px;
+        }
+        &::after {
             display: none;
         }
     }
+
+    h5 {
+        display: none;
+    }
+}
 
     #main-block {
         .curtains-home .color-curtains {
@@ -47,11 +57,7 @@
             max-width: 100%;
         }
     }
-    .calculate .calc {
-        justify-content: space-between;
-        flex-direction: row;
 
-    }
     .calculate > div {
          min-height: 1px;
     }
@@ -93,7 +99,6 @@
                 }
 
                 [type^='text']{
-                    width: 80% !important;
                     max-width: 100% !important;
 
                 }
@@ -200,34 +205,3 @@
         padding: 16px 11px !important;
     }
 }
-
-
-// @media screen and (max-width: 400px) {
-//     #color-solutions [class^=slider-line-] div {
-//         margin: 0px auto;
-//     }
-
-//     .slider-col {
-//         [class^='control-']{
-//           top: 40px !important;
-//           bottom: 0;
-//         }
-//       }
-
-//       #color-solutions [class^=slider-line-] {
-//         margin: 20px auto;
-//         width: 88%;
-//         position: relative;
-//     }
-
-//     #color-solutions {
-//         [class^=control-] {
-//             top: 29px;
-//         }
-//     }
-
-//     #projects [class^=control-] {
-//         top: 38px;
-//         bottom: 0;
-//     }
-// }

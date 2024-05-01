@@ -3,11 +3,7 @@
 <main class="p-t-30 pages-curt <?php class_page(); ?>">
 
   <div class="block calculate m-b-60 none shadow">
-    <div class="calc p-16">
-      <div id="calc-js-small"></div>
-      <div class="before"><img src="<?php echo get_bloginfo('template_url'); ?>/img/calc-icon.svg";></div>   
-      <div id="calc-js-medium"></div>
-    </div>
+    <div id="calculator-widget-medium"></div>
     <div id="form-order-calculation" class="bcg-dark curve txt-center">
       <div>
         <h3 class="p-b-40">Оставьте заявку</h3>
@@ -30,11 +26,7 @@
   </div>
 
   <div class="block calculate calculate-none">
-    <div class="calc p-16">
-      <h3 class="txt-center">Калькулятор</h3>
-      <img src="<?php echo get_bloginfo('template_url'); ?>/img/calc-icon.svg";>      
-      <div id="calc-js-large"></div>
-    </div>
+    <div id="calculator-widget-large"></div>
     <div id="form-order-calculation" class="bcg-dark curve txt-center">
       <div>
         <h3 class="p-b-40">Закажите замер и рассчитайте стоимость</h3>

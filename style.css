@@ -689,12 +689,14 @@ main li {
   width: 100%;
   min-width: 245px;
 }
-.calculate .calc {
+
+[id^=calculator-widget-] + a {
   padding: 37px;
   width: 32%;
-  background-color: #ef7f1a;
+  background: url(img/calc-icon.svg) no-repeat 50%, #ef7f1a url(img/clik.png) no-repeat 35% 65%;
+  background-size: auto, 25px !important;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
   row-gap: 1rem;
@@ -704,15 +706,16 @@ main li {
   border-radius: 24px;
   position: relative;
 }
-.calculate .calc h5 {
-  font-weight: 700;
-  color: #f9cca3;
+[id^=calculator-widget-] + a::before {
+  content: "Калькулятор";
+  font-size: 38px;
+  color: #f7f7f7;
 }
-
-.btn-calc {
+[id^=calculator-widget-] + a::after {
+  content: "Нажмите для расчета";
   font-weight: 700;
-  color: #f9cca3;
   font-size: 24px;
+  color: #f9cca3;
 }
 
 #form-order-calculation {
@@ -1341,151 +1344,6 @@ footer .footer-contacts-nav div {
     max-width: 210px !important;
   }
 }
-@media screen and (max-width: 575px) {
-  .btn-calc {
-    font-weight: 400;
-    color: #f7f7f7;
-    font-size: 25px;
-  }
-  .d-none {
-    display: none;
-  }
-  .calculate h5 {
-    display: none;
-  }
-  #main-block .curtains-home .color-curtains .color-ul, #main-block .curtains-home .color-curtains .color-ul-mos {
-    display: block;
-    flex-direction: row;
-    column-gap: 0;
-  }
-  #main-block .curtains-home .color-curtains .color-ul .color-li, #main-block .curtains-home .color-curtains .color-ul .color-li-mos, #main-block .curtains-home .color-curtains .color-ul-mos .color-li, #main-block .curtains-home .color-curtains .color-ul-mos .color-li-mos {
-    display: flex !important;
-    flex-direction: column !important;
-    row-gap: 0.5rem !important;
-    max-width: 100px !important;
-    margin: 0 0.2rem;
-  }
-  #main-block .curtains-home .color-curtains .color-ul .color-li .icon-color, #main-block .curtains-home .color-curtains .color-ul .color-li-mos .icon-color, #main-block .curtains-home .color-curtains .color-ul-mos .color-li .icon-color, #main-block .curtains-home .color-curtains .color-ul-mos .color-li-mos .icon-color {
-    max-width: 80px !important;
-    max-height: 80px !important;
-    width: 80px !important;
-    height: 80px !important;
-  }
-  .curtains-home .product {
-    max-width: 100%;
-  }
-  .calculate .calc {
-    justify-content: space-between;
-    flex-direction: row;
-  }
-  .calculate > div {
-    min-height: 1px;
-  }
-  .hover-text-decoration .logo {
-    padding-left: 0.5em;
-  }
-  #curtains-direction .curtains-direction-photo .absol {
-    width: 35px;
-  }
-  .calculate .calc {
-    padding: 16px 8px !important;
-  }
-  .calculate .calc h3 {
-    font-size: 25px;
-  }
-  #contacts .contacts .adress {
-    font-size: 17px !important;
-  }
-  #form-order-calculation > div {
-    padding: 1rem 0.5rem;
-  }
-  #form-order-calculation .form-order-calculation-cf7 p input {
-    height: 47px !important;
-    border-radius: 36px;
-  }
-  #form-order-calculation .form-order-calculation-cf7 p [type^=text] {
-    width: 80% !important;
-    max-width: 100% !important;
-  }
-  #form-order-calculation .form-order-calculation-cf7 p [type^=phone] {
-    width: 80% !important;
-    max-width: 100% !important;
-  }
-  #form-order-calculation .form-order-calculation-cf7 p [type^=submit] {
-    width: 66% !important;
-    max-width: 66% !important;
-    height: 47px;
-  }
-  footer > div {
-    font-size: 12px !important;
-  }
-  footer > div p {
-    font-size: 12px !important;
-  }
-  footer > div .title-footer-nav {
-    margin-bottom: 8px !important;
-    margin-top: 16px !important;
-  }
-  .sticky {
-    top: -16px;
-  }
-  .tel-icon {
-    margin-left: 0.3rem !important;
-  }
-  .sticky {
-    padding: 19px 4px 0px !important;
-  }
-  .youtube-video iframe {
-    height: 188px !important;
-  }
-  header {
-    padding: 8px 0;
-  }
-  .mail-f::before {
-    content: "";
-    position: absolute;
-    top: -2px;
-    left: -30px;
-    width: 26px;
-    height: 21px;
-    background: url(img/mail-f.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  .tel-f::before {
-    content: "";
-    position: absolute;
-    top: -5px;
-    left: -26px;
-    width: 20px;
-    height: 28px;
-    background: url(img/tel-f.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  #curtain-care .curtain-care-info-txt {
-    line-height: 130% !important;
-  }
-  .textile {
-    margin-top: 0.5rem !important;
-  }
-  .curtains-home {
-    row-gap: 1rem !important;
-  }
-  #dilers > div {
-    min-height: 350px;
-  }
-  #projects [class^=slider-line-] {
-    width: 103%;
-  }
-  [class^=control-] {
-    border-top: 5px solid #f9cca3;
-    border-right: 5px solid #f9cca3;
-  }
-  .curtains-home {
-    padding: 16px 11px !important;
-  }
-}
 @media screen and (min-width: 991px) {
   .photo-min {
     display: none;
@@ -1570,9 +1428,10 @@ footer .footer-contacts-nav div {
     padding: 1rem 0.5rem;
     border-radius: 12px;
   }
-  .calculate .calc {
-    max-width: 100% !important;
-    width: 100% !important;
+  .calculate [id^=calculator-widget-] + a {
+    width: 100%;
+    row-gap: 6rem;
+    background: url(img/calc-icon.svg) no-repeat 50%, #ef7f1a url(img/clik.png) no-repeat 43% 65%;
   }
   footer > div {
     font-size: 14px;
@@ -1720,6 +1579,155 @@ footer .footer-contacts-nav div {
 @media screen and (min-width: 575px) {
   .button-none {
     display: none;
+  }
+}
+@media screen and (max-width: 575px) {
+  .d-none {
+    display: none;
+  }
+  .calculate [id^=calculator-widget-] + a {
+    padding: 16px 8px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-basis: auto;
+    height: 100px;
+    background: url(img/calc-icon.svg) no-repeat 95%, #ef7f1a url(img/clik.png) no-repeat 75% 90%;
+  }
+  .calculate [id^=calculator-widget-] + a::before {
+    font-size: 25px;
+  }
+  .calculate [id^=calculator-widget-] + a::after {
+    display: none;
+  }
+  .calculate h5 {
+    display: none;
+  }
+  #main-block .curtains-home .color-curtains .color-ul, #main-block .curtains-home .color-curtains .color-ul-mos {
+    display: block;
+    flex-direction: row;
+    column-gap: 0;
+  }
+  #main-block .curtains-home .color-curtains .color-ul .color-li, #main-block .curtains-home .color-curtains .color-ul .color-li-mos, #main-block .curtains-home .color-curtains .color-ul-mos .color-li, #main-block .curtains-home .color-curtains .color-ul-mos .color-li-mos {
+    display: flex !important;
+    flex-direction: column !important;
+    row-gap: 0.5rem !important;
+    max-width: 100px !important;
+    margin: 0 0.2rem;
+  }
+  #main-block .curtains-home .color-curtains .color-ul .color-li .icon-color, #main-block .curtains-home .color-curtains .color-ul .color-li-mos .icon-color, #main-block .curtains-home .color-curtains .color-ul-mos .color-li .icon-color, #main-block .curtains-home .color-curtains .color-ul-mos .color-li-mos .icon-color {
+    max-width: 80px !important;
+    max-height: 80px !important;
+    width: 80px !important;
+    height: 80px !important;
+  }
+  .curtains-home .product {
+    max-width: 100%;
+  }
+  .calculate > div {
+    min-height: 1px;
+  }
+  .hover-text-decoration .logo {
+    padding-left: 0.5em;
+  }
+  #curtains-direction .curtains-direction-photo .absol {
+    width: 35px;
+  }
+  .calculate .calc {
+    padding: 16px 8px !important;
+  }
+  .calculate .calc h3 {
+    font-size: 25px;
+  }
+  #contacts .contacts .adress {
+    font-size: 17px !important;
+  }
+  #form-order-calculation > div {
+    padding: 1rem 0.5rem;
+  }
+  #form-order-calculation .form-order-calculation-cf7 p input {
+    height: 47px !important;
+    border-radius: 36px;
+  }
+  #form-order-calculation .form-order-calculation-cf7 p [type^=text] {
+    max-width: 100% !important;
+  }
+  #form-order-calculation .form-order-calculation-cf7 p [type^=phone] {
+    width: 80% !important;
+    max-width: 100% !important;
+  }
+  #form-order-calculation .form-order-calculation-cf7 p [type^=submit] {
+    width: 66% !important;
+    max-width: 66% !important;
+    height: 47px;
+  }
+  footer > div {
+    font-size: 12px !important;
+  }
+  footer > div p {
+    font-size: 12px !important;
+  }
+  footer > div .title-footer-nav {
+    margin-bottom: 8px !important;
+    margin-top: 16px !important;
+  }
+  .sticky {
+    top: -16px;
+  }
+  .tel-icon {
+    margin-left: 0.3rem !important;
+  }
+  .sticky {
+    padding: 19px 4px 0px !important;
+  }
+  .youtube-video iframe {
+    height: 188px !important;
+  }
+  header {
+    padding: 8px 0;
+  }
+  .mail-f::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -30px;
+    width: 26px;
+    height: 21px;
+    background: url(img/mail-f.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .tel-f::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -26px;
+    width: 20px;
+    height: 28px;
+    background: url(img/tel-f.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  #curtain-care .curtain-care-info-txt {
+    line-height: 130% !important;
+  }
+  .textile {
+    margin-top: 0.5rem !important;
+  }
+  .curtains-home {
+    row-gap: 1rem !important;
+  }
+  #dilers > div {
+    min-height: 350px;
+  }
+  #projects [class^=slider-line-] {
+    width: 103%;
+  }
+  [class^=control-] {
+    border-top: 5px solid #f9cca3;
+    border-right: 5px solid #f9cca3;
+  }
+  .curtains-home {
+    padding: 16px 11px !important;
   }
 }
 /* Slider */

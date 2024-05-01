@@ -1,6 +1,5 @@
 @import '_max-1299px';
 @import '_min-992px_max-1199px';
-@import '_max-575px';
 @media screen and (min-width: 991px) {
     .photo-min{
         display: none;
@@ -12,6 +11,7 @@
 }
 
 @media screen and (max-width: 991px) {
+
     .padding-mobile {
         padding: 15px 0;
 
@@ -107,10 +107,10 @@
         padding: 1rem 0.5rem;
         border-radius: 12px;
 
-        .calc {
-            max-width: 100% !important;
-            width: 100% !important;
-        
+        [id^=calculator-widget-] + a {
+            width: 100%;
+            row-gap: 6rem;
+            background: url(img/calc-icon.svg) no-repeat 50%, #ef7f1a url(img/clik.png) no-repeat 43% 65%;
         }
     }
     
@@ -325,3 +325,5 @@
         display: none;
     }
 }
+
+@import '_max-575px';

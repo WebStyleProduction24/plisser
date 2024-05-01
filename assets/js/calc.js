@@ -1,39 +1,25 @@
-const smallScreenWidth = 575; // Пороговое значение ширины экрана для малых устройств
 const mediumScreenWidth = 991; // Пороговое значение ширины экрана для средних устройств
 const screenWidth = window.innerWidth;
 
 // Функция для изменения значения calc_id в зависимости от ширины экрана
 function setCalcId() {
-    if (screenWidth <= smallScreenWidth) {
-        return 'calc-js-small'; // Для малых устройств
-    } else if (screenWidth <= mediumScreenWidth) {
-        return 'calc-js-medium'; // Для средних устройств
+    if (screenWidth <= mediumScreenWidth) {
+        return 'calculator-widget-medium'; // Для средних устройств
     } else {
-        return 'calc-js-large'; // Для больших устройств
-    }
-}
-
-// Функция для изменения значения calc_text в зависимости от ширины экрана
-function setCalcText() {
-    if (screenWidth <= smallScreenWidth) {
-        return 'Калькулятор'; // Для малых устройств
-    } else {
-        return 'Нажмите для рассчета'; // Для остальных устройств
+        return 'calculator-widget-large'; // Для больших устройств
     }
 }
 
 // Инициализация calc_id и calc_text при загрузке страницы
 let calc_id = setCalcId();
-let calc_text = setCalcText();
 
 // Обновление calc_id и calc_text при изменении размера окна
 window.addEventListener('resize', function() {
     calc_id = setCalcId();
-    calc_text = setCalcText();
 });
 
 const
-    calc_class = 'btn-calc', // invoke btn class string
+    calc_text = ' ',
     calc_style = '', // invoke btn style string
     calc_css = '', // path external css file
     calc_exist_btn = null, // selector exists btn in html
