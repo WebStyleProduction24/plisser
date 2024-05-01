@@ -108,26 +108,45 @@ $('.slider-line-2').each(function() {
         {
           breakpoint: 400, // размер экрана 465
           settings: {
-           variableWidth: false,
+            variableWidth: false,
           }
         }
       ]
     });
   });
 
-    $('.slider-line-3').slick({
-      dots:false,
-      infinite: true,
-      speed: 300,
-      slidesToShow: 1,
-      slidesToScrloll:1,
-      centerMode: false,
-      variableWidth: false,
-      autoplay: true,
-      autoplaySpeed: 3000,
-      arrows: false,
-      slide:'.slide',
-    });
+
+$('.slider-measurement').each(function() {
+
+  // Инициализация slick на текущем слайдере
+  $(this).slick({
+    dots:false,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    slide: '.slide',
+    cssEase: 'linear'
+  });
+});
+
+
+
+    // $('.slider-line-3').slick({
+    //   dots:false,
+    //   infinite: true,
+    //   speed: 300,
+    //   slidesToShow: 1,
+    //   slidesToScrloll:1,
+    //   centerMode: false,
+    //   variableWidth: false,
+    //   autoplay: true,
+    //   autoplaySpeed: 3000,
+    //   arrows: false,
+    //   slide:'.slide',
+    // });
 
     $('.slider-line-4').slick({
       dots:false,

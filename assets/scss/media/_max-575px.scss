@@ -61,13 +61,13 @@
             padding-left: .5em;
         }
     }
-
+#curtains-direction {
     .curtains-direction-photo {
-        img, .absol {
-            border-radius: 12px !important;
-
+        .absol {
+            width: 35px;
         }
     }
+}
 
     .calculate .calc{
         padding: 16px 8px !important;

@@ -1,10 +1,10 @@
 <div id="curtains-direction" class="block flex">
-   <div class="bcg-curt shadow flex centr border-c max-w">
-    <div class="curtains-direction-photo max-w border-c">
+   <div class="bcg-curt shadow flex centr border-c max-w padding-mobile">
+    <div class="curtains-direction-photo">
       <a href="https://youtu.be/77DHidm78Fo" target="_blank">
-        <div class="slider-line-3">
-          <img class="photo-youtube-sx slide border-c" src="<?php echo get_bloginfo('template_url'); ?>/img/slider/Shtora-Z1.png";>
-          <img class="photo-youtube-sx slide border-c" src="<?php echo get_bloginfo('template_url'); ?>/img/slider/Shtora-Z2.png";>
+        <div class="slider-measurement">
+          <div class="slide"><img class="photo-youtube-sx slide border-c" src="<?php echo get_bloginfo('template_url'); ?>/img/slider/Shtora-Z1.png";></div>
+          <div class="slide"><img class="photo-youtube-sx slide border-c" src="<?php echo get_bloginfo('template_url'); ?>/img/slider/Shtora-Z2.png";></div>
           <div class="absol"></div>
         </div>
       </a>

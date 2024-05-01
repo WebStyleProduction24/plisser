@@ -1,3 +1,4 @@
+@import '_max-1299px';
 @import '_min-992px_max-1199px';
 @import '_max-575px';
 @media screen and (min-width: 991px) {
@@ -11,6 +12,13 @@
 }
 
 @media screen and (max-width: 991px) {
+    .padding-mobile {
+        padding: 15px 0;
+
+        .border-c {
+            border-radius: 0;
+        }
+    }
 
     main {
         h2 {
@@ -33,13 +41,16 @@
         }
 
         .curtains-direction-photo {
-            width: 100%;
-            max-width: 100%;
-            display: flex;
+            width: 90%;
             justify-content: center;
+            img, .absol {
+                border-radius: 12px !important;
+            }
+            .absol {
+                top: -10px;
+            }
         }
     }
-
 
     .photo-curtains-sm, .photo-curtains-sm-txt {
         width: 100% !important;

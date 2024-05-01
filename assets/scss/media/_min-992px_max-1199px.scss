@@ -26,6 +26,12 @@
       padding: 9px;
     }
   }
+
+
+
+  .max-w {
+    width: 55%;      
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -45,6 +51,15 @@
     font-size: 12px;
     li {
       padding: 9px;
+    }
+  }
+
+
+
+  #curtains-direction {
+
+    .curtains-direction-photo {
+      width: 100%;
     }
   }
 }
