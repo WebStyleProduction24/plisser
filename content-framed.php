@@ -1,6 +1,8 @@
 <div id="curtains-direction" class="block flex">
   <div class="curtains-direction-photo">
-    <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/zamer.png";>
+    <div class="youtube-video">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ooQWPTsWagY?si=nMYeWidw5aHYw42X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
   </div>
   <div class="curtains-direction-text shadow border-c p-24">
     <h1 class="txt-center p-b-16">Замер</h1>
@@ -37,7 +39,9 @@
     </div>
   </div>
   <div class="curtains-direction-photo reverse">
-    <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-curtains-m.png";>
+    <div class="youtube-video">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ooQWPTsWagY?si=nMYeWidw5aHYw42X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
   </div>
 </div>
 
@@ -80,13 +84,15 @@
 <div id="curtain-care" class="block">
   <h1 class="p-b-16">Уход за раздвижными системами плиссе</h1>
   <div class="curtain-care-info flex">
-    <div class="photo-curtains-sm">
-      <img class="" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-curtains-m.png";>
+    <div class="photo-curtains-sm flex direction-column">
+      <div class="youtube-video">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/d8xN3fg-76M?si=outgP25D3Ep3OBBK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
       <div class="photo-curtains-sm-txt m-t-16">
         <p class="text-grey-1">Не рекомендуется сушить шторы плиссе на отопительных приборах у источника высокой температуры и гладить утюгом.</p>
       </div>
     </div>
-    <div class="curtain-care-info-txt p-8">
+    <div class="curtain-care-info-txt p-8 align-items-center">
       <ol>
         <li><p>Уберите мусор из нижней направляющей.</p></li>
         <li><p>Раскройте полотно шторы и очистите его с помощью пылесоса, используя насадку с мягкой щеткой.</p></li>

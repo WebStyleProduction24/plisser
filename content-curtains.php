@@ -34,7 +34,9 @@
     </div>
   </div>
   <div class="curtains-direction-photo reverse">
-    <img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-curtains-m.png";>
+    <div class="youtube-video">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ooQWPTsWagY?si=nMYeWidw5aHYw42X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
   </div>
 </div>
 
