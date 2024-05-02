@@ -114,9 +114,13 @@
 
 
     .curtains-direction-photo {
-        width: 97%;
+        
         max-width: 790px;
         overflow: hidden;
+
+        &.measurement {
+            width: 97%;
+        }
         
         .slider-measurement {
             // overflow: hidden;

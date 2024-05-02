@@ -1,6 +1,6 @@
 <div id="curtains-direction" class="block flex">
    <div class="bcg-curt shadow flex centr border-c max-w padding-mobile">
-    <div class="curtains-direction-photo">
+    <div class="curtains-direction-photo measurement">
       <a href="https://youtu.be/77DHidm78Fo" target="_blank">
         <div class="slider-measurement">
           <div class="slide"><img class="photo-youtube-sx slide border-c" src="<?php echo get_bloginfo('template_url'); ?>/img/slider/Shtora-Z1.png";></div>

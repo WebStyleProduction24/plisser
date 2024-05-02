@@ -41,7 +41,6 @@
         }
 
         .curtains-direction-photo {
-            width: 90%;
             justify-content: center;
             img, .absol {
                 border-radius: 12px !important;
@@ -49,6 +48,10 @@
             .absol {
                 top: -10px;
             }
+        }
+
+        .curtains-direction-photo.measurement {
+            width: 90% !important;
         }
     }
 

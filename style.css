@@ -1023,9 +1023,11 @@ footer .footer-contacts-nav div {
   max-width: 790px;
 }
 #curtains-direction .curtains-direction-photo {
-  width: 97%;
   max-width: 790px;
   overflow: hidden;
+}
+#curtains-direction .curtains-direction-photo.measurement {
+  width: 97%;
 }
 #curtains-direction .curtains-direction-photo img {
   width: 100%;
@@ -1375,7 +1377,6 @@ footer .footer-contacts-nav div {
     height: 100%;
   }
   #curtains-direction .curtains-direction-photo {
-    width: 90%;
     justify-content: center;
   }
   #curtains-direction .curtains-direction-photo img, #curtains-direction .curtains-direction-photo .absol {
@@ -1383,6 +1384,9 @@ footer .footer-contacts-nav div {
   }
   #curtains-direction .curtains-direction-photo .absol {
     top: -10px;
+  }
+  #curtains-direction .curtains-direction-photo.measurement {
+    width: 90% !important;
   }
   .photo-curtains-sm, .photo-curtains-sm-txt {
     width: 100% !important;
@@ -1591,7 +1595,7 @@ footer .footer-contacts-nav div {
     justify-content: center;
     flex-basis: auto;
     height: 100px;
-    background: url(img/calc-icon.svg) no-repeat 95%, #ef7f1a url(img/clik.png) no-repeat 75% 90%;
+    background: url(img/calc-icon.svg) no-repeat 95%, #ef7f1a url(img/clik.png) no-repeat 70% 90%;
   }
   .calculate [id^=calculator-widget-] + a::before {
     font-size: 25px;
