@@ -90,7 +90,7 @@
     <div class="photo-curtains-sm">
       <img class="" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-curtains-m.png";>
     </div>
-    <div class="curtain-care-info-txt p-8">
+    <div class="curtain-care-info-txt p-8 align-items-center">
       <ol>
         <li><p>Уберите мусор из нижней направляющей.</p></li>
         <li><p>Раскройте полотно москитной сетки плиссе.</p></li>
