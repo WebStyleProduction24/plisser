@@ -1,6 +1,8 @@
 <div id="curtains-direction" class="block flex">
   <div class="curtains-direction-photo">
-  <a href="https://www.youtube.com/watch?v=_6ml8E_hrio" target="_blank"><img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/zamer.png";></a>
+    <div class="youtube-video">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_6ml8E_hrio?si=TuGkV6q-vRwlcglM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
   </div>
   <div class="curtains-direction-text shadow border-c p-24">
     <h1 class="txt-center p-b-16">Замер</h1>
@@ -39,7 +41,9 @@
     </div>
   </div>
   <div class="curtains-direction-photo reverse">
-    <a href="https://www.youtube.com/watch?v=uksI12elnsQ" target="_blank"><img class="photo-youtube" src="<?php echo get_bloginfo('template_url'); ?>/img/icon-curtains/photo-curtains-m.png";></a>
+    <div class="youtube-video">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/uksI12elnsQ?si=AfQdWQ1UaoQRuRqa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
   </div>
 </div>
 
