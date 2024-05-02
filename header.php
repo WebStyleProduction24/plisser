@@ -22,7 +22,7 @@
       <div class="contacts flex">
         <div class="tg-icon"><a href="https://t.me/+79204155111" target="_blank"></a></div>
         <div class="wa-icon"><a href="https://wa.me/79204155111" target="_blank"></a></div>
-        <div class="tel-icon"><a href="tel:78002223655"></a></div>
+        <div class="tel-icon"><a href="tel:78002223655"> </a></div>
         <a href="tel:78002223655" class="d-md-none phone-number">8 800 222-36-55</a>
       </div>
 

@@ -899,6 +899,12 @@ ol li {
   display: none;
 }
 
+.tel-icon a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 footer {
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
