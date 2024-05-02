@@ -73,16 +73,7 @@ $('.slider-line-1').each(function() {
     autoplay: true,
     autoplaySpeed: 2000,
     prevArrow: prevArrow,
-    nextArrow: nextArrow,
-    responsive: [
-      {
-        breakpoint: 400, // размер экрана 465
-        settings: {
-          variableWidth: false,
-        }
-      }
-    ]
-
+    nextArrow: nextArrow
   });
 });
 
@@ -103,15 +94,7 @@ $('.slider-line-2').each(function() {
       autoplaySpeed: 2000,
       reverse: true,
       prevArrow: prevArrow,
-      nextArrow: nextArrow,
-      responsive: [
-        {
-          breakpoint: 400, // размер экрана 465
-          settings: {
-            variableWidth: false,
-          }
-        }
-      ]
+      nextArrow: nextArrow
     });
   });
 

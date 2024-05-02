@@ -12,6 +12,10 @@
 
 @media screen and (max-width: 991px) {
 
+    header .contacts {
+        margin: 0px 2% 0 auto;
+    }
+
     .padding-mobile {
         padding: 15px 0;
 
@@ -224,7 +228,7 @@
     }
 
     .sticky {
-        padding: 19px 14px 8px;
+        padding: 19px 14px 0px;
         top: -24px;
     }
 

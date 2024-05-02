@@ -69,17 +69,17 @@ body {
 }
 
 [class^='control-']{
-position: absolute;
-height: 24px;
-width: 24px;
-border-top: 4px solid $orange-2;
-border-right: 4px solid $orange-2;
-background-color: transparent;
-transform: rotate(225deg);
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  border-top: 4px solid $orange-2;
+  border-right: 4px solid $orange-2;
+  background-color: transparent;
+  transform: rotate(225deg);
 
-top: -12px !important;
-bottom: 0;
-z-index: 9999;
+  top: -12px !important;
+  bottom: 0;
+  z-index: 9;
 }
 
 [class^='control-prev'] {
@@ -502,4 +502,8 @@ z-index: 9999;
 
 ol li {
   font-size: 17px;
+}
+
+#calculator-widget-large, #calculator-widget-medium {
+  display: none;
 }
