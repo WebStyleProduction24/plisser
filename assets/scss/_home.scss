@@ -8,21 +8,11 @@ body {
 
  main {
   margin: 0 0.5em;
+
   li { 
   list-style: unset;
   }
 }
-
-// .items-slick {
-//   width: 94%;
-// }
-
-// .slider-col {
-//   [class^='control-']{
-//     top: 67px !important;
-//     bottom: 0;
-//   }
-// }
 
 .slick-list {
   position: relative;
@@ -454,6 +444,9 @@ z-index: 9999;
     flex-direction: column;
     @extend %padding;
   }
+  ol {
+    margin-left: 0;
+  }
 }
 
 #contacts {
@@ -499,17 +492,14 @@ z-index: 9999;
   }
 }
 
-// .bcg-i {
-//   background-image: url("img/group.png");
-//   background-size: 100%;
-// background-repeat: no-repeat;
-// z-index: 100000;
-// }
-
 .rel {
   position: relative;
   display: flex;
   align-items: center;
   height: auto;
   justify-content: center;
+}
+
+ol li {
+  font-size: 17px;
 }

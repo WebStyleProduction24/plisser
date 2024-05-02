@@ -149,6 +149,10 @@ h2, h4, h1 {
   color: #273437;
 }
 
+ol {
+  margin-left: 1em;
+}
+
 .weight {
   font-weight: 600;
 }
@@ -845,6 +849,9 @@ main li {
 #dilers .for-dilers {
   flex-direction: column;
 }
+#dilers ol {
+  margin-left: 0;
+}
 
 #contacts {
   display: grid;
@@ -887,6 +894,10 @@ main li {
   align-items: center;
   height: auto;
   justify-content: center;
+}
+
+ol li {
+  font-size: 17px;
 }
 
 footer {
@@ -1172,6 +1183,9 @@ footer .footer-contacts-nav div {
 #main-block .mos-home .vibor h6:hover, #main-block .mos-home .vibor h6:active {
   color: #ef7f1a;
 }
+#main-block .mos-home .color-ul-mos h6 {
+  font-size: 12px;
+}
 
 .framed-curtains .framed-curtains-b > div {
   min-height: 814px;
@@ -1290,9 +1304,6 @@ footer .footer-contacts-nav div {
   }
   main li {
     font-size: 14px !important;
-  }
-  main li::marker {
-    font-size: 14px;
   }
 }
 @media screen and (max-width: 1299px) {
